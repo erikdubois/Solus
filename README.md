@@ -104,22 +104,31 @@ At https://github.com/erikdubois/Aureola you can check out these conky's.
 
 Aurora is a collection of conky's I like. 
 
-Download it from http://sourceforge.net/projects/auroraconkytheme/.
+Run both scripts.
+
+This script will install conky and conky-manager and all its dependancies.
+
+	./Auto_Solus_aurora_v1.sh
+
+Install the conky's via the script
+
+	./conky-aurora-latest.sh
+
+or download aurora from http://sourceforge.net/projects/auroraconkytheme/.
 
 Installation is described at 
 
 http://erikdubois.be/category/linux/aurora-conky/
 
-In this downloadfolder you will find an <b>installationscript</b> as well i.e. Auto_LinuxMint_Rebecca_cinnamon_aurora.sh
+In this downloadfolder you will find all the conky's.
 
 
 But basically unpack the zip file. Make the hidden folder .conky (if it does not exist yet) and place the folder aurora in there.
 
 Install conky-manager that will make life easy.
 
-	sudo add-apt-repository -y ppa:teejee2008/ppa
-	sudo apt-get update
-	sudo apt-get install conky-manager
+	sudo eopkg install conky conky-manager -y
+
 
 Start up conky-manager and choose the conky to your liking.
 
@@ -128,7 +137,7 @@ Start up conky-manager and choose the conky to your liking.
 You should arrive at something similar depending on theme and icons choices: 
 
 
-![Screenshots](http://i.imgur.com/YAyQOjw.jpg)
+![Screenshots](http://i.imgur.com/9SAKQP7.png)
 
 
 

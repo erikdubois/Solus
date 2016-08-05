@@ -73,60 +73,19 @@
 
 
 
-###############################################################################################
+# C O N K Y   A U R O R A
+# from sourceforge 
 
+wget https://sourceforge.net/projects/auroraconkytheme/files/Aurora_v3.0.4.tar.gz -P /tmp/aurora
+cd /tmp/aurora
+tar -zxvf /tmp/aurora/Aurora_v3.0.4.tar.gz
+rm /tmp/aurora/Aurora_v3.0.4.tar.gz
+echo "Hidden folder .conky is created if it is not there"
+[ -d "~/.conky" ] || mkdir -p $HOME/".conky"
+cp -r /tmp/aurora/* ~/.conky/
 
-# repo for grub-customizer
-# sudo add-apt-repository ppa:danielrichter2007/grub-customizer -y
+sudo pisi it conky conky-manager rsync -y
 
-# repo for numix themes
-#sudo add-apt-repository ppa:numix/ppa -y
-
-# repo for boot-repair
-#sudo add-apt-repository -y ppa:yannubuntu/boot-repair
-
-
-###############################################################################################
-
-# Spotify
-
-sudo eopkg install spotify -y
-
-
-###############################################################################################
-
-# Google Chrome
-
-sudo eopgk install google-chrome-stable -y
-
-###############################################################################################
-
-# Sublime
-
-sudo eopgk install sublime-text-3 -y
-
-
-
-###############################################################################################
-
-#software from 'normal' repositories
-
-sudo eopkg install -y evolution font-manager focuswriter geary 
-sudo eopkg install -y glances gparted inkscape plank screenfetch scrot
-sudo eopkg install -y variety vlc    
-
-###############################################################################################
-
-#themes
-sudo eopkg install -y vertex-gtk-theme 
-
-###############################################################################################
-
-#ending
-mkdir $HOME/Upload
-#sudo apt-get -y update
-#sudo apt-get -f -y install
-#sudo apt-get -y upgrade
-#sudo apt-get -y autoremove
-#sudo apt-get -y autoclean
-
+echo "################################################################"
+echo "###################    T H E   E N D      ######################"
+echo "################################################################"
