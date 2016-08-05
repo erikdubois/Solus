@@ -164,12 +164,15 @@ http://erikdubois.be/
 I like bash but I prefer zsh with lots of different theme to spice things up. So let us install that in the script.
 
 ZOOM IN to see that the colours and the look change in the terminal.
-Everytime a surprise. Because of the 'random'. Read on. 
+Everytime a surprise. Because of the 'random'. Read on.
+
+Pictures are from Linux Mint but this works on any distro. 
 
 ![Screenshots](http://i.imgur.com/NUc55XO.png)
 
 ./install-zsh-latest.sh
 
+At the moment of writing there is no zsh-completion.
 
 
 
@@ -185,11 +188,9 @@ Type in the menu " startup". Start 'startup applications'.
 
 Add application and choose plank or do it the old way and point to /usr/bin/plank.
 
-![Screenshots](http://i.imgur.com/arie1IY.jpg)
+See the pictures above.
 
 
-
-![Screenshots](http://i.imgur.com/oKGiyzP.jpg)
 
 
 # Remember
