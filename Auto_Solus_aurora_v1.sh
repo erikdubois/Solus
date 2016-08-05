@@ -98,6 +98,7 @@ echo "- transmission-cli"
 
 sudo eopkg install -y lm_sensors dmidecode curl transmission
 sudo eopkg install -y conky conky-manager 
+sudo eopkg upgrade conky -y
 
 echo "Hidden folder conky is created if it is not there"
 [ -d "~/.conky" ] || mkdir -p $HOME/".conky"
