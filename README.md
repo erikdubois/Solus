@@ -37,7 +37,7 @@ The best of them
 
 
 
-#3 Extra's
+#2 Extra's
 
 
 1. Sardi Icon Theme
