@@ -82,10 +82,6 @@ For ease of installation I use the script
 
 	- icons-super-ultra-flat-numix-latest.sh
 
-Also the older icon set can be installed via
-
-	-icons-yltra-flat-latest.sh
-
 
 
 ![Screenshots](http://i.imgur.com/3x9xbxD.png)
