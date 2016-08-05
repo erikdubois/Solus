@@ -88,6 +88,10 @@ For ease of installation I use the script
 
 
 
+![Screenshots](http://i.imgur.com/TR95eIc.jpg)
+
+
+
 3. Aureola Conky
 ------------------
 
