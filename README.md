@@ -141,11 +141,11 @@ You should arrive at something similar depending on theme and icons choices:
 
 
 
-![Screenshots](http://i.imgur.com/Yyfslr1.jpg)
+![Screenshots](http://i.imgur.com/djA2T2k.jpg)
 
 
 
-![Screenshots](http://i.imgur.com/B5cPnMK.jpg)
+![Screenshots](http://i.imgur.com/zDQrVBj.jpg)
 
 
 
