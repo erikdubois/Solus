@@ -204,6 +204,11 @@ Development tool kit
 
 	sudo eopkg it -c system.devel -y
 
+Use doflicky to change to nvidia drivers
+
+To upgrade the system
+
+	sudo pisi upgrade 
 
 # F  A  Q
 --------------------
