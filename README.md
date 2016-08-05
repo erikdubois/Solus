@@ -1,6 +1,6 @@
 # Ultimate Solus
 
-Version of Solus 1.2
+Version of Solus 1.2.1
 
 Sardi v 7.3.0 at [Sourceforge](https://sourceforge.net/projects/sardi/files/)
 
