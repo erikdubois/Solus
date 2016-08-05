@@ -2,7 +2,7 @@
 
 Version of Solus 1.2
 
-Sardi v 7.2.9 at [Sourceforge](https://sourceforge.net/projects/sardi/files/)
+Sardi v 7.3.0 at [Sourceforge](https://sourceforge.net/projects/sardi/files/)
 
 ![Screenshots](http://i.imgur.com/K4nlWjI.jpg) 
 
