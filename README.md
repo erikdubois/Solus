@@ -61,6 +61,9 @@ Some Examples!
 ![Screenshots](http://i.imgur.com/73tSitP.jpg)
 
 
+![Screenshots](http://i.imgur.com/4iqnB53.jpg)
+
+
 More documentation on http://erikdubois.be
 
 Follow the collection on google+.
@@ -204,7 +207,7 @@ Rebuilding the database if you have an error
 
 	sudo eopkg rebuild-db -y
 
-Development tool kit
+Development tool kit (also needed for variety to work)
 
 	sudo eopkg it -c system.devel -y
 

@@ -143,5 +143,7 @@ sudo eopkg install -y variety vlc
 sudo eopkg install -y vertex-gtk-theme 
 
 ###############################################################################################
+# needed for variety to work
 
+sudo eopkg it -c system.devel -y
 
