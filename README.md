@@ -14,10 +14,9 @@ Sardi v 7.3.0 at [Sourceforge](https://sourceforge.net/projects/sardi/files/)
 
 #1 Software installation
 
-We start the installation script of all the needed software in the same way as above. 
+We start the installation script of all the needed software. 
 
 	- ./install-all-needed-software-at-once-latest.sh
-	- ...
 
 Do not forget to type "./" in front of the name.
 
@@ -52,9 +51,10 @@ For ease of installation I use the script
 
 Some Examples!
 
+![Screenshots](http://i.imgur.com/zIL9gox.jpg)
 
 
-
+![Screenshots](http://i.imgur.com/73tSitP.jpg)
 
 
 More documentation on http://erikdubois.be

@@ -106,13 +106,13 @@ sudo eopgk install google-chrome-stable -y
 sudo eopgk install sublime-text-3 -y
 
 
-
 ###############################################################################################
 
 #software from 'normal' repositories
 
 sudo eopkg install -y evolution font-manager focuswriter geary 
 sudo eopkg install -y glances gparted inkscape plank screenfetch scrot
+#sudo eopkg install -y nautilus-dropbox
 sudo eopkg install -y variety vlc    
 
 ###############################################################################################
