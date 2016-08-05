@@ -50,9 +50,12 @@ For ease of installation I use the script
 
 	- icons-sardi-latest.sh
 
-
-
 Some Examples!
+
+
+
+
+
 
 More documentation on http://erikdubois.be
 
@@ -85,7 +88,7 @@ Also the older icon set can be installed via
 
 
 
-![Screenshots](http://i.imgur.com/i1FGsR9.jpg)
+![Screenshots](http://i.imgur.com/3x9xbxD.png)
 
 
 
