@@ -10,9 +10,13 @@ Sardi v 7.3.0 at [Sourceforge](https://sourceforge.net/projects/sardi/files/)
 ![Screenshots](http://i.imgur.com/fdAbGtb.jpg)
 
 
+Original icons from solus - Arc with Arc Darker theme
+
+![Screenshots](http://i.imgur.com/CKcIQnk.jpg)
 
 
 #1 Software installation
+
 
 We start the installation script of all the needed software. 
 
