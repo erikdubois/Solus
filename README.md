@@ -12,7 +12,6 @@ Sardi v 7.3.0 at [Sourceforge](https://sourceforge.net/projects/sardi/files/)
 
 
 
-
 #1 Software installation
 
 We start the installation script of all the needed software in the same way as above. 
