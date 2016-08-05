@@ -2,9 +2,18 @@
 
 Version of Solus 1.2
 
+Sardi v 7.2.9 at [Sourceforge](https://sourceforge.net/projects/sardi/files/)
+
+![Screenshots](http://i.imgur.com/K4nlWjI.jpg) 
+
+
 Let us first take a screenshot of the initial look of Solus 
 
 ![Screenshots](http://i.imgur.com/RFfsxm6.jpg)
+
+
+
+
 
 Update your system. 
 
@@ -446,6 +455,16 @@ screenshot_25_01_2016_18:32:46.jpg
 
 ![Screenshots](http://i.imgur.com/gZFHwzG.png)
 
+
+# Remember
+
+Rebuilding the database if you have an error
+
+	sudo eopkg rebuild-db -y
+
+Development tool kit
+
+	sudo eopkg it -c system.devel -y
 
 
 # F  A  Q
