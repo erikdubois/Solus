@@ -1,4 +1,4 @@
-#!/bin/bash 
+#!/bin/bash
 
 ############################################################################
 # Written to be used on 64 bits computers
@@ -6,25 +6,25 @@
 # Website 	: 	http://www.erikdubois.be
 ############################################################################
 #
-#                                       
-#                  e         e      
-#                eee       ee       
-#               eeee     eee        
-#           wwwwwwwwweeeeee         
-#        wwwwwwwwwwwwwwweee         
-#      wwwwwwwwwwwwwwwwwwweeeeeeee  
-#     wwwww     eeeeewwwwwweeee     
-#    www          eeeewwwwwwe       
-#    ww             eewwwwww        
-#    w                 wwwww        
-#                      wwwww       
-#                     wwwww      
-#                    wwwww         
-#                   wwww           
-#                  wwww            
-#                wwww              
-#              www                 
-#             ww                                            
+#
+#                  e         e
+#                eee       ee
+#               eeee     eee
+#           wwwwwwwwweeeeee
+#        wwwwwwwwwwwwwwweee
+#      wwwwwwwwwwwwwwwwwwweeeeeeee
+#     wwwww     eeeeewwwwwweeee
+#    www          eeeewwwwwwe
+#    ww             eewwwwww
+#    w                 wwwww
+#                      wwwww
+#                     wwwww
+#                    wwwww
+#                   wwww
+#                  wwww
+#                wwww
+#              www
+#             ww
 #
 #
 ##################################################################################################################
@@ -32,14 +32,14 @@
 # Author 	: 	Erik Dubois
 # Website 	: 	http://www.erikdubois.be
 ##################################################################################################################
-# 
+#
 # More from Erik Dubois
 #
 # Aurora Conky
 # at http://sourceforge.net/projects/auroraconkytheme/
-# Explanation on the use of this theme can be found at 
+# Explanation on the use of this theme can be found at
 # http://erikdubois.be/category/linux/aurora-conky/
-# 
+#
 # Aureola Conky
 # Collections of nice conky's with lua syntax
 # https://github.com/erikdubois/Aureola
@@ -132,18 +132,19 @@ sudo eopkg it skype*.eopkg;sudo rm *.eopkg
 
 #software from 'normal' repositories
 
-sudo eopkg install -y evolution font-manager focuswriter geary 
-sudo eopkg install -y glances gparted inkscape plank screenfetch scrot
+sudo eopkg install -y clipit evolution font-manager focuswriter geary 
+sudo eopkg install -y glances gparted inkscape meld plank screenfetch scrot
 #sudo eopkg install -y nautilus-dropbox
-sudo eopkg install -y variety vlc    
+sudo eopkg install -y variety vlc
 
 ###############################################################################################
 
 #themes
-sudo eopkg install -y vertex-gtk-theme 
+sudo eopkg install -y vertex-gtk-theme
 
 ###############################################################################################
 # needed for variety to work
 
-sudo eopkg it -c system.devel -y
 
+sudo eopkg it python-configobj -y
+#sudo eopkg it -c system.devel -y
