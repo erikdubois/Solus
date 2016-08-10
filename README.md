@@ -202,6 +202,10 @@ See the pictures above.
 
 
 # Remember
+Upgrading
+
+	sudo eopkg upgrade
+
 
 Rebuilding the database if you have an error
 
