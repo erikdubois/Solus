@@ -137,6 +137,8 @@ sudo eopkg install -y glances gparted inkscape meld plank screenfetch scrot
 #sudo eopkg install -y nautilus-dropbox
 sudo eopkg install -y variety vlc
 
+sudo eopkg install cantarell-fonts 
+
 ###############################################################################################
 
 #themes
