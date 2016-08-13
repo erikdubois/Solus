@@ -132,17 +132,18 @@ sudo eopkg it skype*.eopkg;sudo rm *.eopkg
 
 #software from 'normal' repositories
 
-sudo eopkg install -y clipit evolution font-manager focuswriter geary 
-sudo eopkg install -y glances gparted inkscape meld plank screenfetch scrot
+sudo eopkg install -y brackets  bleachbit cantarell-fonts clipit evince evolution 
+sudo eopkg install -y flash-player-nonfree font-manager 
+sudo eopkg install -y focuswriter geary galculator gconf glances gnome-disk-utility  
+sudo eopkg install -y gparted htop inkscape meld nautilus-actions plank screenfetch scrot
+sudo eopkg install -y simplescreenrecorder variety vlc
+#sudo eopkg install -y darktable geany hexchat pidgin tilda
 #sudo eopkg install -y nautilus-dropbox
-sudo eopkg install -y variety vlc
-
-sudo eopkg install cantarell-fonts 
-
 ###############################################################################################
 
 #themes
 sudo eopkg install -y vertex-gtk-theme
+sudo eopkg install -y arc-gtk-theme
 
 ###############################################################################################
 # needed for variety to work
