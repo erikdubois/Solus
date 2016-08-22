@@ -217,7 +217,7 @@ https://github.com/erikdubois/Plank-Themes
 
 
 # Remember
-Upgrading
+Upgrading (or use pisi instead of eopkg)
 
 	sudo eopkg upgrade
 
