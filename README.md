@@ -2,6 +2,10 @@
 
 Version of Solus 1.2.1
 
+Super Ultra Flat Numix Remix Breeze Dark
+
+![Screenshots](http://i.imgur.com/oeMPhx6.jpg)
+
 
 Sardi v 7.4.6 at [Sourceforge](https://sourceforge.net/projects/sardi/files/)
 
