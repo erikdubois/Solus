@@ -2,7 +2,7 @@
 
 Version of Solus 1.2.1
 
-Super Ultra Flat Numix Remix Breeze Dark
+Super Ultra Flat Numix Remix Breeze Dark at [Github](https://github.com/erikdubois/Super-Ultra-Flat-Numix-Remix)
 
 ![Screenshots](http://i.imgur.com/oeMPhx6.jpg)
 
