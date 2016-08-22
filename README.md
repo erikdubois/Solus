@@ -210,6 +210,9 @@ Add application and choose plank or do it the old way and point to /usr/bin/plan
 
 See the pictures above.
 
+Collection of plank themes can be found here
+
+https://github.com/erikdubois/Plank-Themes
 
 
 
