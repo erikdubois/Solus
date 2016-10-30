@@ -1,8 +1,20 @@
 # Ultimate Solus
 
-Version of Solus 1.2.1
+Version of Solus 1.2.1 Shannon
 
-Super Ultra Flat Numix Remix Breeze Dark at [Github](https://github.com/erikdubois/Super-Ultra-Flat-Numix-Remix)
+Mate 1.16.1
+
+![Screenshots](http://i.imgur.com/v3K9Xvm.png)
+
+i3 4.12 non git
+
+![Screenshots](http://i.imgur.com/rdT8MmX.jpg)
+
+
+
+
+
+Surfn Breeze Dark at [Github](https://github.com/erikdubois/Surfn)
 
 ![Screenshots](http://i.imgur.com/oeMPhx6.jpg)
 
@@ -14,7 +26,7 @@ Sardi v 7.4.6 at [Sourceforge](https://sourceforge.net/projects/sardi/files/)
 
 Sardi v 7.3.0 at [Sourceforge](https://sourceforge.net/projects/sardi/files/)
 
-![Screenshots](http://i.imgur.com/K4nlWjI.jpg) 
+![Screenshots](http://i.imgur.com/K4nlWjI.jpg)
 
 
 ![Screenshots](http://i.imgur.com/fdAbGtb.jpg)
@@ -30,13 +42,13 @@ Original icons from solus - Arc with Arc Darker theme
 #1 Software installation
 
 
-We start the installation script of all the needed software. 
+We start the installation script of all the needed software.
 
 	- ./install-all-needed-software-at-once-latest.sh
 
 Do not forget to type "./" in front of the name.
 
-The best of them 
+The best of them
 
 	Spotify
 	Sublime Text
@@ -88,7 +100,7 @@ https://plus.google.com/u/0/collection/YFP-LB
 
 
 2. Super Ultra Flat Numix Remix
---------------------------------- 
+---------------------------------
 
 This icon theme is based on an older one i.e. yltra flat also on github.
 
@@ -125,7 +137,7 @@ At https://github.com/erikdubois/Aureola you can check out these conky's.
 ---------------
 
 
-Aurora is a collection of conky's I like. 
+Aurora is a collection of conky's I like.
 
 Run both scripts.
 
@@ -139,7 +151,7 @@ Install the conky's via the script
 
 or download aurora from http://sourceforge.net/projects/auroraconkytheme/.
 
-Installation is described at 
+Installation is described at
 
 http://erikdubois.be/category/linux/aurora-conky/
 
@@ -157,7 +169,7 @@ Start up conky-manager and choose the conky to your liking.
 
 
 
-You should arrive at something similar depending on theme and icons choices: 
+You should arrive at something similar depending on theme and icons choices:
 
 
 ![Screenshots](http://i.imgur.com/9SAKQP7.png)
@@ -186,7 +198,7 @@ I like bash but I prefer zsh with lots of different theme to spice things up. So
 ZOOM IN to see that the colours and the look change in the terminal.
 Everytime a surprise. Because of the 'random'. Read on.
 
-Pictures are from Linux Mint but this works on any distro. 
+Pictures are from Linux Mint but this works on any distro.
 
 ![Screenshots](http://i.imgur.com/NUc55XO.png)
 
@@ -234,7 +246,7 @@ Use doflicky to change to nvidia drivers
 
 To upgrade the system
 
-	sudo pisi upgrade 
+	sudo pisi upgrade
 
 # F  A  Q
 --------------------
@@ -245,7 +257,7 @@ Since I sometimes forget to make the script executable, I include here what you 
 
 A script can only run when it is marked as an executable.
 
-	ls -al 
+	ls -al
 
 Above code will reveal if a script has an "x". X meaning executable.
 Google "chmod" and "execute" and you will find more info.
@@ -267,6 +279,3 @@ You can do whatever <b>Y O U</b> want.
 
 Share the knowledge.
 ------------------------------------
-
-
-
