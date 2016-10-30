@@ -12,9 +12,14 @@ Version of Solus 1.2.1 Shannon
 
 ![Screenshots](http://i.imgur.com/rdT8MmX.jpg)
 
+![Screenshots](http://i.imgur.com/gT2vCMr.jpg)
+
 ## Budgie 10.2.8
 
-IMAGE
+![Screenshots](http://i.imgur.com/fjIrmzT.png)
+
+
+
 
 # Icons Sardi and Surfn
 
@@ -36,6 +41,8 @@ Sardi v 7.3.0 at [Sourceforge](https://sourceforge.net/projects/sardi/files/)
 ![Screenshots](http://i.imgur.com/fdAbGtb.jpg)
 
 
+
+
 # Icons from Budgie Solus
 
 Original icons from solus - Arc with Arc Darker theme
@@ -43,7 +50,10 @@ Original icons from solus - Arc with Arc Darker theme
 ![Screenshots](http://i.imgur.com/CKcIQnk.jpg)
 
 
-#1 Software installation
+
+
+
+## Software installation
 
 
 We start the installation script of all the needed software.
@@ -69,10 +79,6 @@ The best of them
 	Google Chrome
 	...
 
-
-
-
-#2 Extra's
 
 
 ##Sardi Icon Theme
