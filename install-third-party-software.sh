@@ -75,15 +75,15 @@
 
 # Google Chrome
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/solus-project/3rd-party/master/network/web/browser/google-chrome-stable/pspec.xml
-sudo eopkg it google-chrome-*.eopkg;sudo rm google-chrome-*.eopkg
+sudo eopkg it -y google-chrome-*.eopkg;sudo rm google-chrome-*.eopkg
 
 # Vivaldi
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/solus-project/3rd-party/master/network/web/browser/vivaldi-stable/pspec.xml
-sudo eopkg it vivaldi*.eopkg;sudo rm *.eopkg
+sudo eopkg it -y vivaldi*.eopkg;sudo rm *.eopkg
 
 # Opera
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/solus-project/3rd-party/master/network/web/browser/opera-stable/pspec.xml
-sudo eopkg it opera*.eopkg;sudo rm opera*.eopkg
+sudo eopkg it -y opera*.eopkg;sudo rm opera*.eopkg
 
 ###############################################################################################
 # COMMUNICATION
@@ -91,19 +91,19 @@ sudo eopkg it opera*.eopkg;sudo rm opera*.eopkg
 
 # Discord - canary
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/solus-project/3rd-party/master/network/im/discord-canary/pspec.xml
-sudo eopkg it discord*.eopkg;sudo rm discord*.eopkg
+sudo eopkg it -y discord*.eopkg;sudo rm discord*.eopkg
 
 # Franz
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/solus-project/3rd-party/master/network/im/franz/pspec.xml
-sudo eopkg it franz*.eopkg;sudo rm franz*.eopkg
+sudo eopkg it -y franz*.eopkg;sudo rm franz*.eopkg
 
 # Skype for linux alpha
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/solus-project/3rd-party/master/network/im/skype/pspec.xml
-sudo eopkg it skype*.eopkg;sudo rm *.eopkg
+sudo eopkg it -y skype*.eopkg;sudo rm *.eopkg
 
 # Franz
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/solus-project/3rd-party/master/network/im/franz/pspec.xml
-sudo eopkg it franz*.eopkg;sudo rm franz*.eopkg
+sudo eopkg it -y franz*.eopkg;sudo rm franz*.eopkg
 
 ###############################################################################################
 # MULTIMEDIA
@@ -111,7 +111,7 @@ sudo eopkg it franz*.eopkg;sudo rm franz*.eopkg
 
 # Spotify
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/solus-project/3rd-party/master/multimedia/music/spotify/pspec.xml
-sudo eopkg it spotify*.eopkg;sudo rm spotify*.eopkg
+sudo eopkg it -y spotify*.eopkg;sudo rm spotify*.eopkg
 
 ###############################################################################################
 # NETWORK
@@ -119,7 +119,7 @@ sudo eopkg it spotify*.eopkg;sudo rm spotify*.eopkg
 
 # Teamviewer
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/solus-project/3rd-party/master/network/util/teamviewer/pspec.xml
-sudo eopkg it teamviewer*.eopkg;sudo rm teamviewer*.eopkg
+sudo eopkg it -y teamviewer*.eopkg;sudo rm teamviewer*.eopkg
 sudo systemctl start teamviewerd.service
 
 ###############################################################################################
@@ -129,7 +129,7 @@ sudo systemctl start teamviewerd.service
 # WPS office
 
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/solus-project/3rd-party/master/office/wps-office/pspec.xml
-sudo eopkg it wps-office*.eopkg;sudo rm wps-office*.eopkg
+sudo eopkg it -y wps-office*.eopkg;sudo rm wps-office*.eopkg
 
 ###############################################################################################
 # PROGRAMMING
@@ -137,19 +137,19 @@ sudo eopkg it wps-office*.eopkg;sudo rm wps-office*.eopkg
 
 # Git Kraken
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/solus-project/3rd-party/master/programming/gitkraken/pspec.xml
-sudo eopkg it gitkraken*.eopkg;sudo rm gitkraken*.eopkg
+sudo eopkg it -y gitkraken*.eopkg;sudo rm gitkraken*.eopkg
 
 # IDEA
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/solus-project/3rd-party/master/programming/idea/pspec.xml
-sudo eopkg it idea*.eopkg;sudo rm idea*.eopkg
+sudo eopkg it -y idea*.eopkg;sudo rm idea*.eopkg
 
 # Pycharm
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/solus-project/3rd-party/master/programming/pycharm/pspec.xml
-sudo eopkg it pycharm*.eopkg;sudo rm pycharm*.eopkg
+sudo eopkg it -y pycharm*.eopkg;sudo rm pycharm*.eopkg
 
 # Sublime Text 3
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/solus-project/3rd-party/master/programming/sublime-text-3/pspec.xml
-sudo eopkg it sublime*.eopkg;sudo rm sublime*.eopkg
+sudo eopkg it -y sublime*.eopkg;sudo rm sublime*.eopkg
 
 ###############################################################################################
 # SECURITY
