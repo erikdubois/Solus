@@ -125,19 +125,14 @@ sudo eopkg it -y skype*.eopkg;sudo rm *.eopkg
 ###############################################################################################
 
 
-
-
-
-
-
 #software from 'normal' repositories
 
 sudo eopkg install -y brackets  bleachbit cantarell-fonts clipit evince evolution 
 sudo eopkg install -y flash-player-nonfree font-manager 
-sudo eopkg install -y focuswriter geary galculator gconf glances gnome-disk-utility  
-sudo eopkg install -y gparted htop inkscape meld nautilus-actions plank screenfetch scrot
+sudo eopkg install -y focuswriter geary galculator gcolor3 gconf glances gnome-disk-utility  
+sudo eopkg install -y gparted htop inkscape meld nautilus-actions plank redshift screenfetch scrot
 sudo eopkg install -y simplescreenrecorder variety vlc
-sudo eopkg install -y gcolor3 redshift
+
 #sudo eopkg install -y darktable geany hexchat pidgin tilda
 #sudo eopkg install -y nautilus-dropbox
 ###############################################################################################

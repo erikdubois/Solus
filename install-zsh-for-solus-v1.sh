@@ -73,7 +73,14 @@
 
 
 sudo eopkg install -y zsh git wget
-wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh
+
+git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+
+cp ~/.zshrc ~/.zshrc.orig
+
+cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+
+
 
 # changing the theme to random so you can enjoy tons of themes.
 
