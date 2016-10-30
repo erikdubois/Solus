@@ -17,7 +17,8 @@
 
 rm -rf /tmp/arc-theme-Red
 
-sudo apt-get install -y autoconf automake pkg-config libgtk-3-dev git
+#sudo apt-get install -y autoconf automake pkg-config libgtk-3-dev git
+sudo eopkg it -y autoconf automake pkg-config libgtk-3-devel m4 make
 
 git clone https://github.com/mclmza/arc-theme-Red --depth 1 /tmp/arc-theme-Red
 cd /tmp/arc-theme-Red
