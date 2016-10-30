@@ -112,7 +112,7 @@ sudo eopkg it sublime*.eopkg;sudo rm sublime*.eopkg
 # Teamviewer
 
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/solus-project/3rd-party/master/network/util/teamviewer/pspec.xml
-sudo eopkg it teamviewer*.eopkg;sudo rm teamviewer*.eopkg
+sudo eopkg it -y teamviewer*.eopkg;sudo rm teamviewer*.eopkg
 sudo systemctl start teamviewerd.service
 
 ###############################################################################################
@@ -120,7 +120,7 @@ sudo systemctl start teamviewerd.service
 # Skype
 
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/solus-project/3rd-party/master/network/im/skype/pspec.xml
-sudo eopkg it skype*.eopkg;sudo rm *.eopkg
+sudo eopkg it -y skype*.eopkg;sudo rm *.eopkg
 
 ###############################################################################################
 
@@ -137,6 +137,7 @@ sudo eopkg install -y flash-player-nonfree font-manager
 sudo eopkg install -y focuswriter geary galculator gconf glances gnome-disk-utility  
 sudo eopkg install -y gparted htop inkscape meld nautilus-actions plank screenfetch scrot
 sudo eopkg install -y simplescreenrecorder variety vlc
+sudo eopkg install -y gcolor3 redshift
 #sudo eopkg install -y darktable geany hexchat pidgin tilda
 #sudo eopkg install -y nautilus-dropbox
 ###############################################################################################
