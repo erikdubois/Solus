@@ -2,17 +2,21 @@
 
 Version of Solus 1.2.1 Shannon
 
-Mate 1.16.1
+# Desktop environments
+
+## Mate 1.16.1
 
 ![Screenshots](http://i.imgur.com/v3K9Xvm.png)
 
-i3 4.12 non git
+## i3 4.12 non git
 
 ![Screenshots](http://i.imgur.com/rdT8MmX.jpg)
 
+## Budgie 10.2.8
 
+IMAGE
 
-
+# Icons Sardi and Surfn
 
 Surfn Breeze Dark at [Github](https://github.com/erikdubois/Surfn)
 
@@ -32,7 +36,7 @@ Sardi v 7.3.0 at [Sourceforge](https://sourceforge.net/projects/sardi/files/)
 ![Screenshots](http://i.imgur.com/fdAbGtb.jpg)
 
 
-
+# Icons from Budgie Solus
 
 Original icons from solus - Arc with Arc Darker theme
 
