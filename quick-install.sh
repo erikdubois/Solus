@@ -57,21 +57,27 @@
 ############################################################################
 
 
-#sh conky-aureola-latest.sh
-#sh conky-aurora-latest.sh
 
 sh icons-sardi-v1.sh
 sh icons-sardi-extra-v2.sh
 sh icons-surfn-v2.sh
 
+sh install-minecraft-v1.sh
+
+sh install-numix-v1.sh
+
+sh install-all-needed-software-v1.sh
+sh install-third-party-software-v1.sh
+
 
 sh install-zsh-for-solus-v1.sh
-#sudo chsh erik -s /bin/zsh
+echo "Type : "
+echo "sudo chsh yourusername -s /bin/zsh"
+echo "log off to see the difference in your terminal"
 
-sh install-all-needed-software-latest.sh
+echo "fixing all the wrong icons"
+sh hardcodefixer-v1.sh
 
-sh hardcodefixer-latest.sh
 
 
-#sh update-to-the-last-stable-4.7-latest.sh
 
