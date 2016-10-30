@@ -38,7 +38,7 @@
 sudo eopkg install -y atom brackets bleachbit cantarell-fonts clipit evince evolution 
 sudo eopkg install -y flash-player-nonfree font-manager 
 sudo eopkg install -y focuswriter geary galculator gcolor3 gconf glances gnome-disk-utility  
-sudo eopkg install -y gparted htop inkscape meld nautilus-actions peek plank redshift screenfetch scrot
+sudo eopkg install -y gparted htop inkscape meld nautilus-actions noto-sans-ttf peek plank redshift screenfetch scrot
 sudo eopkg install -y simplescreenrecorder variety vlc
 
 #sudo eopkg install -y darktable geany hexchat pidgin tilda
