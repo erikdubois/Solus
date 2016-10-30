@@ -60,12 +60,13 @@
 #sh conky-aureola-latest.sh
 #sh conky-aurora-latest.sh
 
-sh icons-sardi-latest.sh
-sh icons-super-ultra-flat-numix-latest.sh
+sh icons-sardi-v1.sh
+sh icons-sardi-extra-v2.sh
+sh icons-surfn-v2.sh
 
 
-sh install-zsh-latest.sh
-sudo chsh erik -s /bin/zsh
+sh install-zsh-for-solus-v1.sh
+#sudo chsh erik -s /bin/zsh
 
 sh install-all-needed-software-latest.sh
 
