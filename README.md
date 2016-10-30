@@ -1,6 +1,6 @@
 # Ultimate Solus
 
-Version of Solus 1.2.1 Shannon
+Tested on Solus 1.2.1 Shannon
 
 # Desktop environments
 
