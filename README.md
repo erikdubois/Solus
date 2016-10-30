@@ -50,6 +50,10 @@ We start the installation script of all the needed software.
 
 	- ./install-all-needed-software-vx.sh
 
+	OR
+
+	- ./quick-install.sh
+
 Do not forget to type "./" in front of the name.
 
 The best of them
