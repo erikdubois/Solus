@@ -141,7 +141,7 @@ Pictures are from Linux Mint but this works on any distro.
 
 ![Screenshots](http://i.imgur.com/NUc55XO.png)
 
-./install-zsh-latest.sh
+./install-zsh-vx.sh
 
 At the moment of writing there is no zsh-completion.
 
