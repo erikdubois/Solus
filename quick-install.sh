@@ -64,11 +64,9 @@ sh icons-surfn-v2.sh
 
 sh install-minecraft-v1.sh
 
-sh install-numix-v1.sh
-
 sh install-all-needed-software-v1.sh
 sh install-third-party-software-v1.sh
-
+sh plank-themes-v2.sh
 
 sh install-zsh-for-solus-v1.sh
 echo "Type : "
