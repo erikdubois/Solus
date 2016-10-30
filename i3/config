@@ -208,7 +208,7 @@ font pango:Noto Mono Regular 13
 ################### TERMINAL ######################
 
 # went from thunar from xfce4 to nautilus of Linux mint for svg design reasons
-# open terminal and icon in panel point to terminator rather than gnome-terminal
+# open terminal and icon in panel point to terminator rather than terminator
 # copy/paste one time in terminal
 # to figure out settins install dconf-editor
 # gsettings set org.cinnamon.desktop.default-applications.terminal exec /usr/bin/terminator
@@ -217,7 +217,7 @@ font pango:Noto Mono Regular 13
 # personal preference for tuning the look
 #bindsym $mod+Return exec i3-sensible-terminal
 #bindsym $mod+Return exec terminator;focus
-bindsym $mod+Return exec gnome-terminal;focus
+bindsym $mod+Return exec terminator;focus
 
 
 ################### MENU ######################
@@ -377,7 +377,7 @@ bindsym $mod+F9 exec evolution;workspace 9;focus
 bindsym control+mod1+s exec spotify;workspace 10;focus
 bindsym $mod+F10 exec spotify;workspace 10;focus
 #bindsym control+mod1+t exec terminator; focus
-bindsym control+mod1+t exec gnome-terminal; focus
+bindsym control+mod1+t exec terminator; focus
 bindsym control+mod1+n exec cinnamon-settings
 
 
