@@ -101,6 +101,10 @@ sudo eopkg it -y franz*.eopkg;sudo rm franz*.eopkg
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/solus-project/3rd-party/master/network/im/skype/pspec.xml
 sudo eopkg it -y skype*.eopkg;sudo rm *.eopkg
 
+# Slack
+sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/solus-project/3rd-party/master/network/im/slack-desktop/pspec.xml
+sudo eopkg it slack-desktop*.eopkg;sudo rm slack-desktop*.eopkg
+
 # Franz
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/solus-project/3rd-party/master/network/im/franz/pspec.xml
 sudo eopkg it -y franz*.eopkg;sudo rm franz*.eopkg
