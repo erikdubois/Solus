@@ -165,6 +165,10 @@ Collection of plank themes can be found here
 
 https://github.com/erikdubois/Plank-Themes
 
+or use the script
+
+	plank-themes-vx.sh
+
 
 
 # Remember
