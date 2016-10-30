@@ -37,7 +37,7 @@
 
 sudo eopkg install -y atom brackets bleachbit cantarell-fonts catfish clipit cmatrix evince evolution 
 sudo eopkg install -y flash-player-nonfree font-manager font-awesome-ttf font-ubuntu-ttf
-sudo eopkg install -y focuswriter geary galculator gcolor3 gconf glances gnome-disk-utility  gnome-tweak-tool
+sudo eopkg install -y focuswriter geary galculator gcolor3 gconf gimp glances gnome-disk-utility  gnome-tweak-tool
 sudo eopkg install -y gparted htop inkscape meld nautilus-actions noto-sans-ttf peek plank redshift screenfetch scrot
 sudo eopkg install -y simplescreenrecorder source-code-pro variety vlc xkill
 

@@ -28,5 +28,8 @@
 #
 ##################################################################################################################
 
+# copy/paste the folder i3 in the hidden folder .config
+# logoff and logon as i3
+# top right there is an icon where you can choose your desktop
 
-sudo eopkg it -y dunst i3 i3blocks i3lock i3status dmenu lxappearance
+sudo eopkg it -y dunst i3 i3blocks i3lock i3status dmenu lxappearance xprop feh
