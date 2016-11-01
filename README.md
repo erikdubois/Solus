@@ -218,6 +218,8 @@ Not for the faint of heart
 
 # Going back in time
 
+https://wiki.solus-project.com/Package_Management#Rollback
+
 	sudo eopkg history
 	sudo eopkg history -t # (is the number)
 
