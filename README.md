@@ -205,12 +205,14 @@ Not for the faint of heart
 
 sudo eopkg remove-repo Solus
 sudo eopkg add-repo SolusUnstable https://packages.solus-project.com/unstable/eopkg-index.xml.xz
+sudo eopkg enable-repo SolusUnstable
 sudo eopkg upgrade
 
 ### Getting back to the STABLE REPO
 
 sudo eopkg remove-repo SolusUnstable
 sudo eopkg add-repo Solus https://packages.solus-project.com/stable/eopkg-index.xml.xz
+sudo eopkg enable-repo Solus
 sudo eopkg upgrade
 
 
