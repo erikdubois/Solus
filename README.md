@@ -198,6 +198,12 @@ Development tool kit
 
 Use doflicky to change to nvidia drivers
 
+Adding not stable repo
+Not for the faint of heart
+
+sudo eopkg add-repo unstable https://packages.solus-project.com/unstable/eopkg-index.xml.xz
+sudo eopkg remove-repo unstable
+
 
 # F  A  Q
 --------------------
