@@ -1,8 +1,17 @@
 # Ultimate Solus
 
-Tested on Solus 1.2.1 Shannon
+##Tested on Solus 1.2.1 Shannon
+
 
 # Desktop environments
+
+## Budgie 10.2.8
+
+![Screenshots](http://i.imgur.com/fjIrmzT.png)
+
+![Screenshots](http://i.imgur.com/lsmzlbB.png)
+
+![Screenshots](http://i.imgur.com/rdcXEni.png)
 
 ## Mate 1.16.1
 
@@ -14,9 +23,7 @@ Tested on Solus 1.2.1 Shannon
 
 ![Screenshots](http://i.imgur.com/gT2vCMr.jpg)
 
-## Budgie 10.2.8
 
-![Screenshots](http://i.imgur.com/fjIrmzT.png)
 
 
 
