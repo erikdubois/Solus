@@ -211,7 +211,7 @@ Not for the faint of heart
 ### Getting back to the STABLE REPO
 
 	sudo eopkg remove-repo SolusUnstable
-	sudo eopkg add-repo Solus https://packages.solus-project.com/stable/eopkg-index.xml.xz
+	sudo eopkg add-repo Solus https://packages.solus-project.com/shannon/eopkg-index.xml.xz
 	sudo eopkg enable-repo Solus
 	sudo eopkg upgrade
 
