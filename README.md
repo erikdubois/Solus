@@ -216,6 +216,10 @@ Not for the faint of heart
 	sudo eopkg upgrade
 
 
+# Going back in time
+
+	sudo eopkg history
+	sudo eopkg history -t # (is the number)
 
 
 # F  A  Q
