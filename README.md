@@ -201,8 +201,19 @@ Use doflicky to change to nvidia drivers
 Adding not stable repo
 Not for the faint of heart
 
-sudo eopkg add-repo unstable https://packages.solus-project.com/unstable/eopkg-index.xml.xz
-sudo eopkg remove-repo unstable
+### Getting the UNSTABLE REPO
+
+sudo eopkg remove-repo Solus
+sudo eopkg add-repo SolusUnstable https://packages.solus-project.com/unstable/eopkg-index.xml.xz
+sudo eopkg upgrade
+
+### Getting back to the STABLE REPO
+
+sudo eopkg remove-repo SolusUnstable
+sudo eopkg add-repo Solus https://packages.solus-project.com/stable/eopkg-index.xml.xz
+sudo eopkg upgrade
+
+
 
 
 # F  A  Q
