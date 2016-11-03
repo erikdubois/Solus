@@ -1,0 +1,7 @@
+[/]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
+
+[custom-keybindings/custom0]
+binding='<Primary><Alt>t'
+command='gnome-terminal'
+name='gnome-terminal'

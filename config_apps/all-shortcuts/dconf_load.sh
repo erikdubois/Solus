@@ -13,7 +13,7 @@
 ##################################################################################################################
 
 
-dconf load /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/ < all-desktop-keybindings.dconf
+dconf load /org/gnome/settings-daemon/plugins/media-keys/ < all-desktop-keybindings.dconf
 
 
 echo "all done"
