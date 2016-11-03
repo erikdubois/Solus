@@ -3,29 +3,6 @@
 # Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
 # Website 	: 	http://www.erikdubois.be
-############################################################################
-#
-#
-#                  e         e
-#                eee       ee
-#               eeee     eee
-#           wwwwwwwwweeeeee
-#        wwwwwwwwwwwwwwweee
-#      wwwwwwwwwwwwwwwwwwweeeeeeee
-#     wwwww     eeeeewwwwwweeee
-#    www          eeeewwwwwwe
-#    ww             eewwwwww
-#    w                 wwwww
-#                      wwwww
-#                     wwwww
-#                    wwwww
-#                   wwww
-#                  wwww
-#                wwww
-#              www
-#             ww
-#
-#
 ##################################################################################################################
 # Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
@@ -137,6 +114,12 @@ sudo eopkg it teamspeak3*.eopkg;sudo rm teamspeak3*.eopkg
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/solus-project/3rd-party/master/network/im/viber/pspec.xml
 sudo eopkg it viber*.eopkg;sudo rm *.eopkg
 
+echo "fixing hardcoded icon"
+old="Icon=\/usr\/share\/pixmaps\/viber.svg"
+new="Icon=viber"
+location="/usr/share/applications/viber.desktop"
+sudo sed -i s/$old/$new/g $location
+
 ###############################################################################################
 # MULTIMEDIA
 ###############################################################################################
@@ -144,6 +127,12 @@ sudo eopkg it viber*.eopkg;sudo rm *.eopkg
 # Bitwig Studio
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/solus-project/3rd-party/master/multimedia/music/bitwig-studio/pspec.xml
 sudo eopkg it bitwig-studio*.eopkg;sudo rm bitwig-studio*.eopkg
+
+echo "fixing hardcoded icon"
+old="Icon=\/usr\/share\/icons\/hicolor\/scalable\/apps\/bitwig-studio.svg"
+new="Icon=bitwig-studio"
+location="/usr/share/applications/bitwig-studio.desktop"
+sudo sed -i s/$old/$new/g $location
 
 # OcenAudio
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/solus-project/3rd-party/master/multimedia/music/ocenaudio/pspec.xml
@@ -201,6 +190,12 @@ sudo sed -i s/$old/$new/g $location
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/solus-project/3rd-party/master/network/util/teamviewer/pspec.xml
 sudo eopkg it -y teamviewer*.eopkg;sudo rm teamviewer*.eopkg
 sudo systemctl start teamviewerd.service
+
+echo "fixing hardcoded icon"
+old="Icon=\/opt\/teamviewer\/tv_bin\/desktop\/teamviewer.png"
+new="Icon=teamviewer"
+location="/usr/share/applications/teamviewer-teamviewer11.desktop"
+sudo sed -i s/$old/$new/g $location
 
 ###############################################################################################
 # OFFICE
