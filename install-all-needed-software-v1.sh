@@ -5,28 +5,6 @@
 # Author 	: 	Erik Dubois
 # Website 	: 	http://www.erikdubois.be
 ############################################################################
-#
-#
-#                  e         e
-#                eee       ee
-#               eeee     eee
-#           wwwwwwwwweeeeee
-#        wwwwwwwwwwwwwwweee
-#      wwwwwwwwwwwwwwwwwwweeeeeeee
-#     wwwww     eeeeewwwwwweeee
-#    www          eeeewwwwwwe
-#    ww             eewwwwww
-#    w                 wwwww
-#                      wwwww
-#                     wwwww
-#                    wwwww
-#                   wwww
-#                  wwww
-#                wwww
-#              www
-#             ww
-#
-#
 ##################################################################################################################
 # Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
