@@ -64,8 +64,12 @@ sudo eopkg add-repo SolusUnstable https://packages.solus-project.com/unstable/eo
 sudo eopkg enable-repo SolusUnstable
 
 
+# First check out what applications you want to update and 
+# include them on this line
+# as this changes all the time I have hashtagged it to become comment
 
-sudo eopkg upgrade peek vccode vlc vscode
+
+#sudo eopkg upgrade peek vccode vlc vscode
 
 
 
