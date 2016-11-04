@@ -179,13 +179,11 @@ or use the script
 
 
 # Remember
-Upgrading (or use pisi instead of eopkg)
+Upgrading
 
 	sudo eopkg upgrade
 	sudo eopkg up
-	or
-	sudo pisi up
-	sudp pisi upgrade
+
 
 
 Rebuilding the database if you have an error
