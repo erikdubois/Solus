@@ -20,7 +20,7 @@ sudo eopkg install -y gparted htop inkscape meld nautilus-actions neofetch noto-
 sudo eopkg install -y simplescreenrecorder source-code-pro telegram variety vlc vscode xkill
 
 #sudo eopkg install -y darktable geany hexchat pidgin tilda
-#sudo eopkg install -y nautilus-dropbox
+sudo eopkg install -y nautilus-dropbox
 ###############################################################################################
 
 #themes
