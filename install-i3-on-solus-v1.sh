@@ -4,29 +4,6 @@
 # Author 	: 	Erik Dubois
 # Website 	: 	http://www.erikdubois.be
 ############################################################################
-#
-#
-#                  e         e
-#                eee       ee
-#               eeee     eee
-#           wwwwwwwwweeeeee
-#        wwwwwwwwwwwwwwweee
-#      wwwwwwwwwwwwwwwwwwweeeeeeee
-#     wwwww     eeeeewwwwwweeee
-#    www          eeeewwwwwwe
-#    ww             eewwwwww
-#    w                 wwwww
-#                      wwwww
-#                     wwwww
-#                    wwwww
-#                   wwww
-#                  wwww
-#                wwww
-#              www
-#             ww
-#
-#
-##################################################################################################################
 
 # copy/paste the folder i3 in the hidden folder .config
 # logoff and logon as i3
