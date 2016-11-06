@@ -115,7 +115,7 @@ sudo eopkg bi -y --ignore-safety https://raw.githubusercontent.com/solus-project
 sudo eopkg it -y viber*.eopkg;sudo rm *.eopkg
 
 echo "fixing hardcoded icon"
-old="Icon=\/usr\/share\/pixmaps\/viber.svg"
+old="Icon=\/usr\/share\/pixmaps\/viber.png"
 new="Icon=viber"
 location="/usr/share/applications/viber.desktop"
 sudo sed -i s/$old/$new/g $location
