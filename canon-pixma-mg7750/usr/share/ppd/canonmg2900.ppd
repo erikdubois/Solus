@@ -1,0 +1,321 @@
+*PPD-Adobe: "4.3"
+*%  CUPS add-on PPD file for Canon Inkjet Printer Driver.
+*%  Copyright CANON INC. 2001-2014
+*%
+*%  This program is free software; you can redistribute it and/or modify
+*%  it under the terms of the GNU General Public License as published by
+*%  the Free Software Foundation; version 2 of the License.
+*%
+*%  This program is distributed in the hope that it will be useful,
+*%  but WITHOUT ANY WARRANTY; without even the implied warranty of
+*%  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*%  GNU General Public License for more details.
+*%
+*%  You should have received a copy of the GNU General Public License
+*%  along with this program; if not, write to the Free Software
+*%  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307, USA.
+
+
+*FileVersion: "1.0"
+*FormatVersion:	"4.3"
+*LanguageEncoding: ISOLatin1
+*LanguageVersion: English
+*Manufacturer: "Canon"
+
+*PSVersion: "(3010.000) 550"
+*PSVersion: "(3010.000) 651"
+*PSVersion: "(3010.000) 705"
+*PSVersion: "(3010.000) 715"
+
+*ColorDevice: True
+*DefaultColorSpace: RGB
+*Throughput: "1"
+*LandscapeOrientation: Plus90
+*LanguageLevel: "3"
+*FileSystem: False
+*TTRasterizer: Type42
+
+*cupsFilter: "application/vnd.cups-raster 0 rastertocanonij"
+*cupsFilter: "application/vnd.cups-command 0 cmdtocanonij2"
+*cupsCommand: "AutoConfigure Clean PrintSelfTestPage ReportStatus"
+
+*cupsManualCopies: True
+*cupsVersion: 1.2
+*cupsLanguages: "de fr zh ja"
+
+*CenterRegistered: False
+*HWMargins: 0 0 0 0
+*LeadingEdge Short: ""
+*DefaultLeadingEdge: Short
+*VariablePaperSize: True
+*CustomPageSize True: "pop pop pop <</PageSize [5 -2 roll] /ImagingBBox null>>setpagedevice"
+
+*DefaultFont: Courier
+*Font Courier: Standard "(001.001)" Standard ROM
+
+*ModelName: "Canon MG2900 series"
+*ShortNickName: "MG2900 series"
+*NickName: "Canon MG2900 series Ver.5.00"
+*PCFileName: "CANONMG2900.PPD"
+*Product: "(mg2900)"
+
+*DefaultImageableArea: A4
+*DefaultPaperDimension: A4
+*ImageableArea Letter: "18.14 47.42 594.14 783.50"
+*PaperDimension Letter: "612 792"
+*%CNSizeToPrintArea Letter 4800 6134
+*ImageableArea A5: "9.64 47.10 409.84 586.50"
+*PaperDimension A5: "420 595"
+*%CNSizeToPrintArea A5 3335 4495
+*ImageableArea A4: "9.64 47.50 585.64 833.50"
+*PaperDimension A4: "595 842"
+*%CNSizeToPrintArea A4 4800 6550
+*ImageableArea B5: "9.64 47.90 506.20 720.50"
+*PaperDimension B5: "516 729"
+*%CNSizeToPrintArea B5 4138 5605
+*ImageableArea 4x6: "9.64 47.42 278.32 423.50"
+*PaperDimension 4x6: "288 432"
+*%CNSizeToPrintArea 4x6 2239 3134
+*ImageableArea 5x7: "9.64 46.82 350.32 495.50"
+*PaperDimension 5x7: "360 504"
+*%CNSizeToPrintArea 5x7 2839 3739
+
+*OpenGroup: *CNMain/Main
+*de.Translation CNMain/Optionen: ""
+*fr.Translation CNMain/Principal: ""
+*zh.Translation CNMain/主要: ""
+*ja.Translation CNMain/基本設定: ""
+*OpenUI *MediaType/Media Type: PickOne
+*de.Translation MediaType/Medientyp: PickOne: ""
+*fr.Translation MediaType/Type de support: PickOne: ""
+*zh.Translation MediaType/介质类型: PickOne: ""
+*ja.Translation MediaType/用紙の種類: PickOne: ""
+*DefaultMediaType: plain
+*MediaType plain/Plain Paper: "<</MediaType(plain)>>setpagedevice"
+*de.MediaType plain/Normalpapier: "<</MediaType(plain)>>setpagedevice"
+*fr.MediaType plain/Papier ordinaire: "<</MediaType(plain)>>setpagedevice"
+*zh.MediaType plain/普通纸: "<</MediaType(plain)>>setpagedevice"
+*ja.MediaType plain/普通紙: "<</MediaType(plain)>>setpagedevice"
+*MediaType glossygold/Photo Paper Plus Glossy II: "<</MediaType(glossygold)>>setpagedevice"
+*de.MediaType glossygold/Fotoglanzpapier Plus II: "<</MediaType(glossygold)>>setpagedevice"
+*fr.MediaType glossygold/Papier Photo Glacé Extra II: "<</MediaType(glossygold)>>setpagedevice"
+*zh.MediaType glossygold/高级光面照片纸 II: "<</MediaType(glossygold)>>setpagedevice"
+*ja.MediaType glossygold/写真用紙 光沢ゴールド: "<</MediaType(glossygold)>>setpagedevice"
+*MediaType glossypaper/Glossy Photo Paper: "<</MediaType(glossypaper)>>setpagedevice"
+*de.MediaType glossypaper/Foto Glanzpapier: "<</MediaType(glossypaper)>>setpagedevice"
+*fr.MediaType glossypaper/Papier Photo Brillant: "<</MediaType(glossypaper)>>setpagedevice"
+*zh.MediaType glossypaper/光面照相纸: "<</MediaType(glossypaper)>>setpagedevice"
+*ja.MediaType glossypaper/写真用紙 光沢 スタンダード: "<</MediaType(glossypaper)>>setpagedevice"
+*MediaType photopaper/Photo Paper: "<</MediaType(photopaper)>>setpagedevice"
+*de.MediaType photopaper/Fotopapier: "<</MediaType(photopaper)>>setpagedevice"
+*fr.MediaType photopaper/Papier photo: "<</MediaType(photopaper)>>setpagedevice"
+*zh.MediaType photopaper/照片纸: "<</MediaType(photopaper)>>setpagedevice"
+*ja.MediaType photopaper/写真用紙: "<</MediaType(photopaper)>>setpagedevice"
+*CloseUI: *MediaType
+
+*OpenUI *CNGrayscale/Grayscale Printing: Boolean
+*de.Translation CNGrayscale/Graustufen drucken: Boolean: ""
+*fr.Translation CNGrayscale/Impression niveau de gris: Boolean: ""
+*zh.Translation CNGrayscale/灰度打印: Boolean: ""
+*ja.Translation CNGrayscale/モノクロ印刷: Boolean: ""
+*DefaultCNGrayscale: False
+*CNGrayscale True/ON: "<</CNGrayscale(True)>>setpagedevice"
+*de.CNGrayscale True/ON: "<</CNGrayscale(True)>>setpagedevice": ""
+*fr.CNGrayscale True/ON: "<</CNGrayscale(True)>>setpagedevice": ""
+*zh.CNGrayscale True/ON: "<</CNGrayscale(True)>>setpagedevice": ""
+*ja.CNGrayscale True/ON: "<</CNGrayscale(True)>>setpagedevice": ""
+*CNGrayscale False/OFF: "<</CNGrayscale(False)>>setpagedevice"
+*de.CNGrayscale False/OFF: "<</CNGrayscale(False)>>setpagedevice": ""
+*fr.CNGrayscale False/OFF: "<</CNGrayscale(False)>>setpagedevice": ""
+*zh.CNGrayscale False/OFF: "<</CNGrayscale(False)>>setpagedevice": ""
+*ja.CNGrayscale False/OFF: "<</CNGrayscale(False)>>setpagedevice": ""
+*CloseUI: *CNGrayscale
+
+*CloseGroup: *CNMain
+
+*OpenGroup: *CNPagesetup/Page Setup
+*de.Translation CNPagesetup/Seite einrichten: ""
+*fr.Translation CNPagesetup/Configuration de la page: ""
+*zh.Translation CNPagesetup/页设置: ""
+*ja.Translation CNPagesetup/ページ設定: ""
+*OpenUI *PageSize/Page Size: PickOne
+*de.Translation PageSize/Seitenformat: PickOne: ""
+*fr.Translation PageSize/Format page: PickOne: ""
+*zh.Translation PageSize/页尺寸: PickOne: ""
+*ja.Translation PageSize/用紙サイズ: PickOne: ""
+*DefaultPageSize: A4
+*PageSize Letter/Letter [8.50"x11.00" 215.9x279.4mm]: "<</CNPageSizeName(Letter)/PageSize[612 792]/ImagingBBox null>>setpagedevice"
+*de.PageSize Letter/Letter [215.9x279.4mm 8.50"x11.00"]: "<</CNPageSizeName(Letter)/PageSize[612 792]/ImagingBBox null>>setpagedevice": ""
+*fr.PageSize Letter/Lettre [215.9x279.4mm 8.50"x11.00"]: "<</CNPageSizeName(Letter)/PageSize[612 792]/ImagingBBox null>>setpagedevice": ""
+*zh.PageSize Letter/Letter [8.50"x11.00" 215.9x279.4mm]: "<</CNPageSizeName(Letter)/PageSize[612 792]/ImagingBBox null>>setpagedevice": ""
+*ja.PageSize Letter/レター [215.9x279.4mm 8.50"x11.00"]: "<</CNPageSizeName(Letter)/PageSize[612 792]/ImagingBBox null>>setpagedevice": ""
+*PageSize A5/A5 [5.83"x8.27" 148.0x210.0mm]: "<</CNPageSizeName(A5)/PageSize[420 595]/ImagingBBox null>>setpagedevice"
+*de.PageSize A5/A5 [148.0x210.0mm 5.83"x8.27"]: "<</CNPageSizeName(A5)/PageSize[420 595]/ImagingBBox null>>setpagedevice": ""
+*fr.PageSize A5/A5 [148.0x210.0mm 5.83"x8.27"]: "<</CNPageSizeName(A5)/PageSize[420 595]/ImagingBBox null>>setpagedevice": ""
+*zh.PageSize A5/A5 [5.83"x8.27" 148.0x210.0mm]: "<</CNPageSizeName(A5)/PageSize[420 595]/ImagingBBox null>>setpagedevice": ""
+*ja.PageSize A5/A5 [148.0x210.0mm 5.83"x8.27"]: "<</CNPageSizeName(A5)/PageSize[420 595]/ImagingBBox null>>setpagedevice": ""
+*PageSize A4/A4 [8.27"x11.69" 210.0x297.0mm]: "<</CNPageSizeName(A4)/PageSize[595 842]/ImagingBBox null>>setpagedevice"
+*de.PageSize A4/A4 [210.0x297.0mm 8.27"x11.69"]: "<</CNPageSizeName(A4)/PageSize[595 842]/ImagingBBox null>>setpagedevice": ""
+*fr.PageSize A4/A4 [210.0x297.0mm 8.27"x11.69"]: "<</CNPageSizeName(A4)/PageSize[595 842]/ImagingBBox null>>setpagedevice": ""
+*zh.PageSize A4/A4 [8.27"x11.69" 210.0x297.0mm]: "<</CNPageSizeName(A4)/PageSize[595 842]/ImagingBBox null>>setpagedevice": ""
+*ja.PageSize A4/A4 [210.0x297.0mm 8.27"x11.69"]: "<</CNPageSizeName(A4)/PageSize[595 842]/ImagingBBox null>>setpagedevice": ""
+*PageSize B5/B5 [7.17"x10.12" 182.0x257.0mm]: "<</CNPageSizeName(B5)/PageSize[516 729]/ImagingBBox null>>setpagedevice"
+*de.PageSize B5/B5 [182.0x257.0mm 7.17"x10.12"]: "<</CNPageSizeName(B5)/PageSize[516 729]/ImagingBBox null>>setpagedevice": ""
+*fr.PageSize B5/B5 [182.0x257.0mm 7.17"x10.12"]: "<</CNPageSizeName(B5)/PageSize[516 729]/ImagingBBox null>>setpagedevice": ""
+*zh.PageSize B5/B5 [7.17"x10.12" 182.0x257.0mm]: "<</CNPageSizeName(B5)/PageSize[516 729]/ImagingBBox null>>setpagedevice": ""
+*ja.PageSize B5/B5 [182.0x257.0mm 7.17"x10.12"]: "<</CNPageSizeName(B5)/PageSize[516 729]/ImagingBBox null>>setpagedevice": ""
+*PageSize 4x6/4"x6" [4.00"x6.00" 101.6x152.4mm]: "<</CNPageSizeName(4x6)/PageSize[288 432]/ImagingBBox null>>setpagedevice"
+*de.PageSize 4x6/4"x6" [101.6x152.4mm 4.00"x6.00"]: "<</CNPageSizeName(4x6)/PageSize[288 432]/ImagingBBox null>>setpagedevice": ""
+*fr.PageSize 4x6/4"x6" [101.6x152.4mm 4.00"x6.00"]: "<</CNPageSizeName(4x6)/PageSize[288 432]/ImagingBBox null>>setpagedevice": ""
+*zh.PageSize 4x6/4"x6" [4.00"x6.00" 101.6x152.4mm]: "<</CNPageSizeName(4x6)/PageSize[288 432]/ImagingBBox null>>setpagedevice": ""
+*ja.PageSize 4x6/KG [101.6x152.4mm 4.00"x6.00"]: "<</CNPageSizeName(4x6)/PageSize[288 432]/ImagingBBox null>>setpagedevice": ""
+*PageSize 5x7/5"x7" [5.00"x7.00" 127.0x177.8mm]: "<</CNPageSizeName(5x7)/PageSize[360 504]/ImagingBBox null>>setpagedevice"
+*de.PageSize 5x7/5"x7" [127.0x177.8mm 5.00"x7.00"]: "<</CNPageSizeName(5x7)/PageSize[360 504]/ImagingBBox null>>setpagedevice": ""
+*fr.PageSize 5x7/5"x7" [127.0x177.8mm 5.00"x7.00"]: "<</CNPageSizeName(5x7)/PageSize[360 504]/ImagingBBox null>>setpagedevice": ""
+*zh.PageSize 5x7/5"x7" [5.00"x7.00" 127.0x177.8mm]: "<</CNPageSizeName(5x7)/PageSize[360 504]/ImagingBBox null>>setpagedevice": ""
+*ja.PageSize 5x7/5x7 [127.0x177.8mm 5.00"x7.00"]: "<</CNPageSizeName(5x7)/PageSize[360 504]/ImagingBBox null>>setpagedevice": ""
+*CloseUI: *PageSize
+
+*OpenUI *PageRegion/Page Size: PickOne
+*de.Translation PageRegion/Seitenformat: PickOne: ""
+*fr.Translation PageRegion/Format page: PickOne: ""
+*zh.Translation PageRegion/页尺寸: PickOne: ""
+*ja.Translation PageRegion/用紙サイズ: PickOne: ""
+*DefaultPageRegion: A4
+*PageRegion Letter/Letter [8.50"x11.00" 215.9x279.4mm]: "<</CNPageSizeName(Letter)/PageSize[612 792]/ImagingBBox null>>setpagedevice"
+*de.PageRegion Letter/Letter [215.9x279.4mm 8.50"x11.00"]: "<</CNPageSizeName(Letter)/PageSize[612 792]/ImagingBBox null>>setpagedevice": ""
+*fr.PageRegion Letter/Lettre [215.9x279.4mm 8.50"x11.00"]: "<</CNPageSizeName(Letter)/PageSize[612 792]/ImagingBBox null>>setpagedevice": ""
+*zh.PageRegion Letter/Letter [8.50"x11.00" 215.9x279.4mm]: "<</CNPageSizeName(Letter)/PageSize[612 792]/ImagingBBox null>>setpagedevice": ""
+*ja.PageRegion Letter/レター [215.9x279.4mm 8.50"x11.00"]: "<</CNPageSizeName(Letter)/PageSize[612 792]/ImagingBBox null>>setpagedevice": ""
+*PageRegion A5/A5 [5.83"x8.27" 148.0x210.0mm]: "<</CNPageSizeName(A5)/PageSize[420 595]/ImagingBBox null>>setpagedevice"
+*de.PageRegion A5/A5 [148.0x210.0mm 5.83"x8.27"]: "<</CNPageSizeName(A5)/PageSize[420 595]/ImagingBBox null>>setpagedevice": ""
+*fr.PageRegion A5/A5 [148.0x210.0mm 5.83"x8.27"]: "<</CNPageSizeName(A5)/PageSize[420 595]/ImagingBBox null>>setpagedevice": ""
+*zh.PageRegion A5/A5 [5.83"x8.27" 148.0x210.0mm]: "<</CNPageSizeName(A5)/PageSize[420 595]/ImagingBBox null>>setpagedevice": ""
+*ja.PageRegion A5/A5 [148.0x210.0mm 5.83"x8.27"]: "<</CNPageSizeName(A5)/PageSize[420 595]/ImagingBBox null>>setpagedevice": ""
+*PageRegion A4/A4 [8.27"x11.69" 210.0x297.0mm]: "<</CNPageSizeName(A4)/PageSize[595 842]/ImagingBBox null>>setpagedevice"
+*de.PageRegion A4/A4 [210.0x297.0mm 8.27"x11.69"]: "<</CNPageSizeName(A4)/PageSize[595 842]/ImagingBBox null>>setpagedevice": ""
+*fr.PageRegion A4/A4 [210.0x297.0mm 8.27"x11.69"]: "<</CNPageSizeName(A4)/PageSize[595 842]/ImagingBBox null>>setpagedevice": ""
+*zh.PageRegion A4/A4 [8.27"x11.69" 210.0x297.0mm]: "<</CNPageSizeName(A4)/PageSize[595 842]/ImagingBBox null>>setpagedevice": ""
+*ja.PageRegion A4/A4 [210.0x297.0mm 8.27"x11.69"]: "<</CNPageSizeName(A4)/PageSize[595 842]/ImagingBBox null>>setpagedevice": ""
+*PageRegion B5/B5 [7.17"x10.12" 182.0x257.0mm]: "<</CNPageSizeName(B5)/PageSize[516 729]/ImagingBBox null>>setpagedevice"
+*de.PageRegion B5/B5 [182.0x257.0mm 7.17"x10.12"]: "<</CNPageSizeName(B5)/PageSize[516 729]/ImagingBBox null>>setpagedevice": ""
+*fr.PageRegion B5/B5 [182.0x257.0mm 7.17"x10.12"]: "<</CNPageSizeName(B5)/PageSize[516 729]/ImagingBBox null>>setpagedevice": ""
+*zh.PageRegion B5/B5 [7.17"x10.12" 182.0x257.0mm]: "<</CNPageSizeName(B5)/PageSize[516 729]/ImagingBBox null>>setpagedevice": ""
+*ja.PageRegion B5/B5 [182.0x257.0mm 7.17"x10.12"]: "<</CNPageSizeName(B5)/PageSize[516 729]/ImagingBBox null>>setpagedevice": ""
+*PageRegion 4x6/4"x6" [4.00"x6.00" 101.6x152.4mm]: "<</CNPageSizeName(4x6)/PageSize[288 432]/ImagingBBox null>>setpagedevice"
+*de.PageRegion 4x6/4"x6" [101.6x152.4mm 4.00"x6.00"]: "<</CNPageSizeName(4x6)/PageSize[288 432]/ImagingBBox null>>setpagedevice": ""
+*fr.PageRegion 4x6/4"x6" [101.6x152.4mm 4.00"x6.00"]: "<</CNPageSizeName(4x6)/PageSize[288 432]/ImagingBBox null>>setpagedevice": ""
+*zh.PageRegion 4x6/4"x6" [4.00"x6.00" 101.6x152.4mm]: "<</CNPageSizeName(4x6)/PageSize[288 432]/ImagingBBox null>>setpagedevice": ""
+*ja.PageRegion 4x6/KG [101.6x152.4mm 4.00"x6.00"]: "<</CNPageSizeName(4x6)/PageSize[288 432]/ImagingBBox null>>setpagedevice": ""
+*PageRegion 5x7/5"x7" [5.00"x7.00" 127.0x177.8mm]: "<</CNPageSizeName(5x7)/PageSize[360 504]/ImagingBBox null>>setpagedevice"
+*de.PageRegion 5x7/5"x7" [127.0x177.8mm 5.00"x7.00"]: "<</CNPageSizeName(5x7)/PageSize[360 504]/ImagingBBox null>>setpagedevice": ""
+*fr.PageRegion 5x7/5"x7" [127.0x177.8mm 5.00"x7.00"]: "<</CNPageSizeName(5x7)/PageSize[360 504]/ImagingBBox null>>setpagedevice": ""
+*zh.PageRegion 5x7/5"x7" [5.00"x7.00" 127.0x177.8mm]: "<</CNPageSizeName(5x7)/PageSize[360 504]/ImagingBBox null>>setpagedevice": ""
+*ja.PageRegion 5x7/5x7 [127.0x177.8mm 5.00"x7.00"]: "<</CNPageSizeName(5x7)/PageSize[360 504]/ImagingBBox null>>setpagedevice": ""
+*CloseUI: *PageRegion
+
+*OpenUI *Duplex/Duplex Printing: PickOne
+*de.Translation Duplex/Duplexdruck: PickOne: ""
+*fr.Translation Duplex/Impression recto/verso: PickOne: ""
+*zh.Translation Duplex/双面打印: PickOne: ""
+*ja.Translation Duplex/両面印刷: PickOne: ""
+*DefaultDuplex: None
+*Duplex None/Off: "<</Duplex false>>setpagedevice"
+*de.Duplex None/Aus: "<</Duplex false>>setpagedevice": ""
+*fr.Duplex None/Désactivé: "<</Duplex false>>setpagedevice": ""
+*zh.Duplex None/关: "<</Duplex false>>setpagedevice": ""
+*ja.Duplex None/オフ: "<</Duplex false>>setpagedevice": ""
+*CloseUI: *Duplex
+
+*CloseGroup: *CNPagesetup
+
+*OpenGroup: *CNGeneral/General
+*de.Translation CNGeneral/General: ""
+*fr.Translation CNGeneral/General: ""
+*zh.Translation CNGeneral/General: ""
+*ja.Translation CNGeneral/General: ""
+*OpenUI *Resolution/Output Resolution: PickOne
+*de.Translation Resolution/Output Resolution: PickOne: ""
+*fr.Translation Resolution/Output Resolution: PickOne: ""
+*zh.Translation Resolution/Output Resolution: PickOne: ""
+*ja.Translation Resolution/Output Resolution: PickOne: ""
+*DefaultResolution: 600dpi
+*Resolution 600dpi/600 dpi: "<</HWResolution[600 600]>>setpagedevice"
+*de.Resolution 600dpi/600 dpi: "<</HWResolution[600 600]>>setpagedevice": ""
+*fr.Resolution 600dpi/600 dpi: "<</HWResolution[600 600]>>setpagedevice": ""
+*zh.Resolution 600dpi/600 dpi: "<</HWResolution[600 600]>>setpagedevice": ""
+*ja.Resolution 600dpi/600 dpi: "<</HWResolution[600 600]>>setpagedevice": ""
+*CloseUI: *Resolution
+
+*OpenUI *ColorModel/Color Model: PickOne
+*de.Translation ColorModel/Color Model: PickOne: ""
+*fr.Translation ColorModel/Color Model: PickOne: ""
+*zh.Translation ColorModel/Color Model: PickOne: ""
+*ja.Translation ColorModel/Color Model: PickOne: ""
+*DefaultColorModel: rgb
+*ColorModel rgb/RGB: "<</cupsColorOrder 0/cupsColorSpace 1/cupsCompression 0/cupsBitsPerColor 8>>setpagedevice"
+*de.ColorModel rgb/RGB: "<</cupsColorOrder 0/cupsColorSpace 1/cupsCompression 0/cupsBitsPerColor 8>>setpagedevice": ""
+*fr.ColorModel rgb/RGB: "<</cupsColorOrder 0/cupsColorSpace 1/cupsCompression 0/cupsBitsPerColor 8>>setpagedevice": ""
+*zh.ColorModel rgb/RGB: "<</cupsColorOrder 0/cupsColorSpace 1/cupsCompression 0/cupsBitsPerColor 8>>setpagedevice": ""
+*ja.ColorModel rgb/RGB: "<</cupsColorOrder 0/cupsColorSpace 1/cupsCompression 0/cupsBitsPerColor 8>>setpagedevice": ""
+*CloseUI: *ColorModel
+
+*CloseGroup: *CNGeneral
+
+
+*%CNPpdToOptKey PageSize --papersize
+*%CNPpdToOptKey MediaType --media
+*%CNPpdToOptKey CNGrayscale --grayscale
+*%CNPpdToOptKey Duplex --duplex
+
+*%CNMaintenanceCommand: PrintSelfTestPage="@TestPrint=NozzleCheck"
+*%CNMaintenanceCommand: Clean_all="@Cleaning=1ALL"
+*%CNMaintenanceCommand: ReportStatus=""
+
+
+*% #CNIJ-TOOL-VERSION:1
+*% #CNIJ-IVEC-CAPABILITY>
+*% afagebfeffbjepfmelekfafgfhaeblaibhajblbjfmfhfkfgfnfafhfoaeblemenfpbeabblbjagahdeddaffkfefnbjebfefffhekadfaepfmfkaeblfbenenejadbgb
+*% geoeoeobhfkfifhfgfhbhfkfgfebgfhekbgfkfefnbgalajajabbgajaobgfkfgfefefgfhbgbldeddebfefffhekadepfkfhaeblfbenenejadbgbgeoeoeobhfkfifh
+*% fgfhbhfkfgfebgfhekbgfkfefnbgalajajabbgajaobgfkfifhfgfhbgblahdedddaaffaepfmfkadfkfgfhenfmfhenekahdedddadaaffaepfmfkadfgejfmelfienf
+*% afgfhahhofmenhkfiejfiflfafffaeneaglfmekejfgfhekfmafbgfaepfmfkadfgejfmelfienfafgfhahdedddadaaffaepfmfkadejfielfifeggekfmenbjekfmel
+*% epfafkfmeneaejfmaeblejelfafhenblahdedddadadaaffaepfmfkadelfmekejfgfhekfmahhghcafbgfaepfmfkadelfmekejfgfhekfmahdedddadadaaffaepfmf
+*% kadelfmekejfgfhekfmggfnfmenfifaffbgahdedddadadaaffaepfmfkadekemejejfgelenggfnfienfiggfpfgelfefienahglhigobfhdgjhmhobfhdgjhmhogjhi
+*% hohmbfgjgohoglfiekenfmelafbgfaepfmfkadekemejejfgelenggfnfienfiggfpfgelfefienahdedddadadaaffaepfmfkadfefiebggejfaebfmffekahaaapaja
+*% jbfaiaaalajajafbgfaepfmfkadfefiebggejfaebfmffekahdedddadadaaffaepfmfkadfefafhggejfaebfmffekahaiapbfaiapafbgfaepfmfkadfefafhggejfa
+*% ebfmffekahdedddadadaaffaepfmfkadejfiejfmelekfaedfmahfhfiggfafhfnfmebbeanebapgganebapfafhbffhfiggamebaoggamebaofafhbffhfiggfffmene
+*% nfmelggabbhamebaiaifafhbffaekfgggfiamggaianabebalaiajfefebffaekfgggfianggalaiajebalaaaofefebffdfaekggflamggaiabalebalamaofefeafbg
+*% faepfmfkadejfiejfmelekfaedfmahdedddadadaaffaepfmfkadejelfafhenfielfmfiggflfgelfnfmelbjejfiejfmelekfaedfmaeblfhfiggfafhfnfmebbeane
+*% bapgganebapfafhblahalalakaabfakaiakanafbgfaepfmfkadejelfafhenfielfmfiggflfgelfnfmelahdedddadadaaffaepfmfkadejelfafhenfielfmfiggfl
+*% fgelfnfmelbjejfiejfmelekfaedfmaeblfhfiggamebaoggamebaofafhblahalabakaabfakaoakaaafbgfaepfmfkadejelfafhenfielfmfiggflfgelfnfmelahd
+*% edddadadaaffaepfmfkadejelfafhenfielfmfiggflfgelfnfmelbjejfiejfmelekfaedfmaeblfhfiggfffmenenfmelggabbhamebaiaifafhblahanabajajbfap
+*% aiakanafbgfaepfmfkadejelfafhenfielfmfiggflfgelfnfmelahdedddadadaaffaepfmfkadejelfafhenfielfmfiggflfgelfnfmelbjejfiejfmelekfaedfma
+*% eblfaekfgggfiamggaianabebalaiajfefeblahakakakambfananaaamafbgfaepfmfkadejelfafhenfielfmfiggflfgelfnfmelahdedddadadaaffaepfmfkadej
+*% elfafhenfielfmfiggflfgelfnfmelbjejfiejfmelekfaedfmaeblfaekfgggfianggalaiajebalaaaofefeblahanabajajbfapamamajafbgfaepfmfkadejelfaf
+*% henfielfmfiggflfgelfnfmelahdedddadadaaffaepfmfkadejelfafhenfielfmfiggflfgelfnfmelbjejfiejfmelekfaedfmaeblfdfaekggflamggaiabalebal
+*% amaofefeblahanaiakabbfamapajamafbgfaepfmfkadejelfafhenfielfmfiggflfgelfnfmelahdedddadadaaffaepfmfkadejfiejfmeleneaejfmahekenfienf
+*% afgfhfmeleabfejfbfgenfgfoelfiejfbfafkbffkemekenfgfebefefmfnfafibeeneaejfmbefkfifhfgfhbeakbffkemekenfgfebefefmfnfafibeeneaejfmbefk
+*% fifhfgfhbeaianafbgfaepfmfkadejfiejfmeleneaejfmahdedddadadaaffaepfmfkadflfgelfnfmelfffmekekejelfafhenbjejfiejfmeleneaejfmaeblekenf
+*% ienfafgfhfmeleablahhghphpafbgfaepfmfkadflfgelfnfmelfffmekekejelfafhenahdedddadadaaffaepfmfkadflfgelfnfmelfffmekekejelfafhenbjejfi
+*% ejfmeleneaejfmaeblejfbfgenfgfoelfiejfbfafkblahhghphpafbgfaepfmfkadflfgelfnfmelfffmekekejelfafhenahdedddadadaaffaepfmfkadflfgelfnf
+*% melfffmekekejelfafhenbjejfiejfmeleneaejfmaeblfkemekenfgfebefefmfnfafibeeneaejfmbefkfifhfgfhbeakblahhghphpafbgfaepfmfkadflfgelfnfm
+*% elfffmekekejelfafhenahdedddadadaaffaepfmfkadflfgelfnfmelfffmekekejelfafhenbjejfiejfmeleneaejfmaeblfkemekenfgfebefefmfnfafibeeneae
+*% jfmbefkfifhfgfhbeaianblahhghphpafbgfaepfmfkadflfgelfnfmelfffmekekejelfafhenahdedddadadaaffaepfmfkadejelfafhenfkfgfffgelfefgfnfmbj
+*% ejfiejfmeleneaejfmaeblekenfienfafgfhfmeleablahfkfgfffgelbffefgfhfgfkfbelfgfefmafbgfaepfmfkadejelfafhenfkfgfffgelfefgfnfmahdedddad
+*% adaaffaepfmfkadejelfafhenfkfgfffgelfefgfnfmbjejfiejfmeleneaejfmaeblejfbfgenfgfoelfiejfbfafkblahfkfgfffgelbffefgfhfgfkfbelfgfefmaf
+*% bgfaepfmfkadejelfafhenfkfgfffgelfefgfnfmahdedddadadaaffaepfmfkadejelfafhenfkfgfffgelfefgfnfmbjejfiejfmeleneaejfmaeblfkemekenfgfeb
+*% efefmfnfafibeeneaejfmbefkfifhfgfhbeakblahfkfgfffgelbffefgfhfgfkfbelfgfefmafbgfaepfmfkadejelfafhenfkfgfffgelfefgfnfmahdedddadadaaf
+*% faepfmfkadejelfafhenfkfgfffgelfefgfnfmbjejfiejfmeleneaejfmaeblfkemekenfgfebefefmfnfafibeeneaejfmbefkfifhfgfhbeaianblahfkfgfffgelb
+*% ffefgfhfgfkfbelfgfefmafbgfaepfmfkadejelfafhenfkfgfffgelfefgfnfmahdedddadadaafepfkfhadfhfmebenejfifofmahhghhbfhghphpafbgepfkfhadfh
+*% fmebenejfifofmahdedddadaafbgfaepfmfkadejfielfifeggekfmenahdedddaafbgfaepfmfkadfkfgfhenfmfhenekahdeddafbgfkfefnah=aaacnijl
+*% #<CNIJ-IVEC-CAPABILITY
+*% #CNIJ-DEVCE-INFO>
+*% djnahehphoadhkfifhfgfhachkhehnadhlhdhfbfhlhdglfiekenfmelakbfhlgkhkhkfmbfhhhkhkfmbfhagphmhkbfhagphmhkgjhfhaacgkhghdadhlhdhhgjalbfh
+*% lhdhhgjfmachehnhfadhehoalaaajajbjekfmelfafmekachkhfgkadgjglhahhgnhmglachnhmgkadhkfifhfgfhbjhehoalaaajajbjekfmelfafmekacgphmgladai
+*% bhajajajacgkgnhiadaiajachpgkhaadajajachbglhaadalachegkhaadhihghphpbfhlalanajbfhmakbfhbhigkhpbfhdhghphpbfhcalaiajajajaoajajacgjhng
+*% ladakacgjgkhmadgkalaohegnaialaiaaachkhahnadhkhigghagphmhkangngagjhmalgghahdgjac=aaaaeafj
+*% #<CNIJ-DEVCE-INFO
+*%
+*% internalversion : 5.00.20140624.154638
+*%
+

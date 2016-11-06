@@ -1,0 +1,157 @@
+
+********************************************************************************
+Canon 喷墨打印机驱动程序
+版本 5.00
+版权所有 CANON INC. 2014
+********************************************************************************
+
+1. 关于本文件
+    本文件介绍当使用lpr命令在本打印机上打印时可用的选项。
+
+2. 选项列表
+    本节介绍可用于通过lpr命令来进行打印设置的选项。
+    有关可用的选项及组合这些选项时的限制等信息，请参阅以下部分 :
+
+    介质类型 **
+    灰度打印
+    页尺寸 **
+    打印尺寸
+    打印位置
+    份数
+
+    与其他选项组合使用时，任何带有 ** 标识的设置都会受到相应的限制。
+    有关打印选项组合的限制信息，请参阅“打印选项组合限制”。
+
+介质类型 **
+
+    语法        :  -o MediaType=[参数]
+    参数 : 可选择以下介质。
+    [默认值=plain]
+
+    plain                     普通纸
+    glossygold                高级光面照片纸 II
+    glossypaper               光面照相纸
+    matte                     无光泽照片纸
+    photopaper                照片纸
+    ijpostcard                Ink Jet Hagaki
+    postcard                  Hagaki
+
+灰度打印
+
+    语法         :  -o CNGrayscale
+    参数 : 无参数。
+
+页尺寸 **
+
+    语法         :  -o PageSize=[参数]
+    参数 : 可选择以下页尺寸。[默认值=A4]
+
+    Letter                    Letter [8.50"x11.00" 215.9x279.4mm]
+    Letter.bl                 Letter(无边距) [8.50"x11.00" 215.9x279.4mm]
+    legal                     Legal [8.50"x14.00" 215.9x355.6mm]
+    A5                        A5 [5.83"x8.27" 148.0x210.0mm]
+    A4                        A4 [8.27"x11.69" 210.0x297.0mm]
+    A4.bl                     A4(无边距) [8.27"x11.69" 210.0x297.0mm]
+    B5                        B5 [7.17"x10.12" 182.0x257.0mm]
+    4x6                       4"x6" [4.00"x6.00" 101.6x152.4mm]
+    4x6.bl                    4"x6"(无边距) [4.00"x6.00" 101.6x152.4mm]
+    5x7                       5"x7" [5.00"x7.00" 127.0x177.8mm]
+    5x7.bl                    5"x7"(无边距) [5.00"x7.00" 127.0x177.8mm]
+    8x10                      8"x10" [8.00"x10.00" 203.2x254.0mm]
+    8x10.bl                   8"x10"(无边距) [8.00"x10.00" 203.2x254.0mm]
+    l                         L [3.50"x5.00" 89.0x127.0mm]
+    l.bl                      L(无边距) [3.50"x5.00" 89.0x127.0mm]
+    2l                        2L [5.00"x7.01" 127.0x178.0mm]
+    2l.bl                     2L(无边距) [5.00"x7.01" 127.0x178.0mm]
+    Postcard                  Hagaki [3.94"x5.83" 100.0x148.0mm]
+    Postcard.bl               Hagaki(无边距) [3.94"x5.83" 100.0x148.0mm]
+    businesscard              Card [2.17"x3.58" 55.0x91.0mm]
+    businesscard.bl           Card(无边距) [2.17"x3.58" 55.0x91.0mm]
+
+打印尺寸
+
+    i) 比例指定
+
+        指定尺寸的放大或缩小率(%)。对于lpr命令而言，可以使用标准选项
+        “natural-scaling”来执行比例指定。
+        有关可以在lpr命令(CUPS)中设置的选项的信息，
+        请参阅通用UNIX打印系统主页(http://www.cups.org/)。
+
+    ii) 按页面大小打印
+
+        语法         :  -o scaling=100
+
+        该功能在不改变纵横比的情况下对图像进行缩放，以适应打印区域。为了适应打印区域，
+        图像缩放方向可以是横向或纵向。
+
+        *比例指定和按页面大小打印不能同时指定。
+
+打印位置
+
+    对于lpr命令而言，可以使用标准选项“position”来执行打印位置调整。
+    有关可以在lpr命令(CUPS)中设置的选项的信息，
+    请参阅通用UNIX打印系统主页(http://www.cups.org/)。
+
+
+份数
+
+    语法        :  -#[参数]
+    参数 : 1 - 999 ［默认值=1］
+
+
+
+3. 打印选项组合限制
+    lpr命令的打印选项组合仅限如下所示的情况。
+    *介质类型和无边距打印组合限制
+
+    您可以指定下列打印设置组合 :
+        
+        指定无边距打印时(为无边距打印指定页尺寸时) :
+        
+        -o MediaType=glossygold
+        -o MediaType=glossypaper
+        -o MediaType=matte
+        -o MediaType=photopaper
+        -o MediaType=ijpostcard
+        -o MediaType=postcard
+
+        未指定无边距打印时(没有为无边距打印指定页尺寸时) :
+
+        -o MediaType=plain
+        -o MediaType=glossygold
+        -o MediaType=glossypaper
+        -o MediaType=matte
+        -o MediaType=photopaper
+        -o MediaType=ijpostcard
+        -o MediaType=postcard
+        
+
+
+4. 维护命令
+    通过使用以下命令可以使用打印机的基本
+    维护功能。维护功能取决于打印机类型。
+    有关更多详细信息，请参阅“在线手册”。
+    以下命令基于将“iP110USB”作为打印机名称注册到后台处理程序。
+    请将其更改为已设置的打印机名称。
+
+    打印头清洗
+    清洗堵塞的打印头喷嘴。
+        对于 Fedora:
+        [user@zzz /yyy]$ lpr -P iP110USB /usr/local/share/cmdtocanonij2/cleaning.utl
+        对于 Ubuntu:
+        [user@zzz /yyy]$ lpr -P iP110USB /usr/share/cmdtocanonij2/cleaning.utl
+
+    打印喷嘴检查图案
+    打印图案以检查打印头喷嘴是否堵塞。
+        对于 Fedora:
+        [user@zzz /yyy]$ lpr -P iP110USB /usr/local/share/cmdtocanonij2/nozzlecheck.utl
+        对于 Ubuntu:
+        [user@zzz /yyy]$ lpr -P iP110USB /usr/share/cmdtocanonij2/nozzlecheck.utl
+
+    打印头对齐
+    开始打印头对齐，纠正打印头安装位置偏差。
+        对于 Fedora:
+        [user@zzz /yyy]$ lpr -P iP110USB /usr/local/share/cmdtocanonij2/autoalign.utl
+        对于 Ubuntu:
+        [user@zzz /yyy]$ lpr -P iP110USB /usr/share/cmdtocanonij2/autoalign.utl
+

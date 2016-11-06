@@ -1,0 +1,194 @@
+
+********************************************************************************
+Canon Inkjet Printer Driver
+Version 5.20
+Copyright CANON INC. 2015
+********************************************************************************
+
+1. このファイルについて
+    このファイルでは、lprコマンドを用いて、本製品で印刷を行う際に指定できる
+    オプションについて記載しています。
+
+2. オプション一覧
+    lprコマンドで印刷設定を行う場合のオプションについて説明します。
+    使用できるオプションと組み合わせの制限については、以下を参照してください。
+
+    用紙の種類 **
+    モノクロ印刷
+    用紙サイズ **
+    印刷サイズ
+    印刷位置
+    自動両面印刷 **
+    部数
+
+    **この項目は、他のオプションとの組み合わせによる制限があります。オプションの
+    組み合わせによる制限については、「印刷オプションの組み合わせの制限」を
+    参照してください。
+
+用紙の種類 **
+
+    書式         :  -o MediaType=[parameter]
+    パラメーター :  以下の用紙を選択できます。
+    [既定値=plain]
+
+    plain                     普通紙
+    glossygold                写真用紙 光沢ゴールド
+    proplatinum               光沢プロ プラチナグレード
+    luster                    写真用紙 微粒面光沢 ラスター
+    semigloss                 写真用紙 絹目調
+    glossypaper               写真用紙 光沢 スタンダード
+    matte                     マットフォトペーパー
+    photopaper                写真用紙
+    envelope                  封筒
+    ijpostcard                インクジェットはがき(通信面)
+    postcard                  はがき
+    highres                   高品位専用紙
+    photo                     膨潤紙
+
+モノクロ印刷
+
+    書式         :  -o CNGrayscale
+    パラメーター :  パラメータはありません。
+
+用紙サイズ **
+
+    書式         :  -o PageSize=[parameter]
+    パラメーター :  以下の用紙サイズを選択できます。
+    [既定値=A4]
+
+    Letter                    レター [215.9x279.4mm 8.50"x11.00"]
+    Letter.bl                 レター (フチなし) [215.9x279.4mm 8.50"x11.00"]
+    legal                     リーガル [215.9x355.6mm 8.50"x14.00"]
+    A5                        A5 [148.0x210.0mm 5.83"x8.27"]
+    A4                        A4 [210.0x297.0mm 8.27"x11.69"]
+    A4.bl                     A4 (フチなし) [210.0x297.0mm 8.27"x11.69"]
+    B5                        B5 [182.0x257.0mm 7.17"x10.12"]
+    4x6                       KG [101.6x152.4mm 4.00"x6.00"]
+    4x6.bl                    KG (フチなし) [101.6x152.4mm 4.00"x6.00"]
+    5x7                       5x7 [127.0x177.8mm 5.00"x7.00"]
+    5x7.bl                    5x7 (フチなし) [127.0x177.8mm 5.00"x7.00"]
+    8x10                      六切 [203.2x254.0mm 8.00"x10.00"]
+    8x10.bl                   六切 (フチなし) [203.2x254.0mm 8.00"x10.00"]
+    l                         L判 [89.0x127.0mm 3.50"x5.00"]
+    l.bl                      L判 (フチなし) [89.0x127.0mm 3.50"x5.00"]
+    2l                        2L判 [127.0x178.0mm 5.00"x7.01"]
+    2l.bl                     2L判 (フチなし) [127.0x178.0mm 5.00"x7.01"]
+    Postcard                  はがき [100.0x148.0mm 3.94"x5.83"]
+    Postcard.bl               はがき (フチなし) [100.0x148.0mm 3.94"x5.83"]
+    envelop10p                商用10号封筒 [104.8x241.3mm 4.12"x9.50"]
+    envelopdlp                DL封筒 [110.0x220.0mm 4.33"x8.66"]
+
+印刷サイズ
+
+    i)  拡大縮小サイズの指定
+
+        拡大または縮小する場合の割合を%で指定します。lprコマンドでは、標準オプションの
+        natural-scalingを使用して拡大縮小サイズの指定を行うことができます。
+        lprコマンド（CUPS）で設定可能なオプションについては、Common UNIX Printing Systemの
+        ホームページ（http://www.cups.org/）を参照してください。
+
+    ii) フィットページ印刷
+
+        書式         : -o scaling=100
+
+        印刷領域に合わせて、縦横比を変えずに拡大または縮小します。上下/左右どちらかが
+        印刷領域に達するまで拡大/縮小します。
+
+        *拡大縮小サイズの指定とフィットページ印刷を、同時に指定することはできません。
+
+印刷位置
+
+    lprコマンドでは、標準オプションのpositionを使用して印刷位置の調整を行うことが
+    できます。lprコマンド（CUPS）で設定可能なオプションについては、Common UNIX Printing Systemの
+    ホームページ（http://www.cups.org/）を参照してください。
+
+
+自動両面印刷 **
+
+    書式         :  -o Duplex=[parameter]
+    パラメーター :  以下から選択できます。
+    [既定値=None]
+
+    None                      両面印刷オフ
+    DuplexNoTumble            長辺とじで印刷
+    DuplexTumble              短辺とじで印刷
+
+部数
+
+    書式         :  -#[parameter]
+    パラメーター :  1 - 999  [既定値=1]
+
+
+
+3. 印刷オプションの組み合わせの制限
+    lprコマンドの印刷オプションの組み合わせには、以下のような制限があります。
+    
+    *自動両面印刷時の用紙の種類/用紙サイズの制限
+    
+        自動両面印刷を指定できる用紙の種類は、以下のとおりです。
+    
+        plain                     普通紙
+
+        自動両面印刷に対応する用紙サイズは、以下のとおりです。
+
+        Letter                    レター [215.9x279.4mm 8.50"x11.00"]
+        A4                        A4 [210.0x297.0mm 8.27"x11.69"]
+
+    *用紙の種類/自動両面印刷/フチなし印刷の組み合わせの制限
+
+    印刷設定を組み合わせる場合は、以下の組み合わせを指定できます。
+        
+        フチなし印刷を行う場合（フチなし印刷用の用紙サイズを指定する場合）:
+        
+        -o MediaType=glossygold
+        -o MediaType=proplatinum
+        -o MediaType=luster
+        -o MediaType=semigloss
+        -o MediaType=glossypaper
+        -o MediaType=matte
+        -o MediaType=photopaper
+        -o MediaType=ijpostcard
+        -o MediaType=postcard
+        -o MediaType=photo
+
+        フチなし印刷を行わない場合（フチなし印刷用の用紙サイズを指定しない場合）:
+
+        -o MediaType=plain
+        -o MediaType=glossygold
+        -o MediaType=proplatinum
+        -o MediaType=luster
+        -o MediaType=semigloss
+        -o MediaType=glossypaper
+        -o MediaType=matte
+        -o MediaType=photopaper
+        -o MediaType=envelope
+        -o MediaType=ijpostcard
+        -o MediaType=postcard
+        -o MediaType=highres
+        -o MediaType=photo
+        
+
+
+4. メンテナンスコマンド
+    以下のコマンドで、プリンターの基本的なメンテナンス機能が利用できます。
+    メンテナンス機能は、その種類により手順が異なります。具体的な方法については
+    「オンラインマニュアル」を参照してください。
+    以下のコマンドは、プリンター登録名を「MG3600USB」としてスプーラーに
+    登録した場合の例で説明を行います。
+    設定したプリンター登録名に読み替えてご利用ください。
+
+    クリーニング
+    インクの噴出し口(ノズル)の目づまりをクリーニングします。
+        Fedoraの場合:
+        [user@zzz /yyy]$ lpr -P MG3600USB /usr/local/share/cmdtocanonij2/cleaning.utl
+        Ubuntuの場合:
+        [user@zzz /yyy]$ lpr -P MG3600USB /usr/share/cmdtocanonij2/cleaning.utl
+
+    ノズルチェックパターン印刷
+    インクの噴出し口(ノズル)が目づまりしていないかを確認するパターンを印刷します。
+        Fedoraの場合:
+        [user@zzz /yyy]$ lpr -P MG3600USB /usr/local/share/cmdtocanonij2/nozzlecheck.utl
+        Ubuntuの場合:
+        [user@zzz /yyy]$ lpr -P MG3600USB /usr/share/cmdtocanonij2/nozzlecheck.utl
+
+

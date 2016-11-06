@@ -1,0 +1,178 @@
+
+********************************************************************************
+Canon Inkjet Printer Driver
+Version 5.00
+Copyright CANON INC. 2014
+********************************************************************************
+
+1. About this file
+    This file describes the options available when printing on this printer using the lpr command.
+
+2. Option list
+    This section describes options available for setting up printing with the lpr command.
+    For information about the options that can be used and restrictions
+    on combining options, see the following:
+
+    Media Type **
+    Grayscale Printing
+    Page Size **
+    Print Size
+    Print Position
+    Automatic Duplex Printing **
+    Copies
+
+    Any setting identified with ** has restrictions when combined
+    with other options. For information about restrictions based on print option
+    combinations, see "Restrictions on the combinations of print options."
+
+Media Type **
+
+    Syntax         :  -o MediaType=[parameter]
+    Parameter : The following media can be selected.
+    [Default Value=plain]
+
+    plain                     Plain Paper
+    glossygold                Photo Paper Plus Glossy II
+    luster                    Photo Paper Pro Luster
+    semigloss                 Photo Paper Plus Semi-gloss
+    glossypaper               Glossy Photo Paper
+    matte                     Matte Photo Paper
+    photopaper                Photo Paper
+    envelope                  Envelope
+    ijpostcard                Ink Jet Hagaki
+    postcard                  Hagaki
+    highres                   High Resolution Paper
+
+Grayscale Printing
+
+    Syntax         :  -o CNGrayscale
+    Parameter : There is no parameter.
+
+Page Size **
+
+    Syntax         :  -o PageSize=[parameter]
+    Parameter : The following Page Sizes can be selected.
+    [Default Value=A4]
+
+    Letter                    Letter [8.50"x11.00" 215.9x279.4mm]
+    legal                     Legal [8.50"x14.00" 215.9x355.6mm]
+    A5                        A5 [5.83"x8.27" 148.0x210.0mm]
+    A4                        A4 [8.27"x11.69" 210.0x297.0mm]
+    B5                        B5 [7.17"x10.12" 182.0x257.0mm]
+    4x6                       4"x6" [4.00"x6.00" 101.6x152.4mm]
+    5x7                       5"x7" [5.00"x7.00" 127.0x177.8mm]
+    8x10                      8"x10" [8.00"x10.00" 203.2x254.0mm]
+    l                         L [3.50"x5.00" 89.0x127.0mm]
+    2l                        2L [5.00"x7.01" 127.0x178.0mm]
+    Postcard                  Hagaki [3.94"x5.83" 100.0x148.0mm]
+    envelop10p                Envelope Com 10 [4.12"x9.50" 104.8x241.3mm]
+    envelopdlp                Envelope DL [4.33"x8.66" 110.0x220.0mm]
+
+Print Size
+
+    i) Scaling Specification
+
+        Specify the size ratio for enlargement or reduction as a % value. With the lpr command,
+        you can use "natural-scaling," which is a standard option, to perform
+        the Scaling Specification.
+        For information about the options that can be set in the lpr command (CUPS),
+        see the homepage for the Common UNIX Printing System (http://www.cups.org/).
+
+    ii) Fit-to-Page Printing
+
+        Syntax         : -o scaling=100
+
+        This function expands or reduces the image to fit the print area, without changing
+        the vertical-horizontal ratio. It scales the image to fit to the print area
+        in either the horizontal or vertical direction.
+
+        *Scaling Specification and Fit-to-Page Printing cannot be specified
+        at the same time.
+
+Print Position
+
+    With the lpr command, you can use "position," which is a standard option, to perform
+    the Print Position adjustment. For information about the options that can be set
+    in the lpr command (CUPS), see the homepage for the Common UNIX Printing System
+    (http://www.cups.org/).
+
+
+Automatic Duplex Printing **
+
+    Syntax         :  -o Duplex=[parameter]
+    Parameter : The following parameters can be selected.
+    [Default Value=None]
+
+    None                      None
+    DuplexNoTumble            Printing with stapling on the long side.
+    DuplexTumble              Printing with stapling on the short side.
+
+Copies
+
+    Syntax         :  -#[parameter]
+    Parameter : 1 - 999 [Default Value=1]
+
+
+
+3. Restrictions on the print option combinations
+    The combinations of print option for the lpr command are restricted as shown below.
+    
+    *Restrictions on Media Type and Page Size combinations 
+    for Automatic Duplex Printing
+    
+        You can specify the Automatic Duplex Printing if you specified the following Media Type:
+    
+        plain                     Plain Paper
+
+        You can specify the Automatic Duplex Printing if you specified the following Page Size:
+
+        Letter                    Letter [8.50"x11.00" 215.9x279.4mm]
+        A4                        A4 [8.27"x11.69" 210.0x297.0mm]
+
+
+    You can specify the following print setting combinations:
+
+        When Borderless Printing is not specified (when not specifying a Page Size
+        for Borderless Printing):
+
+        -o MediaType=plain
+        -o MediaType=glossygold
+        -o MediaType=luster
+        -o MediaType=semigloss
+        -o MediaType=glossypaper
+        -o MediaType=matte
+        -o MediaType=photopaper
+        -o MediaType=envelope
+        -o MediaType=ijpostcard
+        -o MediaType=postcard
+        -o MediaType=highres
+        
+
+
+4. Maintenance Command
+    You can use the basic maintenance function of the printer by using the following
+     command. The maintenance function varies depending on its types. For more
+     details, refer to "Online Manual."
+    The following command is based on registering "MB5300USB" to the spooler as the printer name. Change it to the printer name that you have set.
+
+    Print Head Cleaning
+    Cleans clogged print head nozzles.
+        For Fedora:
+        [user@zzz /yyy]$ lpr -P MB5300USB /usr/local/share/cmdtocanonij2/cleaning.utl
+        For Ubuntu:
+        [user@zzz /yyy]$ lpr -P MB5300USB /usr/share/cmdtocanonij2/cleaning.utl
+
+    Print nozzle check pattern
+    Prints a pattern that lets you check whether the print head nozzles are clogged.
+        For Fedora:
+        [user@zzz /yyy]$ lpr -P MB5300USB /usr/local/share/cmdtocanonij2/nozzlecheck.utl
+        For Ubuntu:
+        [user@zzz /yyy]$ lpr -P MB5300USB /usr/share/cmdtocanonij2/nozzlecheck.utl
+
+    Print Head Alignment
+    Starting print head alignment to compensate for print head installation positioning error.
+        For Fedora:
+        [user@zzz /yyy]$ lpr -P MB5300USB /usr/local/share/cmdtocanonij2/autoalign.utl
+        For Ubuntu:
+        [user@zzz /yyy]$ lpr -P MB5300USB /usr/share/cmdtocanonij2/autoalign.utl
+

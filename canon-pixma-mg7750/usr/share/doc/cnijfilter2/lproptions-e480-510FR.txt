@@ -1,0 +1,171 @@
+
+********************************************************************************
+Pilote d'imprimante Canon Inkjet
+Version 5.10
+Copyright CANON INC. 2015
+********************************************************************************
+
+1. À propos de ce fichier
+    Ce fichier décrit les options disponibles pour les impressions
+    réalisées avec cette imprimante à l'aide de la commande lpr.
+
+2. Liste des options
+    Cette section décrit les options disponibles pour la configuration de l'impression
+    avec la commande lpr. Pour plus d'informations sur les options disponibles et sur
+    les restrictions de combinaison des options, voir les sections suivantes :
+
+    Type de support **
+    Impression niveau de gris
+    Format page **
+    Format d'impression
+    Position d'impression
+    Copies
+
+    Tout réglage identifié par ** a des restrictions s'il est combiné avec d'autres
+    options. Pour plus d'informations sur les restrictions en fonction des
+    combinaisons d'options d'impression, reportez-vous à "Restrictions
+    concernant les combinaisons d'options d'impression".
+
+Type de support **
+
+    Syntaxe         :  -o MediaType=[paramètre]
+    Paramètre : Les supports suivants peuvent être sélectionnés.
+    [Valeur par défaut=plain]
+
+    plain                     Papier ordinaire
+    glossygold                Papier Photo Glacé Extra II
+    proplatinum               Photo Professionnel Platine
+    luster                    Photo Professionnel Lustré
+    semigloss                 Papier Photo Satiné
+    glossypaper               Papier Photo Brillant
+    matte                     Papier Photo Mat
+    photopaper                Papier photo
+    envelope                  Enveloppe
+    highres                   Papier haute résolution
+    photo                     Autre papier photo
+
+Impression niveau de gris
+
+    Syntaxe         :  -o CNGrayscale
+    Paramètre : Il n'y a aucun paramètre.
+
+Format page **
+
+    Syntaxe         :  -o PageSize=[paramètre]
+    Paramètre : Les Formats page suivants peuvent être sélectionnés.
+    [Valeur par défaut=A4]
+
+    Letter                    Lettre [215.9x279.4mm 8.50"x11.00"]
+    Letter.bl                 Lettre (sans bordure) [215.9x279.4mm 8.50"x11.00"]
+    legal                     Légal [215.9x355.6mm 8.50"x14.00"]
+    A5                        A5 [148.0x210.0mm 5.83"x8.27"]
+    A4                        A4 [210.0x297.0mm 8.27"x11.69"]
+    A4.bl                     A4 (sans bordure) [210.0x297.0mm 8.27"x11.69"]
+    B5                        B5 [182.0x257.0mm 7.17"x10.12"]
+    4x6                       4"x6" [101.6x152.4mm 4.00"x6.00"]
+    4x6.bl                    4"x6" (sans bordure) [101.6x152.4mm 4.00"x6.00"]
+    5x7                       5"x7" [127.0x177.8mm 5.00"x7.00"]
+    5x7.bl                    5"x7" (sans bordure) [127.0x177.8mm 5.00"x7.00"]
+    8x10                      8"x10" [203.2x254.0mm 8.00"x10.00"]
+    8x10.bl                   8"x10" (sans bordure) [203.2x254.0mm 8.00"x10.00"]
+    envelop10p                Env. comm. nº 10 [104.8x241.3mm 4.12"x9.50"]
+    envelopdlp                DL Env. [110.0x220.0mm 4.33"x8.66"]
+
+Format d'impression
+
+    i) Mise à l'échelle
+
+        Spécifiez le rapport d'agrandissement ou de réduction du format avec une valeur
+        en %. Avec la commande lpr, vous pouvez utiliser l'option standard
+        "natural-scaling" pour régler la mise à l'échelle.
+        Pour plus d'informations sur les options qui peuvent être définies avec la
+        commande lpr (CUPS), consultez la page d'accueil du Système
+        d'impression commun UNIX (http://www.cups.org/).
+
+    ii) Impr. à l'échelle du papier
+
+        Syntaxe         : -o scaling=100
+
+        Cette fonction agrandit ou réduit l'image pour la faire correspondre à la
+        zone d'impression sans changer le rapport vertical-horizontal. L'image
+        est ajustée à la zone d'impression dans la direction horizontale ou verticale.
+
+        Les options Mise à l'échelle et Impr. à l'échelle du papier ne peuvent pas être
+        utilisées en même temps.
+
+Position d'impression
+
+    Avec la commande lpr, vous pouvez utiliser l'option standard "position" pour
+    régler la position de l'impression. Pour plus d'informations sur les options
+    qui peuvent être définies avec la commande lpr (CUPS), consultez la page
+    d'accueil du Système d'impression commun UNIX (http://www.cups.org/).
+
+
+Copies
+
+    Syntaxe         :  -#[paramètre]
+    Paramètre : 1 - 999 [[Valeur par défaut=1]
+
+
+
+3. Restrictions concernant les combinaisons d'options d'impression
+    Les combinaisons d'options d'impression de la commande lpr sont limitées, comme
+    vous le voyez ci-dessous.
+    *Restrictions concernant les combinaisons Type de support
+    et Impression sans bordure
+
+    Vous pouvez spécifier les combinaisons de paramètres d'impression suivantes :
+        
+        Lorsque l'impression sans bordure est spécifiée (si vous spécifiez un format de
+        page pour l'impression sans bordure) :
+        
+        -o MediaType=glossygold
+        -o MediaType=proplatinum
+        -o MediaType=luster
+        -o MediaType=semigloss
+        -o MediaType=glossypaper
+        -o MediaType=matte
+        -o MediaType=photopaper
+        -o MediaType=photo
+
+        Lorsque l'impression sans bordure n'est pas spécifiée (si vous ne spécifiez pas
+        de format de page pour l'impression sans bordure) :
+
+        -o MediaType=plain
+        -o MediaType=glossygold
+        -o MediaType=proplatinum
+        -o MediaType=luster
+        -o MediaType=semigloss
+        -o MediaType=glossypaper
+        -o MediaType=matte
+        -o MediaType=photopaper
+        -o MediaType=envelope
+        -o MediaType=highres
+        -o MediaType=photo
+        
+
+
+4. Commande de maintenance
+    Vous pouvez utiliser la fonction de maintenance de base de l'imprimante
+     à l'aide de la commande suivante. La fonction de maintenance varie en fonction
+     de son type. Pour plus de détails, reportez-vous au "Manuel en ligne".
+    La commande suivante est basée sur l'enregistrement de "E480USB"
+     dans le spouleur comme nom d'imprimante. Remplacez ce nom par le nom
+     d'imprimante que vous avez défini.
+
+    Nettoyage des têtes d'impression
+    Nettoie les buses des têtes d'impression obstruées.
+        Pour Fedora:
+        [user@zzz /yyy]$ lpr -P E480USB /usr/local/share/cmdtocanonij2/cleaning.utl
+        Pour Ubuntu:
+        [user@zzz /yyy]$ lpr -P E480USB /usr/share/cmdtocanonij2/cleaning.utl
+
+    Impression du motif de vérification des buses
+    Imprime un motif qui vous permet de vérifier si les buses de la tête
+     d'impression sont obstruées.
+        Pour Fedora:
+        [user@zzz /yyy]$ lpr -P E480USB /usr/local/share/cmdtocanonij2/nozzlecheck.utl
+        Pour Ubuntu:
+        [user@zzz /yyy]$ lpr -P E480USB /usr/share/cmdtocanonij2/nozzlecheck.utl
+
+

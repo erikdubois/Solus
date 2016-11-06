@@ -23,6 +23,11 @@ sudo eopkg install -y simplescreenrecorder source-code-pro telegram variety vlc 
 sudo eopkg install -y nautilus-dropbox
 ###############################################################################################
 
+# zip/unzip
+
+sudo eopkg install -y p7zip cabextract
+
+
 #themes
 sudo eopkg install -y vertex-gtk-theme
 sudo eopkg install -y arc-gtk-theme arc-plank-theme

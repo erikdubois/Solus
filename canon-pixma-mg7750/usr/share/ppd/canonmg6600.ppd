@@ -1,0 +1,714 @@
+*PPD-Adobe: "4.3"
+*%  CUPS add-on PPD file for Canon Inkjet Printer Driver.
+*%  Copyright CANON INC. 2001-2014
+*%
+*%  This program is free software; you can redistribute it and/or modify
+*%  it under the terms of the GNU General Public License as published by
+*%  the Free Software Foundation; version 2 of the License.
+*%
+*%  This program is distributed in the hope that it will be useful,
+*%  but WITHOUT ANY WARRANTY; without even the implied warranty of
+*%  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*%  GNU General Public License for more details.
+*%
+*%  You should have received a copy of the GNU General Public License
+*%  along with this program; if not, write to the Free Software
+*%  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307, USA.
+
+
+*FileVersion: "1.0"
+*FormatVersion:	"4.3"
+*LanguageEncoding: ISOLatin1
+*LanguageVersion: English
+*Manufacturer: "Canon"
+
+*PSVersion: "(3010.000) 550"
+*PSVersion: "(3010.000) 651"
+*PSVersion: "(3010.000) 705"
+*PSVersion: "(3010.000) 715"
+
+*ColorDevice: True
+*DefaultColorSpace: RGB
+*Throughput: "1"
+*LandscapeOrientation: Plus90
+*LanguageLevel: "3"
+*FileSystem: False
+*TTRasterizer: Type42
+
+*cupsFilter: "application/vnd.cups-raster 0 rastertocanonij"
+*cupsFilter: "application/vnd.cups-command 0 cmdtocanonij2"
+*cupsCommand: "AutoConfigure Clean PrintSelfTestPage ReportStatus"
+
+*cupsManualCopies: True
+*cupsVersion: 1.2
+*cupsLanguages: "de fr zh ja"
+
+*CenterRegistered: False
+*HWMargins: 0 0 0 0
+*LeadingEdge Short: ""
+*DefaultLeadingEdge: Short
+*VariablePaperSize: True
+*CustomPageSize True: "pop pop pop <</PageSize [5 -2 roll] /ImagingBBox null>>setpagedevice"
+
+*DefaultFont: Courier
+*Font Courier: Standard "(001.001)" Standard ROM
+
+*ModelName: "Canon MG6600 series"
+*ShortNickName: "MG6600 series"
+*NickName: "Canon MG6600 series Ver.5.00"
+*PCFileName: "CANONMG6600.PPD"
+*Product: "(mg6600)"
+
+*DefaultImageableArea: A4
+*DefaultPaperDimension: A4
+*ImageableArea Letter: "18.14 14.18 594.14 783.50"
+*PaperDimension Letter: "612 792"
+*%CNSizeToPrintArea Letter 4800 6411
+*ImageableArea Letter.bl: "0 0 611 791"
+*PaperDimension Letter.bl: "612 792"
+*%CNSizeToPrintArea Letter.bl 5244 6765
+*ImageableArea legal: "18.14 14.18 594.14 999.50"
+*PaperDimension legal: "612 1008"
+*%CNSizeToPrintArea legal 4800 8211
+*ImageableArea A5: "9.64 13.98 409.84 586.50"
+*PaperDimension A5: "420 595"
+*%CNSizeToPrintArea A5 3335 4771
+*ImageableArea A4: "9.64 14.38 585.64 833.50"
+*PaperDimension A4: "595 842"
+*%CNSizeToPrintArea A4 4800 6826
+*ImageableArea A4.bl: "0 0 594 841"
+*PaperDimension A4.bl: "595 842"
+*%CNSizeToPrintArea A4.bl 5102 7181
+*ImageableArea B5: "9.64 14.78 506.20 720.50"
+*PaperDimension B5: "516 729"
+*%CNSizeToPrintArea B5 4138 5881
+*ImageableArea 4x6: "9.64 14.18 278.32 423.50"
+*PaperDimension 4x6: "288 432"
+*%CNSizeToPrintArea 4x6 2239 3411
+*ImageableArea 4x6.bl: "0 0 287 431"
+*PaperDimension 4x6.bl: "288 432"
+*%CNSizeToPrintArea 4x6.bl 2541 3765
+*ImageableArea 5x7: "9.64 13.70 350.32 495.50"
+*PaperDimension 5x7: "360 504"
+*%CNSizeToPrintArea 5x7 2839 4015
+*ImageableArea 5x7.bl: "0 0 359 503"
+*PaperDimension 5x7.bl: "360 504"
+*%CNSizeToPrintArea 5x7.bl 3141 4370
+*ImageableArea 8x10: "9.64 14.18 566.32 711.50"
+*PaperDimension 8x10: "576 720"
+*%CNSizeToPrintArea 8x10 4639 5811
+*ImageableArea 8x10.bl: "0 0 575 719"
+*PaperDimension 8x10.bl: "576 720"
+*%CNSizeToPrintArea 8x10.bl 4941 6165
+*ImageableArea l: "9.64 14.18 242.56 351.50"
+*PaperDimension l: "252 360"
+*%CNSizeToPrintArea l 1941 2811
+*ImageableArea l.bl: "0 0 251 359"
+*PaperDimension l.bl: "252 360"
+*%CNSizeToPrintArea l.bl 2244 3165
+*ImageableArea 2l: "9.64 14.70 350.32 496.50"
+*PaperDimension 2l: "360 505"
+*%CNSizeToPrintArea 2l 2839 4015
+*ImageableArea 2l.bl: "0 0 359 504"
+*PaperDimension 2l.bl: "360 505"
+*%CNSizeToPrintArea 2l.bl 3141 4370
+*ImageableArea Postcard: "9.64 14.66 273.76 411.50"
+*PaperDimension Postcard: "283 420"
+*%CNSizeToPrintArea Postcard 2201 3307
+*ImageableArea Postcard.bl: "0 0 282 419"
+*PaperDimension Postcard.bl: "283 420"
+*%CNSizeToPrintArea Postcard.bl 2503 3661
+*ImageableArea envelop10p: "15.87 106.08 281.07 661.32"
+*PaperDimension envelop10p: "297 684"
+*%CNSizeToPrintArea envelop10p 2210 4627
+*ImageableArea envelopdlp: "15.87 106.44 295.83 601.32"
+*PaperDimension envelopdlp: "312 624"
+*%CNSizeToPrintArea envelopdlp 2333 4124
+
+*OpenGroup: *CNMain/Main
+*de.Translation CNMain/Optionen: ""
+*fr.Translation CNMain/Principal: ""
+*zh.Translation CNMain/主要: ""
+*ja.Translation CNMain/基本設定: ""
+*OpenUI *MediaType/Media Type: PickOne
+*de.Translation MediaType/Medientyp: PickOne: ""
+*fr.Translation MediaType/Type de support: PickOne: ""
+*zh.Translation MediaType/介质类型: PickOne: ""
+*ja.Translation MediaType/用紙の種類: PickOne: ""
+*DefaultMediaType: plain
+*MediaType plain/Plain Paper: "<</MediaType(plain)>>setpagedevice"
+*de.MediaType plain/Normalpapier: "<</MediaType(plain)>>setpagedevice"
+*fr.MediaType plain/Papier ordinaire: "<</MediaType(plain)>>setpagedevice"
+*zh.MediaType plain/普通纸: "<</MediaType(plain)>>setpagedevice"
+*ja.MediaType plain/普通紙: "<</MediaType(plain)>>setpagedevice"
+*MediaType glossygold/Photo Paper Plus Glossy II: "<</MediaType(glossygold)>>setpagedevice"
+*de.MediaType glossygold/Fotoglanzpapier Plus II: "<</MediaType(glossygold)>>setpagedevice"
+*fr.MediaType glossygold/Papier Photo Glacé Extra II: "<</MediaType(glossygold)>>setpagedevice"
+*zh.MediaType glossygold/高级光面照片纸 II: "<</MediaType(glossygold)>>setpagedevice"
+*ja.MediaType glossygold/写真用紙 光沢ゴールド: "<</MediaType(glossygold)>>setpagedevice"
+*MediaType proplatinum/Photo Paper Pro Platinum: "<</MediaType(proplatinum)>>setpagedevice"
+*de.MediaType proplatinum/Professional Fotopapier Platin: "<</MediaType(proplatinum)>>setpagedevice"
+*fr.MediaType proplatinum/Photo Professionnel Platine: "<</MediaType(proplatinum)>>setpagedevice"
+*zh.MediaType proplatinum/优质专业照片纸: "<</MediaType(proplatinum)>>setpagedevice"
+*ja.MediaType proplatinum/光沢プロ プラチナグレード: "<</MediaType(proplatinum)>>setpagedevice"
+*MediaType luster/Photo Paper Pro Luster: "<</MediaType(luster)>>setpagedevice"
+*de.MediaType luster/Professional Fotopapier Hochgl.: "<</MediaType(luster)>>setpagedevice"
+*fr.MediaType luster/Photo Professionnel Lustré: "<</MediaType(luster)>>setpagedevice"
+*zh.MediaType luster/专业绒面照片纸: "<</MediaType(luster)>>setpagedevice"
+*ja.MediaType luster/写真用紙 微粒面光沢 ラスター: "<</MediaType(luster)>>setpagedevice"
+*MediaType semigloss/Photo Paper Plus Semi-gloss: "<</MediaType(semigloss)>>setpagedevice"
+*de.MediaType semigloss/Photo Papier Plus, Seiden-Glanz: "<</MediaType(semigloss)>>setpagedevice"
+*fr.MediaType semigloss/Papier Photo Satiné: "<</MediaType(semigloss)>>setpagedevice"
+*zh.MediaType semigloss/亚高光泽照片纸: "<</MediaType(semigloss)>>setpagedevice"
+*ja.MediaType semigloss/写真用紙 絹目調: "<</MediaType(semigloss)>>setpagedevice"
+*MediaType glossypaper/Glossy Photo Paper: "<</MediaType(glossypaper)>>setpagedevice"
+*de.MediaType glossypaper/Foto Glanzpapier: "<</MediaType(glossypaper)>>setpagedevice"
+*fr.MediaType glossypaper/Papier Photo Brillant: "<</MediaType(glossypaper)>>setpagedevice"
+*zh.MediaType glossypaper/光面照相纸: "<</MediaType(glossypaper)>>setpagedevice"
+*ja.MediaType glossypaper/写真用紙 光沢 スタンダード: "<</MediaType(glossypaper)>>setpagedevice"
+*MediaType matte/Matte Photo Paper: "<</MediaType(matte)>>setpagedevice"
+*de.MediaType matte/Fotopapier Matt: "<</MediaType(matte)>>setpagedevice"
+*fr.MediaType matte/Papier Photo Mat: "<</MediaType(matte)>>setpagedevice"
+*zh.MediaType matte/无光泽照片纸: "<</MediaType(matte)>>setpagedevice"
+*ja.MediaType matte/マットフォトペーパー: "<</MediaType(matte)>>setpagedevice"
+*MediaType photopaper/Photo Paper: "<</MediaType(photopaper)>>setpagedevice"
+*de.MediaType photopaper/Fotopapier: "<</MediaType(photopaper)>>setpagedevice"
+*fr.MediaType photopaper/Papier photo: "<</MediaType(photopaper)>>setpagedevice"
+*zh.MediaType photopaper/照片纸: "<</MediaType(photopaper)>>setpagedevice"
+*ja.MediaType photopaper/写真用紙: "<</MediaType(photopaper)>>setpagedevice"
+*MediaType envelope/Envelope: "<</MediaType(envelope)>>setpagedevice"
+*de.MediaType envelope/Umschlag: "<</MediaType(envelope)>>setpagedevice"
+*fr.MediaType envelope/Enveloppe: "<</MediaType(envelope)>>setpagedevice"
+*zh.MediaType envelope/信封: "<</MediaType(envelope)>>setpagedevice"
+*ja.MediaType envelope/封筒: "<</MediaType(envelope)>>setpagedevice"
+*MediaType ijpostcard/Ink Jet Hagaki: "<</MediaType(ijpostcard)>>setpagedevice"
+*de.MediaType ijpostcard/Ink Jet Hagaki: "<</MediaType(ijpostcard)>>setpagedevice"
+*fr.MediaType ijpostcard/Ink Jet Hagaki: "<</MediaType(ijpostcard)>>setpagedevice"
+*zh.MediaType ijpostcard/Ink Jet Hagaki: "<</MediaType(ijpostcard)>>setpagedevice"
+*ja.MediaType ijpostcard/インクジェットはがき(通信面): "<</MediaType(ijpostcard)>>setpagedevice"
+*MediaType postcard/Hagaki: "<</MediaType(postcard)>>setpagedevice"
+*de.MediaType postcard/Hagaki: "<</MediaType(postcard)>>setpagedevice"
+*fr.MediaType postcard/Hagaki: "<</MediaType(postcard)>>setpagedevice"
+*zh.MediaType postcard/Hagaki: "<</MediaType(postcard)>>setpagedevice"
+*ja.MediaType postcard/はがき: "<</MediaType(postcard)>>setpagedevice"
+*MediaType highres/High Resolution Paper: "<</MediaType(highres)>>setpagedevice"
+*de.MediaType highres/Hochauflösendes Papier: "<</MediaType(highres)>>setpagedevice"
+*fr.MediaType highres/Papier haute résolution: "<</MediaType(highres)>>setpagedevice"
+*zh.MediaType highres/高分辨率纸: "<</MediaType(highres)>>setpagedevice"
+*ja.MediaType highres/高品位専用紙: "<</MediaType(highres)>>setpagedevice"
+*MediaType photo/Other Photo Paper: "<</MediaType(photo)>>setpagedevice"
+*de.MediaType photo/Anderes Fotopapier: "<</MediaType(photo)>>setpagedevice"
+*fr.MediaType photo/Autre papier photo: "<</MediaType(photo)>>setpagedevice"
+*zh.MediaType photo/其他照片纸: "<</MediaType(photo)>>setpagedevice"
+*ja.MediaType photo/膨潤紙: "<</MediaType(photo)>>setpagedevice"
+*CloseUI: *MediaType
+
+*OpenUI *CNGrayscale/Grayscale Printing: Boolean
+*de.Translation CNGrayscale/Graustufen drucken: Boolean: ""
+*fr.Translation CNGrayscale/Impression niveau de gris: Boolean: ""
+*zh.Translation CNGrayscale/灰度打印: Boolean: ""
+*ja.Translation CNGrayscale/モノクロ印刷: Boolean: ""
+*DefaultCNGrayscale: False
+*CNGrayscale True/ON: "<</CNGrayscale(True)>>setpagedevice"
+*de.CNGrayscale True/ON: "<</CNGrayscale(True)>>setpagedevice": ""
+*fr.CNGrayscale True/ON: "<</CNGrayscale(True)>>setpagedevice": ""
+*zh.CNGrayscale True/ON: "<</CNGrayscale(True)>>setpagedevice": ""
+*ja.CNGrayscale True/ON: "<</CNGrayscale(True)>>setpagedevice": ""
+*CNGrayscale False/OFF: "<</CNGrayscale(False)>>setpagedevice"
+*de.CNGrayscale False/OFF: "<</CNGrayscale(False)>>setpagedevice": ""
+*fr.CNGrayscale False/OFF: "<</CNGrayscale(False)>>setpagedevice": ""
+*zh.CNGrayscale False/OFF: "<</CNGrayscale(False)>>setpagedevice": ""
+*ja.CNGrayscale False/OFF: "<</CNGrayscale(False)>>setpagedevice": ""
+*CloseUI: *CNGrayscale
+
+*CloseGroup: *CNMain
+
+*OpenGroup: *CNPagesetup/Page Setup
+*de.Translation CNPagesetup/Seite einrichten: ""
+*fr.Translation CNPagesetup/Configuration de la page: ""
+*zh.Translation CNPagesetup/页设置: ""
+*ja.Translation CNPagesetup/ページ設定: ""
+*OpenUI *PageSize/Page Size: PickOne
+*de.Translation PageSize/Seitenformat: PickOne: ""
+*fr.Translation PageSize/Format page: PickOne: ""
+*zh.Translation PageSize/页尺寸: PickOne: ""
+*ja.Translation PageSize/用紙サイズ: PickOne: ""
+*DefaultPageSize: A4
+*PageSize Letter/Letter [8.50"x11.00" 215.9x279.4mm]: "<</CNPageSizeName(Letter)/PageSize[612 792]/ImagingBBox null>>setpagedevice"
+*PageSize Letter.bl/Letter(borderless) [8.50"x11.00" 215.9x279.4mm]: "<</CNPageSizeName(Letter.bl)/PageSize[612 792]/ImagingBBox null>>setpagedevice"
+*de.PageSize Letter/Letter [215.9x279.4mm 8.50"x11.00"]: "<</CNPageSizeName(Letter)/PageSize[612 792]/ImagingBBox null>>setpagedevice": ""
+*de.PageSize Letter.bl/Letter (randlos) [215.9x279.4mm 8.50"x11.00"]: "<</CNPageSizeName(Letter)/PageSize[612 792]/ImagingBBox null>>setpagedevice": ""
+*fr.PageSize Letter/Lettre [215.9x279.4mm 8.50"x11.00"]: "<</CNPageSizeName(Letter)/PageSize[612 792]/ImagingBBox null>>setpagedevice": ""
+*fr.PageSize Letter.bl/Lettre (sans bordure) [215.9x279.4mm 8.50"x11.00"]: "<</CNPageSizeName(Letter)/PageSize[612 792]/ImagingBBox null>>setpagedevice": ""
+*zh.PageSize Letter/Letter [8.50"x11.00" 215.9x279.4mm]: "<</CNPageSizeName(Letter)/PageSize[612 792]/ImagingBBox null>>setpagedevice": ""
+*zh.PageSize Letter.bl/Letter(无边距) [8.50"x11.00" 215.9x279.4mm]: "<</CNPageSizeName(Letter)/PageSize[612 792]/ImagingBBox null>>setpagedevice": ""
+*ja.PageSize Letter/レター [215.9x279.4mm 8.50"x11.00"]: "<</CNPageSizeName(Letter)/PageSize[612 792]/ImagingBBox null>>setpagedevice": ""
+*ja.PageSize Letter.bl/レター (フチなし) [215.9x279.4mm 8.50"x11.00"]: "<</CNPageSizeName(Letter)/PageSize[612 792]/ImagingBBox null>>setpagedevice": ""
+*PageSize legal/Legal [8.50"x14.00" 215.9x355.6mm]: "<</CNPageSizeName(legal)/PageSize[612 1008]/ImagingBBox null>>setpagedevice"
+*de.PageSize legal/Legal [215.9x355.6mm 8.50"x14.00"]: "<</CNPageSizeName(legal)/PageSize[612 1008]/ImagingBBox null>>setpagedevice": ""
+*fr.PageSize legal/Légal [215.9x355.6mm 8.50"x14.00"]: "<</CNPageSizeName(legal)/PageSize[612 1008]/ImagingBBox null>>setpagedevice": ""
+*zh.PageSize legal/Legal [8.50"x14.00" 215.9x355.6mm]: "<</CNPageSizeName(legal)/PageSize[612 1008]/ImagingBBox null>>setpagedevice": ""
+*ja.PageSize legal/リーガル [215.9x355.6mm 8.50"x14.00"]: "<</CNPageSizeName(legal)/PageSize[612 1008]/ImagingBBox null>>setpagedevice": ""
+*PageSize A5/A5 [5.83"x8.27" 148.0x210.0mm]: "<</CNPageSizeName(A5)/PageSize[420 595]/ImagingBBox null>>setpagedevice"
+*de.PageSize A5/A5 [148.0x210.0mm 5.83"x8.27"]: "<</CNPageSizeName(A5)/PageSize[420 595]/ImagingBBox null>>setpagedevice": ""
+*fr.PageSize A5/A5 [148.0x210.0mm 5.83"x8.27"]: "<</CNPageSizeName(A5)/PageSize[420 595]/ImagingBBox null>>setpagedevice": ""
+*zh.PageSize A5/A5 [5.83"x8.27" 148.0x210.0mm]: "<</CNPageSizeName(A5)/PageSize[420 595]/ImagingBBox null>>setpagedevice": ""
+*ja.PageSize A5/A5 [148.0x210.0mm 5.83"x8.27"]: "<</CNPageSizeName(A5)/PageSize[420 595]/ImagingBBox null>>setpagedevice": ""
+*PageSize A4/A4 [8.27"x11.69" 210.0x297.0mm]: "<</CNPageSizeName(A4)/PageSize[595 842]/ImagingBBox null>>setpagedevice"
+*PageSize A4.bl/A4(borderless) [8.27"x11.69" 210.0x297.0mm]: "<</CNPageSizeName(A4.bl)/PageSize[595 842]/ImagingBBox null>>setpagedevice"
+*de.PageSize A4/A4 [210.0x297.0mm 8.27"x11.69"]: "<</CNPageSizeName(A4)/PageSize[595 842]/ImagingBBox null>>setpagedevice": ""
+*de.PageSize A4.bl/A4 (randlos) [210.0x297.0mm 8.27"x11.69"]: "<</CNPageSizeName(A4)/PageSize[595 842]/ImagingBBox null>>setpagedevice": ""
+*fr.PageSize A4/A4 [210.0x297.0mm 8.27"x11.69"]: "<</CNPageSizeName(A4)/PageSize[595 842]/ImagingBBox null>>setpagedevice": ""
+*fr.PageSize A4.bl/A4 (sans bordure) [210.0x297.0mm 8.27"x11.69"]: "<</CNPageSizeName(A4)/PageSize[595 842]/ImagingBBox null>>setpagedevice": ""
+*zh.PageSize A4/A4 [8.27"x11.69" 210.0x297.0mm]: "<</CNPageSizeName(A4)/PageSize[595 842]/ImagingBBox null>>setpagedevice": ""
+*zh.PageSize A4.bl/A4(无边距) [8.27"x11.69" 210.0x297.0mm]: "<</CNPageSizeName(A4)/PageSize[595 842]/ImagingBBox null>>setpagedevice": ""
+*ja.PageSize A4/A4 [210.0x297.0mm 8.27"x11.69"]: "<</CNPageSizeName(A4)/PageSize[595 842]/ImagingBBox null>>setpagedevice": ""
+*ja.PageSize A4.bl/A4 (フチなし) [210.0x297.0mm 8.27"x11.69"]: "<</CNPageSizeName(A4)/PageSize[595 842]/ImagingBBox null>>setpagedevice": ""
+*PageSize B5/B5 [7.17"x10.12" 182.0x257.0mm]: "<</CNPageSizeName(B5)/PageSize[516 729]/ImagingBBox null>>setpagedevice"
+*de.PageSize B5/B5 [182.0x257.0mm 7.17"x10.12"]: "<</CNPageSizeName(B5)/PageSize[516 729]/ImagingBBox null>>setpagedevice": ""
+*fr.PageSize B5/B5 [182.0x257.0mm 7.17"x10.12"]: "<</CNPageSizeName(B5)/PageSize[516 729]/ImagingBBox null>>setpagedevice": ""
+*zh.PageSize B5/B5 [7.17"x10.12" 182.0x257.0mm]: "<</CNPageSizeName(B5)/PageSize[516 729]/ImagingBBox null>>setpagedevice": ""
+*ja.PageSize B5/B5 [182.0x257.0mm 7.17"x10.12"]: "<</CNPageSizeName(B5)/PageSize[516 729]/ImagingBBox null>>setpagedevice": ""
+*PageSize 4x6/4"x6" [4.00"x6.00" 101.6x152.4mm]: "<</CNPageSizeName(4x6)/PageSize[288 432]/ImagingBBox null>>setpagedevice"
+*PageSize 4x6.bl/4"x6"(borderless) [4.00"x6.00" 101.6x152.4mm]: "<</CNPageSizeName(4x6.bl)/PageSize[288 432]/ImagingBBox null>>setpagedevice"
+*de.PageSize 4x6/4"x6" [101.6x152.4mm 4.00"x6.00"]: "<</CNPageSizeName(4x6)/PageSize[288 432]/ImagingBBox null>>setpagedevice": ""
+*de.PageSize 4x6.bl/4"x6" (randlos) [101.6x152.4mm 4.00"x6.00"]: "<</CNPageSizeName(4x6)/PageSize[288 432]/ImagingBBox null>>setpagedevice": ""
+*fr.PageSize 4x6/4"x6" [101.6x152.4mm 4.00"x6.00"]: "<</CNPageSizeName(4x6)/PageSize[288 432]/ImagingBBox null>>setpagedevice": ""
+*fr.PageSize 4x6.bl/4"x6" (sans bordure) [101.6x152.4mm 4.00"x6.00"]: "<</CNPageSizeName(4x6)/PageSize[288 432]/ImagingBBox null>>setpagedevice": ""
+*zh.PageSize 4x6/4"x6" [4.00"x6.00" 101.6x152.4mm]: "<</CNPageSizeName(4x6)/PageSize[288 432]/ImagingBBox null>>setpagedevice": ""
+*zh.PageSize 4x6.bl/4"x6"(无边距) [4.00"x6.00" 101.6x152.4mm]: "<</CNPageSizeName(4x6)/PageSize[288 432]/ImagingBBox null>>setpagedevice": ""
+*ja.PageSize 4x6/KG [101.6x152.4mm 4.00"x6.00"]: "<</CNPageSizeName(4x6)/PageSize[288 432]/ImagingBBox null>>setpagedevice": ""
+*ja.PageSize 4x6.bl/KG (フチなし) [101.6x152.4mm 4.00"x6.00"]: "<</CNPageSizeName(4x6)/PageSize[288 432]/ImagingBBox null>>setpagedevice": ""
+*PageSize 5x7/5"x7" [5.00"x7.00" 127.0x177.8mm]: "<</CNPageSizeName(5x7)/PageSize[360 504]/ImagingBBox null>>setpagedevice"
+*PageSize 5x7.bl/5"x7"(borderless) [5.00"x7.00" 127.0x177.8mm]: "<</CNPageSizeName(5x7.bl)/PageSize[360 504]/ImagingBBox null>>setpagedevice"
+*de.PageSize 5x7/5"x7" [127.0x177.8mm 5.00"x7.00"]: "<</CNPageSizeName(5x7)/PageSize[360 504]/ImagingBBox null>>setpagedevice": ""
+*de.PageSize 5x7.bl/5"x7" (randlos) [127.0x177.8mm 5.00"x7.00"]: "<</CNPageSizeName(5x7)/PageSize[360 504]/ImagingBBox null>>setpagedevice": ""
+*fr.PageSize 5x7/5"x7" [127.0x177.8mm 5.00"x7.00"]: "<</CNPageSizeName(5x7)/PageSize[360 504]/ImagingBBox null>>setpagedevice": ""
+*fr.PageSize 5x7.bl/5"x7" (sans bordure) [127.0x177.8mm 5.00"x7.00"]: "<</CNPageSizeName(5x7)/PageSize[360 504]/ImagingBBox null>>setpagedevice": ""
+*zh.PageSize 5x7/5"x7" [5.00"x7.00" 127.0x177.8mm]: "<</CNPageSizeName(5x7)/PageSize[360 504]/ImagingBBox null>>setpagedevice": ""
+*zh.PageSize 5x7.bl/5"x7"(无边距) [5.00"x7.00" 127.0x177.8mm]: "<</CNPageSizeName(5x7)/PageSize[360 504]/ImagingBBox null>>setpagedevice": ""
+*ja.PageSize 5x7/5x7 [127.0x177.8mm 5.00"x7.00"]: "<</CNPageSizeName(5x7)/PageSize[360 504]/ImagingBBox null>>setpagedevice": ""
+*ja.PageSize 5x7.bl/5x7 (フチなし) [127.0x177.8mm 5.00"x7.00"]: "<</CNPageSizeName(5x7)/PageSize[360 504]/ImagingBBox null>>setpagedevice": ""
+*PageSize 8x10/8"x10" [8.00"x10.00" 203.2x254.0mm]: "<</CNPageSizeName(8x10)/PageSize[576 720]/ImagingBBox null>>setpagedevice"
+*PageSize 8x10.bl/8"x10"(borderless) [8.00"x10.00" 203.2x254.0mm]: "<</CNPageSizeName(8x10.bl)/PageSize[576 720]/ImagingBBox null>>setpagedevice"
+*de.PageSize 8x10/8"x10" [203.2x254.0mm 8.00"x10.00"]: "<</CNPageSizeName(8x10)/PageSize[576 720]/ImagingBBox null>>setpagedevice": ""
+*de.PageSize 8x10.bl/8"x10" (randlos) [203.2x254.0mm 8.00"x10.00"]: "<</CNPageSizeName(8x10)/PageSize[576 720]/ImagingBBox null>>setpagedevice": ""
+*fr.PageSize 8x10/8"x10" [203.2x254.0mm 8.00"x10.00"]: "<</CNPageSizeName(8x10)/PageSize[576 720]/ImagingBBox null>>setpagedevice": ""
+*fr.PageSize 8x10.bl/8"x10" (sans bordure) [203.2x254.0mm 8.00"x10.00"]: "<</CNPageSizeName(8x10)/PageSize[576 720]/ImagingBBox null>>setpagedevice": ""
+*zh.PageSize 8x10/8"x10" [8.00"x10.00" 203.2x254.0mm]: "<</CNPageSizeName(8x10)/PageSize[576 720]/ImagingBBox null>>setpagedevice": ""
+*zh.PageSize 8x10.bl/8"x10"(无边距) [8.00"x10.00" 203.2x254.0mm]: "<</CNPageSizeName(8x10)/PageSize[576 720]/ImagingBBox null>>setpagedevice": ""
+*ja.PageSize 8x10/六切 [203.2x254.0mm 8.00"x10.00"]: "<</CNPageSizeName(8x10)/PageSize[576 720]/ImagingBBox null>>setpagedevice": ""
+*ja.PageSize 8x10.bl/六切 (フチなし) [203.2x254.0mm 8.00"x10.00"]: "<</CNPageSizeName(8x10)/PageSize[576 720]/ImagingBBox null>>setpagedevice": ""
+*PageSize l/L [3.50"x5.00" 89.0x127.0mm]: "<</CNPageSizeName(l)/PageSize[252 360]/ImagingBBox null>>setpagedevice"
+*PageSize l.bl/L(borderless) [3.50"x5.00" 89.0x127.0mm]: "<</CNPageSizeName(l.bl)/PageSize[252 360]/ImagingBBox null>>setpagedevice"
+*de.PageSize l/L [89.0x127.0mm 3.50"x5.00"]: "<</CNPageSizeName(l)/PageSize[252 360]/ImagingBBox null>>setpagedevice": ""
+*de.PageSize l.bl/L (randlos) [89.0x127.0mm 3.50"x5.00"]: "<</CNPageSizeName(l)/PageSize[252 360]/ImagingBBox null>>setpagedevice": ""
+*fr.PageSize l/L [89.0x127.0mm 3.50"x5.00"]: "<</CNPageSizeName(l)/PageSize[252 360]/ImagingBBox null>>setpagedevice": ""
+*fr.PageSize l.bl/L (sans bordure) [89.0x127.0mm 3.50"x5.00"]: "<</CNPageSizeName(l)/PageSize[252 360]/ImagingBBox null>>setpagedevice": ""
+*zh.PageSize l/L [3.50"x5.00" 89.0x127.0mm]: "<</CNPageSizeName(l)/PageSize[252 360]/ImagingBBox null>>setpagedevice": ""
+*zh.PageSize l.bl/L(无边距) [3.50"x5.00" 89.0x127.0mm]: "<</CNPageSizeName(l)/PageSize[252 360]/ImagingBBox null>>setpagedevice": ""
+*ja.PageSize l/L判 [89.0x127.0mm 3.50"x5.00"]: "<</CNPageSizeName(l)/PageSize[252 360]/ImagingBBox null>>setpagedevice": ""
+*ja.PageSize l.bl/L判 (フチなし) [89.0x127.0mm 3.50"x5.00"]: "<</CNPageSizeName(l)/PageSize[252 360]/ImagingBBox null>>setpagedevice": ""
+*PageSize 2l/2L [5.00"x7.01" 127.0x178.0mm]: "<</CNPageSizeName(2l)/PageSize[360 505]/ImagingBBox null>>setpagedevice"
+*PageSize 2l.bl/2L(borderless) [5.00"x7.01" 127.0x178.0mm]: "<</CNPageSizeName(2l.bl)/PageSize[360 505]/ImagingBBox null>>setpagedevice"
+*de.PageSize 2l/2L [127.0x178.0mm 5.00"x7.01"]: "<</CNPageSizeName(2l)/PageSize[360 505]/ImagingBBox null>>setpagedevice": ""
+*de.PageSize 2l.bl/2L (randlos) [127.0x178.0mm 5.00"x7.01"]: "<</CNPageSizeName(2l)/PageSize[360 505]/ImagingBBox null>>setpagedevice": ""
+*fr.PageSize 2l/2L [127.0x178.0mm 5.00"x7.01"]: "<</CNPageSizeName(2l)/PageSize[360 505]/ImagingBBox null>>setpagedevice": ""
+*fr.PageSize 2l.bl/2L (sans bordure) [127.0x178.0mm 5.00"x7.01"]: "<</CNPageSizeName(2l)/PageSize[360 505]/ImagingBBox null>>setpagedevice": ""
+*zh.PageSize 2l/2L [5.00"x7.01" 127.0x178.0mm]: "<</CNPageSizeName(2l)/PageSize[360 505]/ImagingBBox null>>setpagedevice": ""
+*zh.PageSize 2l.bl/2L(无边距) [5.00"x7.01" 127.0x178.0mm]: "<</CNPageSizeName(2l)/PageSize[360 505]/ImagingBBox null>>setpagedevice": ""
+*ja.PageSize 2l/2L判 [127.0x178.0mm 5.00"x7.01"]: "<</CNPageSizeName(2l)/PageSize[360 505]/ImagingBBox null>>setpagedevice": ""
+*ja.PageSize 2l.bl/2L判 (フチなし) [127.0x178.0mm 5.00"x7.01"]: "<</CNPageSizeName(2l)/PageSize[360 505]/ImagingBBox null>>setpagedevice": ""
+*PageSize Postcard/Hagaki [3.94"x5.83" 100.0x148.0mm]: "<</CNPageSizeName(Postcard)/PageSize[283 420]/ImagingBBox null>>setpagedevice"
+*PageSize Postcard.bl/Hagaki(borderless) [3.94"x5.83" 100.0x148.0mm]: "<</CNPageSizeName(Postcard.bl)/PageSize[283 420]/ImagingBBox null>>setpagedevice"
+*de.PageSize Postcard/Hagaki [100.0x148.0mm 3.94"x5.83"]: "<</CNPageSizeName(Postcard)/PageSize[283 420]/ImagingBBox null>>setpagedevice": ""
+*de.PageSize Postcard.bl/Hagaki (randlos) [100.0x148.0mm 3.94"x5.83"]: "<</CNPageSizeName(Postcard)/PageSize[283 420]/ImagingBBox null>>setpagedevice": ""
+*fr.PageSize Postcard/Hagaki [100.0x148.0mm 3.94"x5.83"]: "<</CNPageSizeName(Postcard)/PageSize[283 420]/ImagingBBox null>>setpagedevice": ""
+*fr.PageSize Postcard.bl/Hagaki (sans bordure) [100.0x148.0mm 3.94"x5.83"]: "<</CNPageSizeName(Postcard)/PageSize[283 420]/ImagingBBox null>>setpagedevice": ""
+*zh.PageSize Postcard/Hagaki [3.94"x5.83" 100.0x148.0mm]: "<</CNPageSizeName(Postcard)/PageSize[283 420]/ImagingBBox null>>setpagedevice": ""
+*zh.PageSize Postcard.bl/Hagaki(无边距) [3.94"x5.83" 100.0x148.0mm]: "<</CNPageSizeName(Postcard)/PageSize[283 420]/ImagingBBox null>>setpagedevice": ""
+*ja.PageSize Postcard/はがき [100.0x148.0mm 3.94"x5.83"]: "<</CNPageSizeName(Postcard)/PageSize[283 420]/ImagingBBox null>>setpagedevice": ""
+*ja.PageSize Postcard.bl/はがき (フチなし) [100.0x148.0mm 3.94"x5.83"]: "<</CNPageSizeName(Postcard)/PageSize[283 420]/ImagingBBox null>>setpagedevice": ""
+*PageSize envelop10p/Envelope Com 10 [4.12"x9.50" 104.8x241.3mm]: "<</CNPageSizeName(envelop10p)/PageSize[297 684]/ImagingBBox null>>setpagedevice"
+*de.PageSize envelop10p/Umschlag #10 [104.8x241.3mm 4.12"x9.50"]: "<</CNPageSizeName(envelop10p)/PageSize[297 684]/ImagingBBox null>>setpagedevice": ""
+*fr.PageSize envelop10p/Env. comm. nº 10 [104.8x241.3mm 4.12"x9.50"]: "<</CNPageSizeName(envelop10p)/PageSize[297 684]/ImagingBBox null>>setpagedevice": ""
+*zh.PageSize envelop10p/Comm. 信封 #10 [4.12"x9.50" 104.8x241.3mm]: "<</CNPageSizeName(envelop10p)/PageSize[297 684]/ImagingBBox null>>setpagedevice": ""
+*ja.PageSize envelop10p/商用10号封筒 [104.8x241.3mm 4.12"x9.50"]: "<</CNPageSizeName(envelop10p)/PageSize[297 684]/ImagingBBox null>>setpagedevice": ""
+*PageSize envelopdlp/Envelope DL [4.33"x8.66" 110.0x220.0mm]: "<</CNPageSizeName(envelopdlp)/PageSize[312 624]/ImagingBBox null>>setpagedevice"
+*de.PageSize envelopdlp/Umschlag DL [110.0x220.0mm 4.33"x8.66"]: "<</CNPageSizeName(envelopdlp)/PageSize[312 624]/ImagingBBox null>>setpagedevice": ""
+*fr.PageSize envelopdlp/DL Env. [110.0x220.0mm 4.33"x8.66"]: "<</CNPageSizeName(envelopdlp)/PageSize[312 624]/ImagingBBox null>>setpagedevice": ""
+*zh.PageSize envelopdlp/DL 信封 [4.33"x8.66" 110.0x220.0mm]: "<</CNPageSizeName(envelopdlp)/PageSize[312 624]/ImagingBBox null>>setpagedevice": ""
+*ja.PageSize envelopdlp/DL封筒 [110.0x220.0mm 4.33"x8.66"]: "<</CNPageSizeName(envelopdlp)/PageSize[312 624]/ImagingBBox null>>setpagedevice": ""
+*CloseUI: *PageSize
+
+*OpenUI *PageRegion/Page Size: PickOne
+*de.Translation PageRegion/Seitenformat: PickOne: ""
+*fr.Translation PageRegion/Format page: PickOne: ""
+*zh.Translation PageRegion/页尺寸: PickOne: ""
+*ja.Translation PageRegion/用紙サイズ: PickOne: ""
+*DefaultPageRegion: A4
+*PageRegion Letter/Letter [8.50"x11.00" 215.9x279.4mm]: "<</CNPageSizeName(Letter)/PageSize[612 792]/ImagingBBox null>>setpagedevice"
+*PageRegion Letter.bl/Letter(borderless) [8.50"x11.00" 215.9x279.4mm]: "<</CNPageSizeName(Letter.bl)/PageSize[612 792]/ImagingBBox null>>setpagedevice"
+*de.PageRegion Letter/Letter [215.9x279.4mm 8.50"x11.00"]: "<</CNPageSizeName(Letter)/PageSize[612 792]/ImagingBBox null>>setpagedevice": ""
+*de.PageRegion Letter.bl/Letter (randlos) [215.9x279.4mm 8.50"x11.00"]: "<</CNPageSizeName(Letter)/PageSize[612 792]/ImagingBBox null>>setpagedevice": ""
+*fr.PageRegion Letter/Lettre [215.9x279.4mm 8.50"x11.00"]: "<</CNPageSizeName(Letter)/PageSize[612 792]/ImagingBBox null>>setpagedevice": ""
+*fr.PageRegion Letter.bl/Lettre (sans bordure) [215.9x279.4mm 8.50"x11.00"]: "<</CNPageSizeName(Letter)/PageSize[612 792]/ImagingBBox null>>setpagedevice": ""
+*zh.PageRegion Letter/Letter [8.50"x11.00" 215.9x279.4mm]: "<</CNPageSizeName(Letter)/PageSize[612 792]/ImagingBBox null>>setpagedevice": ""
+*zh.PageRegion Letter.bl/Letter(无边距) [8.50"x11.00" 215.9x279.4mm]: "<</CNPageSizeName(Letter)/PageSize[612 792]/ImagingBBox null>>setpagedevice": ""
+*ja.PageRegion Letter/レター [215.9x279.4mm 8.50"x11.00"]: "<</CNPageSizeName(Letter)/PageSize[612 792]/ImagingBBox null>>setpagedevice": ""
+*ja.PageRegion Letter.bl/レター (フチなし) [215.9x279.4mm 8.50"x11.00"]: "<</CNPageSizeName(Letter)/PageSize[612 792]/ImagingBBox null>>setpagedevice": ""
+*PageRegion legal/Legal [8.50"x14.00" 215.9x355.6mm]: "<</CNPageSizeName(legal)/PageSize[612 1008]/ImagingBBox null>>setpagedevice"
+*de.PageRegion legal/Legal [215.9x355.6mm 8.50"x14.00"]: "<</CNPageSizeName(legal)/PageSize[612 1008]/ImagingBBox null>>setpagedevice": ""
+*fr.PageRegion legal/Légal [215.9x355.6mm 8.50"x14.00"]: "<</CNPageSizeName(legal)/PageSize[612 1008]/ImagingBBox null>>setpagedevice": ""
+*zh.PageRegion legal/Legal [8.50"x14.00" 215.9x355.6mm]: "<</CNPageSizeName(legal)/PageSize[612 1008]/ImagingBBox null>>setpagedevice": ""
+*ja.PageRegion legal/リーガル [215.9x355.6mm 8.50"x14.00"]: "<</CNPageSizeName(legal)/PageSize[612 1008]/ImagingBBox null>>setpagedevice": ""
+*PageRegion A5/A5 [5.83"x8.27" 148.0x210.0mm]: "<</CNPageSizeName(A5)/PageSize[420 595]/ImagingBBox null>>setpagedevice"
+*de.PageRegion A5/A5 [148.0x210.0mm 5.83"x8.27"]: "<</CNPageSizeName(A5)/PageSize[420 595]/ImagingBBox null>>setpagedevice": ""
+*fr.PageRegion A5/A5 [148.0x210.0mm 5.83"x8.27"]: "<</CNPageSizeName(A5)/PageSize[420 595]/ImagingBBox null>>setpagedevice": ""
+*zh.PageRegion A5/A5 [5.83"x8.27" 148.0x210.0mm]: "<</CNPageSizeName(A5)/PageSize[420 595]/ImagingBBox null>>setpagedevice": ""
+*ja.PageRegion A5/A5 [148.0x210.0mm 5.83"x8.27"]: "<</CNPageSizeName(A5)/PageSize[420 595]/ImagingBBox null>>setpagedevice": ""
+*PageRegion A4/A4 [8.27"x11.69" 210.0x297.0mm]: "<</CNPageSizeName(A4)/PageSize[595 842]/ImagingBBox null>>setpagedevice"
+*PageRegion A4.bl/A4(borderless) [8.27"x11.69" 210.0x297.0mm]: "<</CNPageSizeName(A4.bl)/PageSize[595 842]/ImagingBBox null>>setpagedevice"
+*de.PageRegion A4/A4 [210.0x297.0mm 8.27"x11.69"]: "<</CNPageSizeName(A4)/PageSize[595 842]/ImagingBBox null>>setpagedevice": ""
+*de.PageRegion A4.bl/A4 (randlos) [210.0x297.0mm 8.27"x11.69"]: "<</CNPageSizeName(A4)/PageSize[595 842]/ImagingBBox null>>setpagedevice": ""
+*fr.PageRegion A4/A4 [210.0x297.0mm 8.27"x11.69"]: "<</CNPageSizeName(A4)/PageSize[595 842]/ImagingBBox null>>setpagedevice": ""
+*fr.PageRegion A4.bl/A4 (sans bordure) [210.0x297.0mm 8.27"x11.69"]: "<</CNPageSizeName(A4)/PageSize[595 842]/ImagingBBox null>>setpagedevice": ""
+*zh.PageRegion A4/A4 [8.27"x11.69" 210.0x297.0mm]: "<</CNPageSizeName(A4)/PageSize[595 842]/ImagingBBox null>>setpagedevice": ""
+*zh.PageRegion A4.bl/A4(无边距) [8.27"x11.69" 210.0x297.0mm]: "<</CNPageSizeName(A4)/PageSize[595 842]/ImagingBBox null>>setpagedevice": ""
+*ja.PageRegion A4/A4 [210.0x297.0mm 8.27"x11.69"]: "<</CNPageSizeName(A4)/PageSize[595 842]/ImagingBBox null>>setpagedevice": ""
+*ja.PageRegion A4.bl/A4 (フチなし) [210.0x297.0mm 8.27"x11.69"]: "<</CNPageSizeName(A4)/PageSize[595 842]/ImagingBBox null>>setpagedevice": ""
+*PageRegion B5/B5 [7.17"x10.12" 182.0x257.0mm]: "<</CNPageSizeName(B5)/PageSize[516 729]/ImagingBBox null>>setpagedevice"
+*de.PageRegion B5/B5 [182.0x257.0mm 7.17"x10.12"]: "<</CNPageSizeName(B5)/PageSize[516 729]/ImagingBBox null>>setpagedevice": ""
+*fr.PageRegion B5/B5 [182.0x257.0mm 7.17"x10.12"]: "<</CNPageSizeName(B5)/PageSize[516 729]/ImagingBBox null>>setpagedevice": ""
+*zh.PageRegion B5/B5 [7.17"x10.12" 182.0x257.0mm]: "<</CNPageSizeName(B5)/PageSize[516 729]/ImagingBBox null>>setpagedevice": ""
+*ja.PageRegion B5/B5 [182.0x257.0mm 7.17"x10.12"]: "<</CNPageSizeName(B5)/PageSize[516 729]/ImagingBBox null>>setpagedevice": ""
+*PageRegion 4x6/4"x6" [4.00"x6.00" 101.6x152.4mm]: "<</CNPageSizeName(4x6)/PageSize[288 432]/ImagingBBox null>>setpagedevice"
+*PageRegion 4x6.bl/4"x6"(borderless) [4.00"x6.00" 101.6x152.4mm]: "<</CNPageSizeName(4x6.bl)/PageSize[288 432]/ImagingBBox null>>setpagedevice"
+*de.PageRegion 4x6/4"x6" [101.6x152.4mm 4.00"x6.00"]: "<</CNPageSizeName(4x6)/PageSize[288 432]/ImagingBBox null>>setpagedevice": ""
+*de.PageRegion 4x6.bl/4"x6" (randlos) [101.6x152.4mm 4.00"x6.00"]: "<</CNPageSizeName(4x6)/PageSize[288 432]/ImagingBBox null>>setpagedevice": ""
+*fr.PageRegion 4x6/4"x6" [101.6x152.4mm 4.00"x6.00"]: "<</CNPageSizeName(4x6)/PageSize[288 432]/ImagingBBox null>>setpagedevice": ""
+*fr.PageRegion 4x6.bl/4"x6" (sans bordure) [101.6x152.4mm 4.00"x6.00"]: "<</CNPageSizeName(4x6)/PageSize[288 432]/ImagingBBox null>>setpagedevice": ""
+*zh.PageRegion 4x6/4"x6" [4.00"x6.00" 101.6x152.4mm]: "<</CNPageSizeName(4x6)/PageSize[288 432]/ImagingBBox null>>setpagedevice": ""
+*zh.PageRegion 4x6.bl/4"x6"(无边距) [4.00"x6.00" 101.6x152.4mm]: "<</CNPageSizeName(4x6)/PageSize[288 432]/ImagingBBox null>>setpagedevice": ""
+*ja.PageRegion 4x6/KG [101.6x152.4mm 4.00"x6.00"]: "<</CNPageSizeName(4x6)/PageSize[288 432]/ImagingBBox null>>setpagedevice": ""
+*ja.PageRegion 4x6.bl/KG (フチなし) [101.6x152.4mm 4.00"x6.00"]: "<</CNPageSizeName(4x6)/PageSize[288 432]/ImagingBBox null>>setpagedevice": ""
+*PageRegion 5x7/5"x7" [5.00"x7.00" 127.0x177.8mm]: "<</CNPageSizeName(5x7)/PageSize[360 504]/ImagingBBox null>>setpagedevice"
+*PageRegion 5x7.bl/5"x7"(borderless) [5.00"x7.00" 127.0x177.8mm]: "<</CNPageSizeName(5x7.bl)/PageSize[360 504]/ImagingBBox null>>setpagedevice"
+*de.PageRegion 5x7/5"x7" [127.0x177.8mm 5.00"x7.00"]: "<</CNPageSizeName(5x7)/PageSize[360 504]/ImagingBBox null>>setpagedevice": ""
+*de.PageRegion 5x7.bl/5"x7" (randlos) [127.0x177.8mm 5.00"x7.00"]: "<</CNPageSizeName(5x7)/PageSize[360 504]/ImagingBBox null>>setpagedevice": ""
+*fr.PageRegion 5x7/5"x7" [127.0x177.8mm 5.00"x7.00"]: "<</CNPageSizeName(5x7)/PageSize[360 504]/ImagingBBox null>>setpagedevice": ""
+*fr.PageRegion 5x7.bl/5"x7" (sans bordure) [127.0x177.8mm 5.00"x7.00"]: "<</CNPageSizeName(5x7)/PageSize[360 504]/ImagingBBox null>>setpagedevice": ""
+*zh.PageRegion 5x7/5"x7" [5.00"x7.00" 127.0x177.8mm]: "<</CNPageSizeName(5x7)/PageSize[360 504]/ImagingBBox null>>setpagedevice": ""
+*zh.PageRegion 5x7.bl/5"x7"(无边距) [5.00"x7.00" 127.0x177.8mm]: "<</CNPageSizeName(5x7)/PageSize[360 504]/ImagingBBox null>>setpagedevice": ""
+*ja.PageRegion 5x7/5x7 [127.0x177.8mm 5.00"x7.00"]: "<</CNPageSizeName(5x7)/PageSize[360 504]/ImagingBBox null>>setpagedevice": ""
+*ja.PageRegion 5x7.bl/5x7 (フチなし) [127.0x177.8mm 5.00"x7.00"]: "<</CNPageSizeName(5x7)/PageSize[360 504]/ImagingBBox null>>setpagedevice": ""
+*PageRegion 8x10/8"x10" [8.00"x10.00" 203.2x254.0mm]: "<</CNPageSizeName(8x10)/PageSize[576 720]/ImagingBBox null>>setpagedevice"
+*PageRegion 8x10.bl/8"x10"(borderless) [8.00"x10.00" 203.2x254.0mm]: "<</CNPageSizeName(8x10.bl)/PageSize[576 720]/ImagingBBox null>>setpagedevice"
+*de.PageRegion 8x10/8"x10" [203.2x254.0mm 8.00"x10.00"]: "<</CNPageSizeName(8x10)/PageSize[576 720]/ImagingBBox null>>setpagedevice": ""
+*de.PageRegion 8x10.bl/8"x10" (randlos) [203.2x254.0mm 8.00"x10.00"]: "<</CNPageSizeName(8x10)/PageSize[576 720]/ImagingBBox null>>setpagedevice": ""
+*fr.PageRegion 8x10/8"x10" [203.2x254.0mm 8.00"x10.00"]: "<</CNPageSizeName(8x10)/PageSize[576 720]/ImagingBBox null>>setpagedevice": ""
+*fr.PageRegion 8x10.bl/8"x10" (sans bordure) [203.2x254.0mm 8.00"x10.00"]: "<</CNPageSizeName(8x10)/PageSize[576 720]/ImagingBBox null>>setpagedevice": ""
+*zh.PageRegion 8x10/8"x10" [8.00"x10.00" 203.2x254.0mm]: "<</CNPageSizeName(8x10)/PageSize[576 720]/ImagingBBox null>>setpagedevice": ""
+*zh.PageRegion 8x10.bl/8"x10"(无边距) [8.00"x10.00" 203.2x254.0mm]: "<</CNPageSizeName(8x10)/PageSize[576 720]/ImagingBBox null>>setpagedevice": ""
+*ja.PageRegion 8x10/六切 [203.2x254.0mm 8.00"x10.00"]: "<</CNPageSizeName(8x10)/PageSize[576 720]/ImagingBBox null>>setpagedevice": ""
+*ja.PageRegion 8x10.bl/六切 (フチなし) [203.2x254.0mm 8.00"x10.00"]: "<</CNPageSizeName(8x10)/PageSize[576 720]/ImagingBBox null>>setpagedevice": ""
+*PageRegion l/L [3.50"x5.00" 89.0x127.0mm]: "<</CNPageSizeName(l)/PageSize[252 360]/ImagingBBox null>>setpagedevice"
+*PageRegion l.bl/L(borderless) [3.50"x5.00" 89.0x127.0mm]: "<</CNPageSizeName(l.bl)/PageSize[252 360]/ImagingBBox null>>setpagedevice"
+*de.PageRegion l/L [89.0x127.0mm 3.50"x5.00"]: "<</CNPageSizeName(l)/PageSize[252 360]/ImagingBBox null>>setpagedevice": ""
+*de.PageRegion l.bl/L (randlos) [89.0x127.0mm 3.50"x5.00"]: "<</CNPageSizeName(l)/PageSize[252 360]/ImagingBBox null>>setpagedevice": ""
+*fr.PageRegion l/L [89.0x127.0mm 3.50"x5.00"]: "<</CNPageSizeName(l)/PageSize[252 360]/ImagingBBox null>>setpagedevice": ""
+*fr.PageRegion l.bl/L (sans bordure) [89.0x127.0mm 3.50"x5.00"]: "<</CNPageSizeName(l)/PageSize[252 360]/ImagingBBox null>>setpagedevice": ""
+*zh.PageRegion l/L [3.50"x5.00" 89.0x127.0mm]: "<</CNPageSizeName(l)/PageSize[252 360]/ImagingBBox null>>setpagedevice": ""
+*zh.PageRegion l.bl/L(无边距) [3.50"x5.00" 89.0x127.0mm]: "<</CNPageSizeName(l)/PageSize[252 360]/ImagingBBox null>>setpagedevice": ""
+*ja.PageRegion l/L判 [89.0x127.0mm 3.50"x5.00"]: "<</CNPageSizeName(l)/PageSize[252 360]/ImagingBBox null>>setpagedevice": ""
+*ja.PageRegion l.bl/L判 (フチなし) [89.0x127.0mm 3.50"x5.00"]: "<</CNPageSizeName(l)/PageSize[252 360]/ImagingBBox null>>setpagedevice": ""
+*PageRegion 2l/2L [5.00"x7.01" 127.0x178.0mm]: "<</CNPageSizeName(2l)/PageSize[360 505]/ImagingBBox null>>setpagedevice"
+*PageRegion 2l.bl/2L(borderless) [5.00"x7.01" 127.0x178.0mm]: "<</CNPageSizeName(2l.bl)/PageSize[360 505]/ImagingBBox null>>setpagedevice"
+*de.PageRegion 2l/2L [127.0x178.0mm 5.00"x7.01"]: "<</CNPageSizeName(2l)/PageSize[360 505]/ImagingBBox null>>setpagedevice": ""
+*de.PageRegion 2l.bl/2L (randlos) [127.0x178.0mm 5.00"x7.01"]: "<</CNPageSizeName(2l)/PageSize[360 505]/ImagingBBox null>>setpagedevice": ""
+*fr.PageRegion 2l/2L [127.0x178.0mm 5.00"x7.01"]: "<</CNPageSizeName(2l)/PageSize[360 505]/ImagingBBox null>>setpagedevice": ""
+*fr.PageRegion 2l.bl/2L (sans bordure) [127.0x178.0mm 5.00"x7.01"]: "<</CNPageSizeName(2l)/PageSize[360 505]/ImagingBBox null>>setpagedevice": ""
+*zh.PageRegion 2l/2L [5.00"x7.01" 127.0x178.0mm]: "<</CNPageSizeName(2l)/PageSize[360 505]/ImagingBBox null>>setpagedevice": ""
+*zh.PageRegion 2l.bl/2L(无边距) [5.00"x7.01" 127.0x178.0mm]: "<</CNPageSizeName(2l)/PageSize[360 505]/ImagingBBox null>>setpagedevice": ""
+*ja.PageRegion 2l/2L判 [127.0x178.0mm 5.00"x7.01"]: "<</CNPageSizeName(2l)/PageSize[360 505]/ImagingBBox null>>setpagedevice": ""
+*ja.PageRegion 2l.bl/2L判 (フチなし) [127.0x178.0mm 5.00"x7.01"]: "<</CNPageSizeName(2l)/PageSize[360 505]/ImagingBBox null>>setpagedevice": ""
+*PageRegion Postcard/Hagaki [3.94"x5.83" 100.0x148.0mm]: "<</CNPageSizeName(Postcard)/PageSize[283 420]/ImagingBBox null>>setpagedevice"
+*PageRegion Postcard.bl/Hagaki(borderless) [3.94"x5.83" 100.0x148.0mm]: "<</CNPageSizeName(Postcard.bl)/PageSize[283 420]/ImagingBBox null>>setpagedevice"
+*de.PageRegion Postcard/Hagaki [100.0x148.0mm 3.94"x5.83"]: "<</CNPageSizeName(Postcard)/PageSize[283 420]/ImagingBBox null>>setpagedevice": ""
+*de.PageRegion Postcard.bl/Hagaki (randlos) [100.0x148.0mm 3.94"x5.83"]: "<</CNPageSizeName(Postcard)/PageSize[283 420]/ImagingBBox null>>setpagedevice": ""
+*fr.PageRegion Postcard/Hagaki [100.0x148.0mm 3.94"x5.83"]: "<</CNPageSizeName(Postcard)/PageSize[283 420]/ImagingBBox null>>setpagedevice": ""
+*fr.PageRegion Postcard.bl/Hagaki (sans bordure) [100.0x148.0mm 3.94"x5.83"]: "<</CNPageSizeName(Postcard)/PageSize[283 420]/ImagingBBox null>>setpagedevice": ""
+*zh.PageRegion Postcard/Hagaki [3.94"x5.83" 100.0x148.0mm]: "<</CNPageSizeName(Postcard)/PageSize[283 420]/ImagingBBox null>>setpagedevice": ""
+*zh.PageRegion Postcard.bl/Hagaki(无边距) [3.94"x5.83" 100.0x148.0mm]: "<</CNPageSizeName(Postcard)/PageSize[283 420]/ImagingBBox null>>setpagedevice": ""
+*ja.PageRegion Postcard/はがき [100.0x148.0mm 3.94"x5.83"]: "<</CNPageSizeName(Postcard)/PageSize[283 420]/ImagingBBox null>>setpagedevice": ""
+*ja.PageRegion Postcard.bl/はがき (フチなし) [100.0x148.0mm 3.94"x5.83"]: "<</CNPageSizeName(Postcard)/PageSize[283 420]/ImagingBBox null>>setpagedevice": ""
+*PageRegion envelop10p/Envelope Com 10 [4.12"x9.50" 104.8x241.3mm]: "<</CNPageSizeName(envelop10p)/PageSize[297 684]/ImagingBBox null>>setpagedevice"
+*de.PageRegion envelop10p/Umschlag #10 [104.8x241.3mm 4.12"x9.50"]: "<</CNPageSizeName(envelop10p)/PageSize[297 684]/ImagingBBox null>>setpagedevice": ""
+*fr.PageRegion envelop10p/Env. comm. nº 10 [104.8x241.3mm 4.12"x9.50"]: "<</CNPageSizeName(envelop10p)/PageSize[297 684]/ImagingBBox null>>setpagedevice": ""
+*zh.PageRegion envelop10p/Comm. 信封 #10 [4.12"x9.50" 104.8x241.3mm]: "<</CNPageSizeName(envelop10p)/PageSize[297 684]/ImagingBBox null>>setpagedevice": ""
+*ja.PageRegion envelop10p/商用10号封筒 [104.8x241.3mm 4.12"x9.50"]: "<</CNPageSizeName(envelop10p)/PageSize[297 684]/ImagingBBox null>>setpagedevice": ""
+*PageRegion envelopdlp/Envelope DL [4.33"x8.66" 110.0x220.0mm]: "<</CNPageSizeName(envelopdlp)/PageSize[312 624]/ImagingBBox null>>setpagedevice"
+*de.PageRegion envelopdlp/Umschlag DL [110.0x220.0mm 4.33"x8.66"]: "<</CNPageSizeName(envelopdlp)/PageSize[312 624]/ImagingBBox null>>setpagedevice": ""
+*fr.PageRegion envelopdlp/DL Env. [110.0x220.0mm 4.33"x8.66"]: "<</CNPageSizeName(envelopdlp)/PageSize[312 624]/ImagingBBox null>>setpagedevice": ""
+*zh.PageRegion envelopdlp/DL 信封 [4.33"x8.66" 110.0x220.0mm]: "<</CNPageSizeName(envelopdlp)/PageSize[312 624]/ImagingBBox null>>setpagedevice": ""
+*ja.PageRegion envelopdlp/DL封筒 [110.0x220.0mm 4.33"x8.66"]: "<</CNPageSizeName(envelopdlp)/PageSize[312 624]/ImagingBBox null>>setpagedevice": ""
+*CloseUI: *PageRegion
+
+*OpenUI *Duplex/Duplex Printing: PickOne
+*de.Translation Duplex/Duplexdruck: PickOne: ""
+*fr.Translation Duplex/Impression recto/verso: PickOne: ""
+*zh.Translation Duplex/双面打印: PickOne: ""
+*ja.Translation Duplex/両面印刷: PickOne: ""
+*DefaultDuplex: None
+*Duplex None/Off: "<</Duplex false>>setpagedevice"
+*de.Duplex None/Aus: "<</Duplex false>>setpagedevice": ""
+*fr.Duplex None/Désactivé: "<</Duplex false>>setpagedevice": ""
+*zh.Duplex None/关: "<</Duplex false>>setpagedevice": ""
+*ja.Duplex None/オフ: "<</Duplex false>>setpagedevice": ""
+*Duplex DuplexNoTumble/Long-side stapling: "<</Duplex true/Tumble false>>setpagedevice"
+*de.Duplex DuplexNoTumble/Längsseite heften: "<</Duplex true/Tumble false>>setpagedevice": ""
+*fr.Duplex DuplexNoTumble/Agrafage côté long: "<</Duplex true/Tumble false>>setpagedevice": ""
+*zh.Duplex DuplexNoTumble/长边装订: "<</Duplex true/Tumble false>>setpagedevice": ""
+*ja.Duplex DuplexNoTumble/長辺とじ: "<</Duplex true/Tumble false>>setpagedevice": ""
+*Duplex DuplexTumble/Short-side stapling: "<</Duplex true/Tumble true>>setpagedevice"
+*de.Duplex DuplexTumble/Breitseite heften: "<</Duplex true/Tumble true>>setpagedevice": ""
+*fr.Duplex DuplexTumble/Agrafage côté court: "<</Duplex true/Tumble true>>setpagedevice": ""
+*zh.Duplex DuplexTumble/短边装订: "<</Duplex true/Tumble true>>setpagedevice": ""
+*ja.Duplex DuplexTumble/短辺とじ: "<</Duplex true/Tumble true>>setpagedevice": ""
+*CloseUI: *Duplex
+
+*CloseGroup: *CNPagesetup
+
+*OpenGroup: *CNGeneral/General
+*de.Translation CNGeneral/General: ""
+*fr.Translation CNGeneral/General: ""
+*zh.Translation CNGeneral/General: ""
+*ja.Translation CNGeneral/General: ""
+*OpenUI *Resolution/Output Resolution: PickOne
+*de.Translation Resolution/Output Resolution: PickOne: ""
+*fr.Translation Resolution/Output Resolution: PickOne: ""
+*zh.Translation Resolution/Output Resolution: PickOne: ""
+*ja.Translation Resolution/Output Resolution: PickOne: ""
+*DefaultResolution: 600dpi
+*Resolution 600dpi/600 dpi: "<</HWResolution[600 600]>>setpagedevice"
+*de.Resolution 600dpi/600 dpi: "<</HWResolution[600 600]>>setpagedevice": ""
+*fr.Resolution 600dpi/600 dpi: "<</HWResolution[600 600]>>setpagedevice": ""
+*zh.Resolution 600dpi/600 dpi: "<</HWResolution[600 600]>>setpagedevice": ""
+*ja.Resolution 600dpi/600 dpi: "<</HWResolution[600 600]>>setpagedevice": ""
+*CloseUI: *Resolution
+
+*OpenUI *ColorModel/Color Model: PickOne
+*de.Translation ColorModel/Color Model: PickOne: ""
+*fr.Translation ColorModel/Color Model: PickOne: ""
+*zh.Translation ColorModel/Color Model: PickOne: ""
+*ja.Translation ColorModel/Color Model: PickOne: ""
+*DefaultColorModel: rgb
+*ColorModel rgb/RGB: "<</cupsColorOrder 0/cupsColorSpace 1/cupsCompression 0/cupsBitsPerColor 8>>setpagedevice"
+*de.ColorModel rgb/RGB: "<</cupsColorOrder 0/cupsColorSpace 1/cupsCompression 0/cupsBitsPerColor 8>>setpagedevice": ""
+*fr.ColorModel rgb/RGB: "<</cupsColorOrder 0/cupsColorSpace 1/cupsCompression 0/cupsBitsPerColor 8>>setpagedevice": ""
+*zh.ColorModel rgb/RGB: "<</cupsColorOrder 0/cupsColorSpace 1/cupsCompression 0/cupsBitsPerColor 8>>setpagedevice": ""
+*ja.ColorModel rgb/RGB: "<</cupsColorOrder 0/cupsColorSpace 1/cupsCompression 0/cupsBitsPerColor 8>>setpagedevice": ""
+*CloseUI: *ColorModel
+
+*CloseGroup: *CNGeneral
+
+*UIConstraints: *MediaType plain *PageSize 4x6.bl
+*UIConstraints: *MediaType plain *PageSize 5x7.bl
+*UIConstraints: *MediaType plain *PageSize Letter.bl
+*UIConstraints: *MediaType plain *PageSize A4.bl
+*UIConstraints: *MediaType plain *PageSize Postcard.bl
+*UIConstraints: *MediaType plain *PageSize l.bl
+*UIConstraints: *MediaType plain *PageSize 2l.bl
+*UIConstraints: *MediaType plain *PageSize 8x10.bl
+*UIConstraints: *MediaType photopaper *Duplex DuplexNoTumble
+*UIConstraints: *MediaType photopaper *Duplex DuplexTumble
+*UIConstraints: *MediaType glossygold *Duplex DuplexNoTumble
+*UIConstraints: *MediaType glossygold *Duplex DuplexTumble
+*UIConstraints: *MediaType proplatinum *Duplex DuplexNoTumble
+*UIConstraints: *MediaType proplatinum *Duplex DuplexTumble
+*UIConstraints: *MediaType semigloss *Duplex DuplexNoTumble
+*UIConstraints: *MediaType semigloss *Duplex DuplexTumble
+*UIConstraints: *MediaType highres *Duplex DuplexNoTumble
+*UIConstraints: *MediaType highres *Duplex DuplexTumble
+*UIConstraints: *MediaType highres *PageSize 4x6.bl
+*UIConstraints: *MediaType highres *PageSize 5x7.bl
+*UIConstraints: *MediaType highres *PageSize Letter.bl
+*UIConstraints: *MediaType highres *PageSize A4.bl
+*UIConstraints: *MediaType highres *PageSize Postcard.bl
+*UIConstraints: *MediaType highres *PageSize l.bl
+*UIConstraints: *MediaType highres *PageSize 2l.bl
+*UIConstraints: *MediaType highres *PageSize 8x10.bl
+*UIConstraints: *MediaType ijpostcard *Duplex DuplexNoTumble
+*UIConstraints: *MediaType ijpostcard *Duplex DuplexTumble
+*UIConstraints: *MediaType postcard *Duplex DuplexNoTumble
+*UIConstraints: *MediaType postcard *Duplex DuplexTumble
+*UIConstraints: *MediaType glossypaper *Duplex DuplexNoTumble
+*UIConstraints: *MediaType glossypaper *Duplex DuplexTumble
+*UIConstraints: *MediaType matte *Duplex DuplexNoTumble
+*UIConstraints: *MediaType matte *Duplex DuplexTumble
+*UIConstraints: *MediaType luster *Duplex DuplexNoTumble
+*UIConstraints: *MediaType luster *Duplex DuplexTumble
+*UIConstraints: *MediaType envelope *Duplex DuplexNoTumble
+*UIConstraints: *MediaType envelope *Duplex DuplexTumble
+*UIConstraints: *MediaType envelope *PageSize 4x6.bl
+*UIConstraints: *MediaType envelope *PageSize 5x7.bl
+*UIConstraints: *MediaType envelope *PageSize Letter.bl
+*UIConstraints: *MediaType envelope *PageSize A4.bl
+*UIConstraints: *MediaType envelope *PageSize Postcard.bl
+*UIConstraints: *MediaType envelope *PageSize l.bl
+*UIConstraints: *MediaType envelope *PageSize 2l.bl
+*UIConstraints: *MediaType envelope *PageSize 8x10.bl
+*UIConstraints: *MediaType photo *Duplex DuplexNoTumble
+*UIConstraints: *MediaType photo *Duplex DuplexTumble
+*UIConstraints: *PageSize 4x6.bl *Duplex DuplexNoTumble
+*UIConstraints: *PageSize 4x6.bl *Duplex DuplexTumble
+*UIConstraints: *PageSize 5x7.bl *Duplex DuplexNoTumble
+*UIConstraints: *PageSize 5x7.bl *Duplex DuplexTumble
+*UIConstraints: *PageSize Letter.bl *Duplex DuplexNoTumble
+*UIConstraints: *PageSize Letter.bl *Duplex DuplexTumble
+*UIConstraints: *PageSize A4.bl *Duplex DuplexNoTumble
+*UIConstraints: *PageSize A4.bl *Duplex DuplexTumble
+*UIConstraints: *PageSize Postcard.bl *Duplex DuplexNoTumble
+*UIConstraints: *PageSize Postcard.bl *Duplex DuplexTumble
+*UIConstraints: *PageSize l.bl *Duplex DuplexNoTumble
+*UIConstraints: *PageSize l.bl *Duplex DuplexTumble
+*UIConstraints: *PageSize 2l.bl *Duplex DuplexNoTumble
+*UIConstraints: *PageSize 2l.bl *Duplex DuplexTumble
+*UIConstraints: *PageSize 8x10.bl *Duplex DuplexNoTumble
+*UIConstraints: *PageSize 8x10.bl *Duplex DuplexTumble
+
+*%CNPpdToOptKey PageSize --papersize
+*%CNPpdToOptKey MediaType --media
+*%CNPpdToOptKey CNGrayscale --grayscale
+*%CNPpdToOptKey Duplex --duplex
+
+*%CNMaintenanceCommand: PrintSelfTestPage="@TestPrint=NozzleCheck"
+*%CNMaintenanceCommand: Clean_all="@Cleaning=1ALL"
+*%CNMaintenanceCommand: ReportStatus=""
+
+
+*% #CNIJ-TOOL-VERSION:1
+*% #CNIJ-IVEC-CAPABILITY>
+*% afagebfeffbjepfmelekfafgfhaeblaibhajblbjfmfhfkfgfnfafhfoaeblemenfpbeabblbjagahdeddaffkfefnbjebfefffhekadfaepfmfkaeblfbenenejadbgb
+*% geoeoeobhfkfifhfgfhbhfkfgfebgfhekbgfkfefnbgalajajabbgajaobgfkfgfefefgfhbgbldeddebfefffhekadepfkfhaeblfbenenejadbgbgeoeoeobhfkfifh
+*% fgfhbhfkfgfebgfhekbgfkfefnbgalajajabbgajaobgfkfifhfgfhbgblahdedddaaffaepfmfkadfkfgfhenfmfhenekahdedddadaaffaepfmfkadfgejfmelfienf
+*% afgfhahhofmenhkfiejfiflfafffaeneaglfmekejfgfhekfmafbgfaepfmfkadfgejfmelfienfafgfhahdedddadaaffaepfmfkadejfielfifeggekfmenbjekfmel
+*% epfafkfmeneaejfmaeblejelfafhenblahdedddadadaaffaepfmfkadelfmekejfgfhekfmahhghcafbgfaepfmfkadelfmekejfgfhekfmahdedddadadaaffaepfmf
+*% kadelfmekejfgfhekfmggfnfmenfifaffbgahdedddadadaaffaepfmfkadekemejejfgelenggfnfienfiggfpfgelfefienahglhigobfhdgjhmhobfhdgjhmhogjhi
+*% hohmbfgjgohoglfiekenfmelafbgfaepfmfkadekemejejfgelenggfnfienfiggfpfgelfefienahdedddadadaaffaepfmfkadfefiebggejfaebfmffekahaaapaja
+*% jbfaiaaalajajafbgfaepfmfkadfefiebggejfaebfmffekahdedddadadaaffaepfmfkadfefafhggejfaebfmffekahaiapbfaiapafbgfaepfmfkadfefafhggejfa
+*% ebfmffekahdedddadadaaffaepfmfkadejfiejfmelekfaedfmahfhfiggfafhfnfmebbeanebapgganebapfafhbffhfiggamebaoggamebaofafhbffhfiggfffmene
+*% nfmelggabbhamebaiaifafhbffaekfgggfiamggaianabebalaiajfefebffaekfgggfianggalaiajebalaaaofefebffdfaekggflamggaiabalebalamaofefebffd
+*% ejfhggfbfifofifcfaggaiajajebaianabfefebffkemekenfgfeggfkfifhfgfhggabaaebaialaofefebffkemekenfgfeggfkfifhfgfhggaialaoebaiaoabfefeb
+*% ffkemekenfgfeggfkfifhfgfhggalajakebalamanfefebffhfiggfffmfofiffggabbhamebaianfafhbffhfiggfhemfeflfmelbeaiajgganbhaialamebaabhamfa
+*% fhbffaekfgggfnffggaiaiajebalalajfefeafbgfaepfmfkadejfiejfmelekfaedfmahdedddadadaaffaepfmfkadejelfafhenfielfmfiggflfgelfnfmelbjejf
+*% iejfmelekfaedfmaeblfhfiggfafhfnfmebbeanebapgganebapfafhblahalalakaabfakanaiaiafbgfaepfmfkadejelfafhenfielfmfiggflfgelfnfmelahdedd
+*% dadadaaffaepfmfkadejelfafhenfielfmfiggflfgelfnfmelbjejfiejfmelekfaedfmaeblfhfiggamebaoggamebaofafhblahalabakaabfanajaiamafbgfaepf
+*% mfkadejelfafhenfielfmfiggflfgelfnfmelahdedddadadaaffaepfmfkadejelfafhenfielfmfiggflfgelfnfmelbjejfiejfmelekfaedfmaeblfhfiggfffmen
+*% enfmelggabbhamebaiaifafhblahanabajajbfapanaiaiafbgfaepfmfkadejelfafhenfielfmfiggflfgelfnfmelahdedddadadaaffaepfmfkadejelfafhenfie
+*% lfmfiggflfgelfnfmelbjejfiejfmelekfaedfmaeblfaekfgggfiamggaianabebalaiajfefeblahakakakambfanaoaoaiafbgfaepfmfkadejelfafhenfielfmfi
+*% ggflfgelfnfmelahdedddadadaaffaepfmfkadejelfafhenfielfmfiggflfgelfnfmelbjejfiejfmelekfaedfmaeblfaekfgggfianggalaiajebalaaaofefebla
+*% hanabajajbfapabalapafbgfaepfmfkadejelfafhenfielfmfiggflfgelfnfmelahdedddadadaaffaepfmfkadejelfafhenfielfmfiggflfgelfnfmelbjejfiej
+*% fmelekfaedfmaeblfdfaekggflamggaiabalebalamaofefeblahanaiakabbfamababaiafbgfaepfmfkadejelfafhenfielfmfiggflfgelfnfmelahdedddadadaa
+*% ffaepfmfkadejelfafhenfielfmfiggflfgelfnfmelbjejfiejfmelekfaedfmaeblfdejfhggfbfifofifcfaggaiajajebaianabfefeblahalalajaibfakakajao
+*% afbgfaepfmfkadejelfafhenfielfmfiggflfgelfnfmelahdedddadadaaffaepfmfkadejelfafhenfielfmfiggflfgelfnfmelbjejfiejfmelekfaedfmaeblfke
+*% mekenfgfeggfkfifhfgfhggabaaebaialaofefeblahaiaaanaibfalabaiaiafbgfaepfmfkadejelfafhenfielfmfiggflfgelfnfmelahdedddadadaaffaepfmfk
+*% adejelfafhenfielfmfiggflfgelfnfmelbjejfiejfmelekfaedfmaeblfkemekenfgfeggfkfifhfgfhggaialaoebaiaoabfefeblahalabakaabfanajaiamafbgf
+*% aepfmfkadejelfafhenfielfmfiggflfgelfnfmelahdedddadadaaffaepfmfkadejelfafhenfielfmfiggflfgelfnfmelbjejfiejfmelekfaedfmaeblfkemeken
+*% fgfeggfkfifhfgfhggalajakebalamanfefeblahanapakaabfamabaiaiafbgfaepfmfkadejelfafhenfielfmfiggflfgelfnfmelahdedddadadaaffaepfmfkade
+*% jelfafhenfielfmfiggflfgelfnfmelbjejfiejfmelekfaedfmaeblfhfiggfffmfofiffggabbhamebaianfafhblahanabajajbfabalaiaiafbgfaepfmfkadejel
+*% fafhenfielfmfiggflfgelfnfmelahdedddadadaaffaepfmfkadejelfafhenfielfmfiggflfgelfnfmelbjejfiejfmelekfaedfmaeblfhfiggfhemfeflfmelbea
+*% iajgganbhaialamebaabhamfafhblahalalaiajbfanapalaoafbgfaepfmfkadejelfafhenfielfmfiggflfgelfnfmelahdedddadadaaffaepfmfkadejelfafhen
+*% fielfmfiggflfgelfnfmelbjejfiejfmelekfaedfmaeblfaekfgggfnffggaiaiajebalalajfefeblahalakakakbfanaialanafbgfaepfmfkadejelfafhenfielf
+*% mfiggflfgelfnfmelahdedddadadaaffaepfmfkadejelfafhenfielfmfiggflfgelfnfmelfffmekekbjejfiejfmelekfaedfmaeblfhfiggfafhfnfmebbeanebap
+*% gganebapfafhblahalamanaibfakaoapamafbgfaepfmfkadejelfafhenfielfmfiggflfgelfnfmelfffmekekahdedddadadaaffaepfmfkadejelfafhenfielfmf
+*% iggflfgelfnfmelfffmekekbjejfiejfmelekfaedfmaeblfhfiggamebaoggamebaofafhblahakaianaibfanakaoajafbgfaepfmfkadejelfafhenfielfmfiggfl
+*% fgelfnfmelfffmekekahdedddadadaaffaepfmfkadejelfafhenfielfmfiggflfgelfnfmelfffmekekbjejfiejfmelekfaedfmaeblfhfiggfffmenenfmelggabb
+*% hamebaiaifafhblahamalananbfapaoapamafbgfaepfmfkadejelfafhenfielfmfiggflfgelfnfmelfffmekekahdedddadadaaffaepfmfkadejelfafhenfielfm
+*% figgflfgelfnfmelfffmekekbjejfiejfmelekfaedfmaeblfaekfgggfianggalaiajebalaaaofefeblahamaiajalbfaoaiabaiafbgfaepfmfkadejelfafhenfie
+*% lfmfiggflfgelfnfmelfffmekekahdedddadadaaffaepfmfkadejelfafhenfielfmfiggflfgelfnfmelfffmekekbjejfiejfmelekfaedfmaeblfdejfhggfbfifo
+*% fifcfaggaiajajebaianabfefeblahalamajakbfakapapaiafbgfaepfmfkadejelfafhenfielfmfiggflfgelfnfmelfffmekekahdedddadadaaffaepfmfkadeje
+*% lfafhenfielfmfiggflfgelfnfmelfffmekekbjejfiejfmelekfaedfmaeblfkemekenfgfeggfkfifhfgfhggabaaebaialaofefeblahalalananbfakaiapamafbg
+*% faepfmfkadejelfafhenfielfmfiggflfgelfnfmelfffmekekahdedddadadaaffaepfmfkadejelfafhenfielfmfiggflfgelfnfmelfffmekekbjejfiejfmelekf
+*% aedfmaeblfkemekenfgfeggfkfifhfgfhggaialaoebaiaoabfefeblahakaianaibfanakaoajafbgfaepfmfkadejelfafhenfielfmfiggflfgelfnfmelfffmekek
+*% ahdedddadadaaffaepfmfkadejelfafhenfielfmfiggflfgelfnfmelfffmekekbjejfiejfmelekfaedfmaeblfkemekenfgfeggfkfifhfgfhggalajakebalamanf
+*% efeblahanaaanaibfapaiapamafbgfaepfmfkadejelfafhenfielfmfiggflfgelfnfmelfffmekekahdedddadadaaffaepfmfkadejfiejfmeleneaejfmahekenfi
+*% enfafgfhfmeleabfejfbfgenfgfoelfiejfbfafkbffkemekenfgfebefefmfnfafibeeneaejfmbefkfifhfgfhbeakbffkemekenfgfebefefmfnfafibeeneaejfmb
+*% efkfifhfgfhbeambffkemekenfgfebefefmfnfafibeeneaejfmbefkfifhfgfhbeapbffkemekenfgfebefefmfnfafibeeneaejfmbefkfifhfgfhbeaabffkemeken
+*% fgfebefefmfnfafibeeneaejfmbefkfifhfgfhbeaiaibffkemekenfgfebefefmfnfafibeeneaejfmbefkfifhfgfhbeaialbffkemekenfgfebefefmfnfafibeene
+*% aejfmbefkfifhfgfhbeaianbffkemekenfgfebefefmfnfafibeeneaejfmbefkfifhfgfhbeaiambffkemekenfgfebefefmfnfafibeeneaejfmbefkfifhfgfhbeai
+*% aobffkemekenfgfebefefmfnfafibeeneaejfmbefkfifhfgfhbeaiabbffkemekenfgfebefefmfnfafibeeneaejfmbefkfifhfgfhbeaiaaafbgfaepfmfkadejfie
+*% jfmeleneaejfmahdedddadadaaffaepfmfkadflfgelfnfmelfffmekekejelfafhenbjejfiejfmeleneaejfmaeblekenfienfafgfhfmeleablahhghphpafbgfaep
+*% fmfkadflfgelfnfmelfffmekekejelfafhenahdedddadadaaffaepfmfkadflfgelfnfmelfffmekekejelfafhenbjejfiejfmeleneaejfmaeblejfbfgenfgfoelf
+*% iejfbfafkblahhghhbfhghphpafbgfaepfmfkadflfgelfnfmelfffmekekejelfafhenahdedddadadaaffaepfmfkadflfgelfnfmelfffmekekejelfafhenbjejfi
+*% ejfmeleneaejfmaeblfkemekenfgfebefefmfnfafibeeneaejfmbefkfifhfgfhbeakblahhghhbfhghphpafbgfaepfmfkadflfgelfnfmelfffmekekejelfafhena
+*% hdedddadadaaffaepfmfkadflfgelfnfmelfffmekekejelfafhenbjejfiejfmeleneaejfmaeblfkemekenfgfebefefmfnfafibeeneaejfmbefkfifhfgfhbeambl
+*% ahhghhbfhghphpafbgfaepfmfkadflfgelfnfmelfffmekekejelfafhenahdedddadadaaffaepfmfkadflfgelfnfmelfffmekekejelfafhenbjejfiejfmeleneae
+*% jfmaeblfkemekenfgfebefefmfnfafibeeneaejfmbefkfifhfgfhbeapblahhghhbfhghphpafbgfaepfmfkadflfgelfnfmelfffmekekejelfafhenahdedddadada
+*% affaepfmfkadflfgelfnfmelfffmekekejelfafhenbjejfiejfmeleneaejfmaeblfkemekenfgfebefefmfnfafibeeneaejfmbefkfifhfgfhbeaablahhghphpafb
+*% gfaepfmfkadflfgelfnfmelfffmekekejelfafhenahdedddadadaaffaepfmfkadflfgelfnfmelfffmekekejelfafhenbjejfiejfmeleneaejfmaeblfkemekenfg
+*% febefefmfnfafibeeneaejfmbefkfifhfgfhbeaiaiblahhghhbfhghphpafbgfaepfmfkadflfgelfnfmelfffmekekejelfafhenahdedddadadaaffaepfmfkadflf
+*% gelfnfmelfffmekekejelfafhenbjejfiejfmeleneaejfmaeblfkemekenfgfebefefmfnfafibeeneaejfmbefkfifhfgfhbeaialblahhghhbfhghphpafbgfaepfm
+*% fkadflfgelfnfmelfffmekekejelfafhenahdedddadadaaffaepfmfkadflfgelfnfmelfffmekekejelfafhenbjejfiejfmeleneaejfmaeblfkemekenfgfebefef
+*% mfnfafibeeneaejfmbefkfifhfgfhbeaianblahhghhbfhghphpafbgfaepfmfkadflfgelfnfmelfffmekekejelfafhenahdedddadadaaffaepfmfkadflfgelfnfm
+*% elfffmekekejelfafhenbjejfiejfmeleneaejfmaeblfkemekenfgfebefefmfnfafibeeneaejfmbefkfifhfgfhbeaiamblahhghhbfhghphpafbgfaepfmfkadflf
+*% gelfnfmelfffmekekejelfafhenahdedddadadaaffaepfmfkadflfgelfnfmelfffmekekejelfafhenbjejfiejfmeleneaejfmaeblfkemekenfgfebefefmfnfafi
+*% beeneaejfmbefkfifhfgfhbeaiaoblahhghhbfhghphpafbgfaepfmfkadflfgelfnfmelfffmekekejelfafhenahdedddadadaaffaepfmfkadflfgelfnfmelfffme
+*% kekejelfafhenbjejfiejfmeleneaejfmaeblfkemekenfgfebefefmfnfafibeeneaejfmbefkfifhfgfhbeaiabblahhghphpafbgfaepfmfkadflfgelfnfmelfffm
+*% ekekejelfafhenahdedddadadaaffaepfmfkadflfgelfnfmelfffmekekejelfafhenbjejfiejfmeleneaejfmaeblfkemekenfgfebefefmfnfafibeeneaejfmbef
+*% kfifhfgfhbeaiaablahhghhbfhghphpafbgfaepfmfkadflfgelfnfmelfffmekekejelfafhenahdedddadadaaffaepfmfkadejelfafhenfkfgfffgelfefgfnfmbj
+*% ejfiejfmeleneaejfmaeblekenfienfafgfhfmeleablahfkfgfffgelbffefgfhfgfkfbelfgfefmafbgfaepfmfkadejelfafhenfkfgfffgelfefgfnfmahdedddad
+*% adaaffaepfmfkadejelfafhenfkfgfffgelfefgfnfmbjejfiejfmeleneaejfmaeblejfbfgenfgfoelfiejfbfafkblahfkfgfffgelbffefgfhfgfkfbelfgfefmaf
+*% bgfaepfmfkadejelfafhenfkfgfffgelfefgfnfmahdedddadadaaffaepfmfkadejelfafhenfkfgfffgelfefgfnfmbjejfiejfmeleneaejfmaeblfkemekenfgfeb
+*% efefmfnfafibeeneaejfmbefkfifhfgfhbeakblahfkfgfffgelbffefgfhfgfkfbelfgfefmafbgfaepfmfkadejelfafhenfkfgfffgelfefgfnfmahdedddadadaaf
+*% faepfmfkadejelfafhenfkfgfffgelfefgfnfmbjejfiejfmeleneaejfmaeblfkemekenfgfebefefmfnfafibeeneaejfmbefkfifhfgfhbeamblahfkfgfffgelbff
+*% efgfhfgfkfbelfgfefmafbgfaepfmfkadejelfafhenfkfgfffgelfefgfnfmahdedddadadaaffaepfmfkadejelfafhenfkfgfffgelfefgfnfmbjejfiejfmelenea
+*% ejfmaeblfkemekenfgfebefefmfnfafibeeneaejfmbefkfifhfgfhbeapblahfkfgfffgelbffefgfhfgfkfbelfgfefmafbgfaepfmfkadejelfafhenfkfgfffgelf
+*% efgfnfmahdedddadadaaffaepfmfkadejelfafhenfkfgfffgelfefgfnfmbjejfiejfmeleneaejfmaeblfkemekenfgfebefefmfnfafibeeneaejfmbefkfifhfgfh
+*% beaablahfkfgfffgelbffefgfhfgfkfbelfgfefmafbgfaepfmfkadejelfafhenfkfgfffgelfefgfnfmahdedddadadaaffaepfmfkadejelfafhenfkfgfffgelfef
+*% gfnfmbjejfiejfmeleneaejfmaeblfkemekenfgfebefefmfnfafibeeneaejfmbefkfifhfgfhbeaiaiblahfkfgfffgelbffefgfhfgfkfbelfgfefmafbgfaepfmfk
+*% adejelfafhenfkfgfffgelfefgfnfmahdedddadadaaffaepfmfkadejelfafhenfkfgfffgelfefgfnfmbjejfiejfmeleneaejfmaeblfkemekenfgfebefefmfnfaf
+*% ibeeneaejfmbefkfifhfgfhbeaialblahfkfgfffgelbffefgfhfgfkfbelfgfefmafbgfaepfmfkadejelfafhenfkfgfffgelfefgfnfmahdedddadadaaffaepfmfk
+*% adejelfafhenfkfgfffgelfefgfnfmbjejfiejfmeleneaejfmaeblfkemekenfgfebefefmfnfafibeeneaejfmbefkfifhfgfhbeaianblahfkfgfffgelbffefgfhf
+*% gfkfbelfgfefmafbgfaepfmfkadejelfafhenfkfgfffgelfefgfnfmahdedddadadaaffaepfmfkadejelfafhenfkfgfffgelfefgfnfmbjejfiejfmeleneaejfmae
+*% blfkemekenfgfebefefmfnfafibeeneaejfmbefkfifhfgfhbeaiamblahfkfgfffgelbffefgfhfgfkfbelfgfefmafbgfaepfmfkadejelfafhenfkfgfffgelfefgf
+*% nfmahdedddadadaaffaepfmfkadejelfafhenfkfgfffgelfefgfnfmbjejfiejfmeleneaejfmaeblfkemekenfgfebefefmfnfafibeeneaejfmbefkfifhfgfhbeai
+*% aoblahfkfgfffgelbffefgfhfgfkfbelfgfefmafbgfaepfmfkadejelfafhenfkfgfffgelfefgfnfmahdedddadadaaffaepfmfkadejelfafhenfkfgfffgelfefgf
+*% nfmbjejfiejfmeleneaejfmaeblfkemekenfgfebefefmfnfafibeeneaejfmbefkfifhfgfhbeaiabblahfkfgfffgelbffefgfhfgfkfbelfgfefmafbgfaepfmfkad
+*% ejelfafhenfkfgfffgelfefgfnfmahdedddadadaaffaepfmfkadejelfafhenfkfgfffgelfefgfnfmbjejfiejfmeleneaejfmaeblfkemekenfgfebefefmfnfafib
+*% eeneaejfmbefkfifhfgfhbeaiaablahfkfgfffgelbffefgfhfgfkfbelfgfefmafbgfaepfmfkadejelfafhenfkfgfffgelfefgfnfmahdedddadadaaffaepfmfkad
+*% fnemejfffmebejelfafhenbjejfiejfmeleneaejfmaeblekenfienfafgfhfmeleablahhghhbfhghphpafbgfaepfmfkadfnemejfffmebejelfafhenahdedddadad
+*% aaffaepfmfkadfnemejfffmebejelfafhenbjejfiejfmeleneaejfmaeblejfbfgenfgfoelfiejfbfafkblahhghphpafbgfaepfmfkadfnemejfffmebejelfafhen
+*% ahdedddadadaaffaepfmfkadfnemejfffmebejelfafhenbjejfiejfmeleneaejfmaeblfkemekenfgfebefefmfnfafibeeneaejfmbefkfifhfgfhbeakblahhghph
+*% pafbgfaepfmfkadfnemejfffmebejelfafhenahdedddadadaaffaepfmfkadfnemejfffmebejelfafhenbjejfiejfmeleneaejfmaeblfkemekenfgfebefefmfnfa
+*% fibeeneaejfmbefkfifhfgfhbeamblahhghphpafbgfaepfmfkadfnemejfffmebejelfafhenahdedddadadaaffaepfmfkadfnemejfffmebejelfafhenbjejfiejf
+*% meleneaejfmaeblfkemekenfgfebefefmfnfafibeeneaejfmbefkfifhfgfhbeapblahhghphpafbgfaepfmfkadfnemejfffmebejelfafhenahdedddadadaaffaep
+*% fmfkadfnemejfffmebejelfafhenbjejfiejfmeleneaejfmaeblfkemekenfgfebefefmfnfafibeeneaejfmbefkfifhfgfhbeaablahhghphpafbgfaepfmfkadfne
+*% mejfffmebejelfafhenahdedddadadaaffaepfmfkadfnemejfffmebejelfafhenbjejfiejfmeleneaejfmaeblfkemekenfgfebefefmfnfafibeeneaejfmbefkfi
+*% fhfgfhbeaiaiblahhghphpafbgfaepfmfkadfnemejfffmebejelfafhenahdedddadadaaffaepfmfkadfnemejfffmebejelfafhenbjejfiejfmeleneaejfmaeblf
+*% kemekenfgfebefefmfnfafibeeneaejfmbefkfifhfgfhbeaialblahhghphpafbgfaepfmfkadfnemejfffmebejelfafhenahdedddadadaaffaepfmfkadfnemejff
+*% fmebejelfafhenbjejfiejfmeleneaejfmaeblfkemekenfgfebefefmfnfafibeeneaejfmbefkfifhfgfhbeaianblahhghphpafbgfaepfmfkadfnemejfffmebeje
+*% lfafhenahdedddadadaaffaepfmfkadfnemejfffmebejelfafhenbjejfiejfmeleneaejfmaeblfkemekenfgfebefefmfnfafibeeneaejfmbefkfifhfgfhbeaiam
+*% blahhghphpafbgfaepfmfkadfnemejfffmebejelfafhenahdedddadadaaffaepfmfkadfnemejfffmebejelfafhenbjejfiejfmeleneaejfmaeblfkemekenfgfeb
+*% efefmfnfafibeeneaejfmbefkfifhfgfhbeaiaoblahhghphpafbgfaepfmfkadfnemejfffmebejelfafhenahdedddadadaaffaepfmfkadfnemejfffmebejelfafh
+*% enbjejfiejfmeleneaejfmaeblfkemekenfgfebefefmfnfafibeeneaejfmbefkfifhfgfhbeaiabblahhghphpafbgfaepfmfkadfnemejfffmebejelfafhenahded
+*% ddadadaaffaepfmfkadfnemejfffmebejelfafhenbjejfiejfmeleneaejfmaeblfkemekenfgfebefefmfnfafibeeneaejfmbefkfifhfgfhbeaiaablahhghphpaf
+*% bgfaepfmfkadfnemejfffmebejelfafhenahdedddadadaaffaepfmfkadejelfafhenfielfmfiggfnemejfffmebbjejfiejfmelekfaedfmaeblfhfiggfffmenenf
+*% melggabbhamebaiaifafhblahanabajajbfapakapakafbgfaepfmfkadejelfafhenfielfmfiggfnemejfffmebahdedddadadaaffaepfmfkadejelfafhenfielfm
+*% figgfnemejfffmebbjejfiejfmelekfaedfmaeblfaekfgggfianggalaiajebalaaaofefeblahanabajajbfapaoaoaaafbgfaepfmfkadejelfafhenfielfmfiggf
+*% nemejfffmebahdedddadadaaffaepfmfkadekenfiejfffmekfafnfmahfffgfhfoekfafnfmbfekfbfgelenekfafnfmafbgfaepfmfkadekenfiejfffmekfafnfmah
+*% dedddadadaafepfkfhadfhfmebenejfifofmahhghhbfhghphpafbgepfkfhadfhfmebenejfifofmahdedddadadaaffaepfmfkadejfbeaekfafkfifffafhejemenf
+*% lfafhahfafhejemenflfafhggejaiafbgfaepfmfkadejfbeaekfafkfifffafhejemenflfafhahdedddadadaaffaepfmfkadejfbeaekfafkfifffafhejemenflfa
+*% fhfafnbjejfbeaekfafkfifffafhejemenflfafhaeblfafhejemenflfafhggejaiblahhkhigkgkhmgngnhmggaiajafbgfaepfmfkadejfbeaekfafkfifffafheje
+*% menflfafhfafnahdedddadaafbgfaepfmfkadejfielfifeggekfmenahdedddaafbgfaepfmfkadfkfgfhenfmfhenekahdeddafbgfkfefnah=aaajndog
+*% #<CNIJ-IVEC-CAPABILITY
+*% #CNIJ-DEVCE-INFO>
+*% djnnhehphoadhkfifhfgfhachkhehnadhlhdhfbfhlhdglfiekenfmelakbfhlgkhkhkfmbfhhhkhkfmbfhagphmhkbfhagphmhkgjhfhaacgkhghdadhlhdhhgjalbfh
+*% lhdhhgjfmachehnhfadhehoapapajajbjekfmelfafmekachkhfgkadgjglhahhgnhmglachnhmgkadhkfifhfgfhbjhehoapapajajbjekfmelfafmekacgphmgladai
+*% bhajalajacgkgnhiadaiajachpgkhaadajajachbglhaadalachegkhaadhihghphpbfhlalanajbfhnhignbfhmakbfhbhpgkhpbfhdhghphpbfhcalaiajajajaoaja
+*% jbfhfhghphpacgjhngladaiachkhahnadhkhigghagphmhkaigngagjhmangghahdgjac=aaaadpcl
+*% #<CNIJ-DEVCE-INFO
+*%
+*% internalversion : 5.00.20140624.154645
+*%
+
