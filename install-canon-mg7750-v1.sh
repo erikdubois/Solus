@@ -35,7 +35,8 @@ echo "Next line of code takes care of that"
 # seperate copy for lib link
 sudo cp -r usr/lib/* /usr/lib64/
 
-
+# add this manually if not successfull
+# cnijbe2:Canon/?port=net&serial=F8-0D-60-B0-9A-7A
 
 
 
