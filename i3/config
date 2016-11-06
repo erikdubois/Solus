@@ -354,7 +354,7 @@ exec subl
 exec spotify
 for_window [class="Spotify"] focus
 exec nautilus --no-desktop
-exec ~/.config/i3/start-conkys.sh
+exec conky -c ~/.config/i3/conky-budgie
 #exec dunst -config ~/.config/i3/dunstrc
 
 
@@ -720,4 +720,4 @@ mode "$mode_gaps_outer" {
 ###################       C O M P T O N      ##############################
 ###########################################################################
 #if you want transparency on non-focused windows
-exec_always compton --config ~/.config/i3/compton.conf
+#exec_always compton --config ~/.config/i3/compton.conf
