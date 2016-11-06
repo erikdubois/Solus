@@ -12,3 +12,4 @@
 # or sudo pisi it -c desktop.i3  but that will only install core i3
 
 sudo eopkg it -y dunst i3 i3blocks i3lock i3status dmenu lxappearance xprop feh terminator
+cp -r i3/ ~/.config/
