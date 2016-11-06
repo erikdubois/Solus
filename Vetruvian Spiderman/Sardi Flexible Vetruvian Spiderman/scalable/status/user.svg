@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="512"
+   width="512"
+   version="1.1"
+   viewBox="0 0 512 512"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="user.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1680"
+     inkscape:window-height="991"
+     id="namedview18"
+     showgrid="false"
+     inkscape:zoom="0.4609375"
+     inkscape:cx="256"
+     inkscape:cy="256"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <metadata
+     id="metadata70">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs68">
+    <linearGradient
+       id="ButtonShadow"
+       y2="7.02"
+       gradientUnits="userSpaceOnUse"
+       x2="0"
+       gradientTransform="scale(1.0059 .99417)"
+       y1="92.54">
+      <stop
+         id="stop3750-1" />
+      <stop
+         id="stop3752-6"
+         stop-opacity="0.588"
+         offset="1" />
+    </linearGradient>
+    <filter
+       id="filter3174"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3176"
+         stdDeviation="1.71" />
+    </filter>
+  </defs>
+  <path
+     id="path8"
+     d="m471.95 253.05c0 120.9-98.006 218.91-218.91 218.91s-218.91-98.006-218.91-218.91 98.006-218.91 218.91-218.91 218.91 98.006 218.91 218.91"
+     fill-rule="evenodd"
+     fill="#0078ad"
+     style="fill:#BF9E73;fill-opacity:1" />
+  <path
+     id="path10"
+     fill-opacity="0.067"
+     d="m256 1c-140.83 0-255 114.17-255 255s114.17 255 255 255 255-114.17 255-255-114.17-255-255-255m8.827 44.931c120.9 0 218.9 98 218.9 218.9s-98 218.9-218.9 218.9-218.93-98-218.93-218.9 98.03-218.9 218.93-218.9"
+     fill-rule="evenodd" />
+  <path
+     id="path14"
+     fill-opacity="0.129"
+     d="m256 4.43c-138.94 0-251.57 112.63-251.57 251.57s112.63 251.57 251.57 251.57 251.57-112.63 251.57-251.57-112.63-251.57-251.57-251.57m5.885 38.556c120.9 0 218.9 98 218.9 218.9s-98 218.9-218.9 218.9-218.93-98-218.93-218.9 98.03-218.9 218.93-218.9"
+     fill-rule="evenodd" />
+  <path
+     id="path16"
+     fill-opacity="0.129"
+     d="m256 8.36c-136.77 0-247.64 110.87-247.64 247.64s110.87 247.64 247.64 247.64 247.64-110.87 247.64-247.64-110.87-247.64-247.64-247.64m2.942 31.691c120.9 0 218.9 98 218.9 218.9s-98 218.9-218.9 218.9-218.93-98-218.93-218.9 98.03-218.9 218.93-218.9"
+     fill-rule="evenodd" />
+  <path
+     id="path18"
+     d="m253.04 7.86c-135.42 0-245.19 109.78-245.19 245.19 0 135.42 109.78 245.19 245.19 245.19 135.42 0 245.19-109.78 245.19-245.19 0-135.42-109.78-245.19-245.19-245.19zm0 26.297c120.9 0 218.9 98 218.9 218.9s-98 218.9-218.9 218.9-218.93-98-218.93-218.9 98.03-218.9 218.93-218.9z"
+     stroke-opacity="0.31"
+     fill-rule="evenodd"
+     stroke="#000"
+     stroke-width="4.904"
+     fill="#fff" />
+  <path
+     id="path15929"
+     opacity="0.25"
+     d="m255.81 111.82c-44.1 0-79.97 37.19-79.97 83.47 0 23.87 9.55 45.45 24.85 60.75l69.61 69.62c-4.75 0.58-9.58 0.88-14.49 0.88-27.91 0-53.72-9.63-74.56-25.9-32.22 8.03-58.93 49.13-57.71 99.54l60.75 60.75c21.62 7.15 44.73 11.03 68.75 11.03 107.51 0 196.91-77.51 215.4-179.68l-157.27-157.27c-14.38-14.38-33.89-23.19-55.36-23.19z"
+     fill-rule="evenodd"
+     color="#000000" />
+  <path
+     id="path32574"
+     d="m255.81 111.82c-44.104 0-79.969 37.187-79.969 83.469 0 46.281 35.865 83.93 79.969 83.93s79.969-37.649 79.969-83.93-35.865-83.469-79.969-83.469zm-74.563 188.82c-32.22 8.0286-58.934 49.135-57.714 99.543h264.93c1.1539-50.418-25.801-91.538-58.091-99.543-20.84 16.269-46.647 25.902-74.563 25.902s-53.723-9.6334-74.563-25.902z"
+     fill-rule="evenodd"
+     fill="#fff"
+     color="#000000" />
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" height="512" viewBox="0 0 512 512" width="512" version="1.1" id="svg2" inkscape:version="0.91 r" sodipodi:docname="fonts.svg">
+<defs id="defs17" />
+<sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1680" inkscape:window-height="994" id="namedview15" showgrid="false" inkscape:zoom="1.3037281" inkscape:cx="172.48005" inkscape:cy="244.919" inkscape:window-x="0" inkscape:window-y="0" inkscape:window-maximized="1" inkscape:current-layer="svg2" />
+<metadata id="metadata28">
+<rdf:RDF>
+<cc:Work rdf:about="">
+<dc:format>image/svg+xml</dc:format>
+<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+</cc:Work>
+</rdf:RDF>
+</metadata>
+<path style="fill:#BF9E73;fill-rule:evenodd" inkscape:connector-curvature="0" d="m 471.95,253.05 c 0,120.9 -98.01,218.9 -218.9,218.9 -120.9,0 -218.9,-98.01 -218.9,-218.9 0,-120.9 98.01,-218.9 218.9,-218.9 120.9,0 218.9,98.01 218.9,218.9" id="path6" />
+<path style="fill-opacity:0.06700003;fill-rule:evenodd" inkscape:connector-curvature="0" d="M 256,1 C 115.17,1 1,115.17 1,256 1,396.83 115.17,511 256,511 396.83,511 511,396.83 511,256 511,115.17 396.83,1 256,1 m 8.827,44.931 c 120.9,0 218.9,98 218.9,218.9 0,120.9 -98,218.9 -218.9,218.9 -120.9,0 -218.93,-98 -218.93,-218.9 0,-120.9 98.03,-218.9 218.93,-218.9" id="path8" />
+<g style="fill-opacity:0.12900002;fill-rule:evenodd" id="g10">
+<path inkscape:connector-curvature="0" d="m 256,4.433 c -138.94,0 -251.57,112.63 -251.57,251.57 0,138.94 112.63,251.57 251.57,251.57 138.94,0 251.57,-112.63 251.57,-251.57 C 507.57,117.063 394.94,4.433 256,4.433 m 5.885,38.556 c 120.9,0 218.9,98 218.9,218.9 0,120.9 -98,218.9 -218.9,218.9 -120.9,0 -218.93,-98 -218.93,-218.9 0,-120.9 98.03,-218.9 218.93,-218.9" id="path12" />
+<path inkscape:connector-curvature="0" d="m 256,8.356 c -136.77,0 -247.64,110.87 -247.64,247.64 0,136.77 110.87,247.64 247.64,247.64 136.77,0 247.64,-110.87 247.64,-247.64 C 503.64,119.226 392.77,8.356 256,8.356 m 2.942,31.691 c 120.9,0 218.9,98 218.9,218.9 0,120.9 -98,218.9 -218.9,218.9 -120.9,0 -218.93,-98 -218.93,-218.9 0,-120.9 98.03,-218.9 218.93,-218.9" id="path14" />
+</g>
+<path style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:4.90399981;stroke-opacity:0.31000001" inkscape:connector-curvature="0" d="m 253.04,7.859 c -135.42,0 -245.19,109.78 -245.19,245.19 0,135.42 109.78,245.19 245.19,245.19 135.42,0 245.19,-109.78 245.19,-245.19 0,-135.42 -109.78,-245.19 -245.19,-245.19 z m 0,26.297 c 120.9,0 218.9,98 218.9,218.9 0,120.9 -98,218.9 -218.9,218.9 -120.9,0 -218.93,-98 -218.93,-218.9 0,-120.9 98.03,-218.9 218.93,-218.9 z" id="path16" />
+<g id="g18" color="#000000">
+<path id="path20" opacity="0.25" d="m203.03 117.16c-8.537 0.271-16.678 6.303-19.938 14.781l-77.41 202.81c-4.186 9.348-1.462 21.319 5.5 28.28l106 105.97c11.674 1.925 23.655 2.938 35.875 2.938 100.61 0 185.36-67.878 210.97-160.34l-117.37-117.37c-3.092-3.092-7.255-4.95-11.469-4.813-6.185 0.196-12.201 4.576-14.563 10.719l-7 18.344-93.81-93.81-0.813-0.844c-4.284-4.284-10.1-6.847-15.969-6.656" />
+<path id="path22" fill="#fff" d="m203.03 117.15c-8.537 0.271-16.683 6.311-19.942 14.79l-77.4 202.81c-5.244 11.712 0.365 27.523 11.554 32.469s25.647-1.996 29.597-14.28l12.978-35.699h89.42l11.713 31.449c3.959 12.355 18.542 19.348 29.755 14.28 11.212-5.069 16.694-21.13 11.237-32.809l-77.71-198.39c-3.472-8.835-12.285-14.91-21.21-14.62m132.16 72.25c-6.185 0.196-12.199 4.567-14.561 10.71l-23.74 62.39c27.893 72.26-0.007 0.41 27.856 71.908h43.842l8.546 22.779c2.87 8.951 13.403 14.04 21.525 10.37 8.125-3.672 12.03-15.338 8.07-23.799l-56.19-143.65c-2.514-6.401-8.886-10.92-15.352-10.71m-131.21 6.12 26.27 70.55h-51.914zm131.84 50.659 18.993 51.17h-37.51z" />
+</g>
+</svg>

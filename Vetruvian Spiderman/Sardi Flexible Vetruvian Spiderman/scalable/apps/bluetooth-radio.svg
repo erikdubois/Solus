@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="512"
+   viewBox="0 0 512 512"
+   width="512"
+   version="1.1"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="bluetooth-radio.svg">
+  <defs
+     id="defs21" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1680"
+     inkscape:window-height="999"
+     id="namedview19"
+     showgrid="false"
+     inkscape:zoom="0.4609375"
+     inkscape:cx="256"
+     inkscape:cy="256"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <metadata
+     id="metadata36">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     id="path4"
+     d="m471.95 253.05c0 120.9-98.01 218.9-218.9 218.9-120.9 0-218.9-98.01-218.9-218.9 0-120.9 98.01-218.9 218.9-218.9 120.9 0 218.9 98.01 218.9 218.9"
+     fill-rule="evenodd"
+     fill="#BF9E73" />
+  <g
+     id="g12"
+     fill-rule="evenodd">
+    <path
+       id="path14"
+       fill-opacity="0.067"
+       d="m256 1c-140.83 0-255 114.17-255 255s114.17 255 255 255 255-114.17 255-255-114.17-255-255-255m8.827 44.931c120.9 0 218.9 98 218.9 218.9s-98 218.9-218.9 218.9-218.93-98-218.93-218.9 98.03-218.9 218.93-218.9" />
+    <g
+       id="g16"
+       fill-opacity="0.129">
+      <path
+         id="path18"
+         d="m256 4.433c-138.94 0-251.57 112.63-251.57 251.57s112.63 251.57 251.57 251.57 251.57-112.63 251.57-251.57-112.63-251.57-251.57-251.57m5.885 38.556c120.9 0 218.9 98 218.9 218.9s-98 218.9-218.9 218.9-218.93-98-218.93-218.9 98.03-218.9 218.93-218.9" />
+      <path
+         id="path20"
+         d="m256 8.356c-136.77 0-247.64 110.87-247.64 247.64s110.87 247.64 247.64 247.64 247.64-110.87 247.64-247.64-110.87-247.64-247.64-247.64m2.942 31.691c120.9 0 218.9 98 218.9 218.9s-98 218.9-218.9 218.9-218.93-98-218.93-218.9 98.03-218.9 218.93-218.9" />
+    </g>
+    <path
+       id="path22"
+       d="m253.04 7.859c-135.42 0-245.19 109.78-245.19 245.19 0 135.42 109.78 245.19 245.19 245.19 135.42 0 245.19-109.78 245.19-245.19 0-135.42-109.78-245.19-245.19-245.19zm0 26.297c120.9 0 218.9 98 218.9 218.9s-98 218.9-218.9 218.9-218.93-98-218.93-218.9 98.03-218.9 218.93-218.9z"
+       stroke-opacity="0.31"
+       stroke="#000"
+       stroke-width="4.904"
+       fill="#fff" />
+  </g>
+  <path
+     id="path24"
+     stroke-linejoin="round"
+     d="m215.06 285.44 31.783-27.21 50.1-42.899-36.39-33.718v148.79l32.648-32.11-74.929-66.37"
+     stroke="#fff"
+     stroke-linecap="round"
+     stroke-width="13.11"
+     fill="none" />
+  <g
+     id="g26"
+     fill="#fff"
+     color="#000000">
+    <path
+       id="path28"
+       d="m167.84 167.66c-48.639 48.737-48.786 128.01-0.212 176.68l23.13-23.17c-36.08-36.15-35.914-94.13 0.212-130.33l-23.13-23.17m153.2 22.962c36.08 36.15 36.34 94.56 0.212 130.76l23.13 23.17c48.639-48.737 48.36-128.44-0.212-177.11l-23.13 23.17" />
+    <path
+       id="path30"
+       d="m384.5 126.94-24.844 24.875c25.04 26.366 40.44 62.02 40.44 101.25 0 40.652-16.492 77.45-43.16 104.06l27.844 27.938c70.885-71.03 70.51-187.19-0.281-258.12m-257 0.313c-70.885 71.03-71.07 186.57-0.281 257.5l24.781-24.875c-28.323-26.802-46-64.741-46-106.81 0-40.653 16.491-77.48 43.16-104.09l-21.656-21.719" />
+  </g>
+</svg>

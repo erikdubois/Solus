@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" height="512" viewBox="0 0 512 512" width="512" version="1.1">
+ <metadata id="metadata139"/>
+ <defs id="defs4">
+  <linearGradient id="0" y2="360.63" gradientUnits="userSpaceOnUse" y1="9.01" x2="578.14" x1="573.16">
+   <stop id="stop17" stop-color="#fafafa"/>
+   <stop id="stop19" stop-color="#f5f5f5" offset="1"/>
+  </linearGradient>
+ </defs>
+ <path id="path21" d="m471.95 253.05c0 120.9-98.01 218.9-218.9 218.9-120.9 0-218.9-98.01-218.9-218.9 0-120.9 98.01-218.9 218.9-218.9 120.9 0 218.9 98.01 218.9 218.9" fill-rule="evenodd" fill="#BF9E73"/>
+ <path id="path23" fill="#BF9E73" d="m187.63 44.13c-88.93 27.822-153.47 110.83-153.47 208.94 0 101.71 69.37 187.2 163.38 211.78 21.571-67.43 19.591-130.31-1.125-207.62-23.14-86.37-31.33-144.98-8.781-213.09"/>
+ <g id="g25" fill-rule="evenodd">
+  <path id="path27" fill-opacity="0.067" d="m256 1c-140.83 0-255 114.17-255 255s114.17 255 255 255 255-114.17 255-255-114.17-255-255-255m8.827 44.931c120.9 0 218.9 98 218.9 218.9s-98 218.9-218.9 218.9-218.93-98-218.93-218.9 98.03-218.9 218.93-218.9"/>
+  <g id="g29" fill-opacity="0.129">
+   <path id="path31" d="m256 4.433c-138.94 0-251.57 112.63-251.57 251.57s112.63 251.57 251.57 251.57 251.57-112.63 251.57-251.57-112.63-251.57-251.57-251.57m5.885 38.556c120.9 0 218.9 98 218.9 218.9s-98 218.9-218.9 218.9-218.93-98-218.93-218.9 98.03-218.9 218.93-218.9"/>
+   <path id="path33" d="m256 8.356c-136.77 0-247.64 110.87-247.64 247.64s110.87 247.64 247.64 247.64 247.64-110.87 247.64-247.64-110.87-247.64-247.64-247.64m2.942 31.691c120.9 0 218.9 98 218.9 218.9s-98 218.9-218.9 218.9-218.93-98-218.93-218.9 98.03-218.9 218.93-218.9"/>
+  </g>
+  <path id="path35" d="m253.04 7.859c-135.42 0-245.19 109.78-245.19 245.19 0 135.42 109.78 245.19 245.19 245.19 135.42 0 245.19-109.78 245.19-245.19 0-135.42-109.78-245.19-245.19-245.19zm0 26.297c120.9 0 218.9 98 218.9 218.9s-98 218.9-218.9 218.9-218.93-98-218.93-218.9 98.03-218.9 218.93-218.9z" stroke-opacity="0.31" stroke="#000" stroke-width="4.904" fill="#fff"/>
+ </g>
+ <text id="text37" font-size="129.23" line-height="125%" y="231.36" x="729.64" font-family="Gentium Book Basic" word-spacing="0" letter-spacing="0"><tspan id="tspan39" y="231.36" x="729.64"/>
+ </text>
+ <text id="text41" font-size="46.954" transform="scale(4.0128 .2492)" y="579.25" x="378.91" font-family="Arial" text-anchor="middle"/>
+ <text id="text43" font-size="129.23" line-height="125%" y="151.36" x="1310.91" font-family="Gentium Book Basic" word-spacing="0" letter-spacing="0"><tspan id="tspan45" y="151.36" x="1310.91"/>
+ </text>
+ <text id="text47" font-size="46.954" transform="scale(4.0128 .2492)" y="258.22" x="523.76" font-family="Arial" text-anchor="middle"/>
+ <text id="text49" font-size="129.23" line-height="125%" y="-29.901" x="239.33" font-family="Gentium Book Basic" word-spacing="0" letter-spacing="0"><tspan id="tspan51" y="-29.901" x="239.33"/>
+ </text>
+ <text id="text53" font-size="46.954" transform="scale(4.0128 .2492)" y="-469.14" x="256.72" font-family="Arial" text-anchor="middle"/>
+ <text id="text55" font-size="129.23" line-height="125%" y="-246.37" x="1337.38" font-family="Gentium Book Basic" word-spacing="0" letter-spacing="0"><tspan id="tspan57" y="-246.37" x="1337.38"/>
+ </text>
+ <text id="text59" font-size="46.954" transform="scale(4.0128 .2492)" y="-1337.8" x="530.36" font-family="Arial" text-anchor="middle"/>
+ <text id="text61" font-size="129.23" line-height="125%" y="-326.38" x="1918.65" font-family="Gentium Book Basic" word-spacing="0" letter-spacing="0"><tspan id="tspan63" y="-326.38" x="1918.65"/>
+ </text>
+ <text id="text65" font-size="46.954" transform="scale(4.0128 .2492)" y="-1658.84" x="675.21" font-family="Arial" text-anchor="middle"/>
+ <text id="text67" font-size="129.23" line-height="125%" y="-798.78" x="1529.53" font-family="Gentium Book Basic" word-spacing="0" letter-spacing="0"><tspan id="tspan69" y="-798.78" x="1529.53"/>
+ </text>
+ <text id="text71" font-size="46.954" transform="scale(4.0128 .2492)" y="-3554.49" x="578.24" font-family="Arial" text-anchor="middle"/>
+ <text id="text73" font-size="129.23" line-height="125%" y="-878.78" x="2110.79" font-family="Gentium Book Basic" word-spacing="0" letter-spacing="0"><tspan id="tspan75" y="-878.78" x="2110.79"/>
+ </text>
+ <text id="text77" font-size="46.954" transform="scale(4.0128 .2492)" y="-3875.52" x="723.09" font-family="Arial" text-anchor="middle"/>
+ <g id="g79" font-family="Gentium Book Basic" line-height="125%" word-spacing="0" letter-spacing="0">
+  <text id="text81" y="535.94" x="277.99" font-size="208.33"><tspan id="tspan83" y="535.94" x="277.99"/>
+  </text>
+  <text id="text85" y="2.596" x="117.74" font-size="129.23"><tspan id="tspan87" y="2.596" x="117.74"/>
+  </text>
+ </g>
+ <text id="text89" font-size="46.954" transform="scale(4.0128 .2492)" y="-338.74" x="226.42" font-family="Arial" text-anchor="middle"/>
+ <text id="text91" font-size="129.23" line-height="125%" y="-77.4" x="699.01" font-family="Gentium Book Basic" word-spacing="0" letter-spacing="0"><tspan id="tspan93" y="-77.4" x="699.01"/>
+ </text>
+ <text id="text95" font-size="46.954" transform="scale(4.0128 .2492)" y="-659.77" x="371.27" font-family="Arial" text-anchor="middle"/>
+ <text id="text97" font-size="129.23" line-height="125%" y="-258.66" x="-372.57" font-family="Gentium Book Basic" word-spacing="0" letter-spacing="0"><tspan id="tspan99" y="-258.66" x="-372.57"/>
+ </text>
+ <text id="text101" font-size="46.954" transform="scale(4.0128 .2492)" y="-1387.13" x="104.23" font-family="Arial" text-anchor="middle"/>
+ <text id="text103" font-size="129.23" line-height="125%" y="-475.13" x="725.48" font-family="Gentium Book Basic" word-spacing="0" letter-spacing="0"><tspan id="tspan105" y="-475.13" x="725.48"/>
+ </text>
+ <text id="text107" font-size="46.954" transform="scale(4.0128 .2492)" y="-2255.79" x="377.87" font-family="Arial" text-anchor="middle"/>
+ <text id="text109" font-size="129.23" line-height="125%" y="-555.14" x="1306.75" font-family="Gentium Book Basic" word-spacing="0" letter-spacing="0"><tspan id="tspan111" y="-555.14" x="1306.75"/>
+ </text>
+ <text id="text113" font-size="46.954" transform="scale(4.0128 .2492)" y="-2576.83" x="522.72" font-family="Arial" text-anchor="middle"/>
+ <text id="text115" font-size="129.23" line-height="125%" y="-1027.54" x="917.63" font-family="Gentium Book Basic" word-spacing="0" letter-spacing="0"><tspan id="tspan117" y="-1027.54" x="917.63"/>
+ </text>
+ <text id="text119" font-size="46.954" transform="scale(4.0128 .2492)" y="-4472.48" x="425.75" font-family="Arial" text-anchor="middle"/>
+ <text id="text121" font-size="129.23" line-height="125%" y="-1107.54" x="1498.89" font-family="Gentium Book Basic" word-spacing="0" letter-spacing="0"><tspan id="tspan123" y="-1107.54" x="1498.89"/>
+ </text>
+ <text id="text125" font-size="46.954" transform="scale(4.0128 .2492)" y="-4793.51" x="570.6" font-family="Arial" text-anchor="middle"/>
+ <text id="text127" font-size="208.33" line-height="125%" y="307.18" x="-333.91" font-family="Gentium Book Basic" word-spacing="0" letter-spacing="0"><tspan id="tspan129" y="307.18" x="-333.91"/>
+ </text>
+ <g id="g131" color="#000000">
+  <path id="path133" opacity="0.25" d="m150.66 145.09 28.688 28.688h-14.313v14.375l-28.688-28.688v193.06l14.375 14.375h-0.063l105.03 105c118.79-1.404 214.81-97.41 216.22-216.22l-110.56-110.59h-210.69"/>
+  <path id="path135" fill="url(#0)" d="m150.66 145.1a14.341 14.341 0 0 0 -14.33 14.36v193.08a14.341 14.341 0 0 0 14.33 14.36h210.67a14.341 14.341 0 0 0 14.34 -14.36v-193.08a14.341 14.341 0 0 0 -14.33 -14.36h-210.67m14.36 28.69h76.65v66.62h-76.65v-66.62m105.31 0h76.65v66.62h-76.65v-66.62m-105.31 95.28h76.65v69.14h-76.65v-69.14m105.31 0h76.65v69.14h-76.65v-69.14"/>
+ </g>
+</svg>
