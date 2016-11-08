@@ -1,0 +1,180 @@
+#=====================================================================================
+#                               aurora
+# Date    : 07/02/2016
+# Author  : Erik Dubois at http://www.erikdubois.be
+# Version : v3.0.2
+# License : Distributed under the terms of GNU GPL version 2 or later
+# Documentation English: http://erikdubois.be/linux/install-conky-theme-aurora
+# Documentation Dutch: http://erikdubois.be/linux/conky
+#======================================================================================
+
+#======================================================================================
+#                               
+# Source : https://plus.google.com/+RobertPartridge/ and 
+# https://plus.google.com/u/0/+ThomasThompson/
+# Your work has been put to good use
+#======================================================================================
+
+
+
+alignment middle_right
+background no
+border_inner_margin 0
+border_width 0
+default_color FFFFFF
+default_outline_color black
+default_shade_color black
+double_buffer yes
+draw_borders no
+draw_graph_borders no
+draw_outline no
+draw_shades no
+gap_x 25
+gap_y 50
+maximum_size 500 700
+no_buffers yes
+override_utf8_locale yes
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+own_window_transparent yes
+own_window yes
+own_window_type override
+own_window_class Conky
+own_window_argb_visual no
+pad_percents 2
+short_units yes
+stippled_borders 0
+top_name_width 5
+update_interval 1
+uppercase no
+use_spacer right
+
+
+
+
+###Settings###
+background yes
+cpu_avg_samples 1
+default_bar_size 100 8
+default_graph_size 200 100
+diskio_avg_samples 10
+double_buffer yes
+extra_newline no
+if_up_strictness address
+net_avg_samples 1
+no_buffers yes
+temperature_unit celsius
+text_buffer_size 2048
+short_units yes
+update_interval 1
+###End Settings###
+
+###Position###
+alignment middle_right
+gap_x 25
+gap_y 50
+minimum_size 300 740
+maximum_width 250
+###End Position###
+
+###Borders###
+border_inner_margin 0
+border_outer_margin 10
+border_width 0
+draw_borders no
+draw_graph_borders yes
+draw_outline no
+draw_shades no
+###End Borders###
+
+###Window###
+own_window yes
+own_window_argb_value 128
+own_window_argb_visual no
+
+#own_window_class systemConky
+own_window_class Conky
+own_window_hints undecorate,sticky,skip_taskbar,skip_pager,below
+#all options for own_window_type are normal, desktop, dock, panel or override
+own_window_type override
+own_window_transparent yes
+
+###End Window###
+
+###Font###
+max_text_width 0
+override_utf8_locale yes
+uppercase yes
+use_spacer none
+use_xft yes
+xftfont Sans Mono:size=8
+xftalpha 0.9
+###End Font###
+
+###Defining Colors###
+default_color FFFFFF
+default_outline_color 000000
+default_shade_color 000000
+###End Color###
+
+
+
+
+own_window_colour 555753
+TEXT
+${goto 12}${color FFFFFF}${font Sans Mono:size=12}${nodename}${font}${goto 145}${color}-------------------------------+
+${goto 15}|
+${goto 15}|${goto 38}+-- OS${goto 145}${sysname}
+${goto 15}|${goto 38}+-- Kernel ${goto 145}${kernel}${color}
+${goto 15}|${goto 38}+-- Machine${goto 145}${machine}
+${goto 15}|
+${goto 12}${color 00FFFF}+----Memory ${color}
+${goto 15}|${goto 40}|
+${goto 15}|${goto 38}+-- Total${goto 145}${memmax}
+${goto 15}|${goto 38}+-- In Use${goto 145}${mem} ${color 00FFFF}(${memperc}%)${color}
+${goto 15}|${goto 38}+-- Free${goto 145}${memfree}
+${goto 15}|${goto 38}+-- Up to${goto 145}${memeasyfree} 
+${goto 15}|${goto 38}+-- Swap
+${goto 15}|${goto 60}+-- Total${goto 145}${swapmax}
+${goto 15}|${goto 60}+-- Used${goto 145}${swap} - ${swapperc}%
+${goto 15}|${goto 60}+-- Free${goto 145}${swapfree}
+${goto 15}|
+${goto 12}${color 00FFFF}+----Status${color}
+${goto 15}|${goto 40}|
+${goto 15}|${goto 38}+-- CPU${goto 145}${color 00FFFF}${cpu cpu0}% ${color}- ${freq_g}GHz
+${goto 15}|${goto 38}+-- TEMP${goto 145}${color 00FFFF}${execi 10 sensors | grep 'Core 0' | awk {'print $3'}}${color}
+${goto 15}|${goto 38}+-- LoadAvg${goto 145}${loadavg}
+${goto 15}|${goto 38}+-- Disk${goto 145}${fs_used_perc /}% Used
+${goto 15}|${goto 38}+-- Diskio ${goto 145}${diskio}
+${goto 15}|${goto 60}+-- Read${goto 145}${diskio_read}
+${goto 15}|${goto 60}+-- Write${goto 145}${diskio_write}
+${goto 15}|
+${goto 12}${color 00FFFF}+----Storage ${color}
+${goto 15}|${goto 40}|
+${goto 15}|${goto 38}+-- /ROOT${goto 145}${fs_free /} / ${fs_size /}
+${goto 15}|
+${goto 12}${color 00FFFF}+----Processes ${color}
+${goto 15}|${goto 40}|
+${goto 15}|${goto 38}+-- Total${goto 145}${processes}
+${goto 15}|${goto 38}+-- Running${goto 145}${running_processes}
+${goto 15}|${goto 40}|
+${goto 15}|${goto 38}+-- CPU
+${goto 15}|${goto 40}|${goto 60}+-- ${top name 1}${goto 145}${top cpu 1}${top mem 1}
+${goto 15}|${goto 40}|${goto 60}+-- ${top name 2}${goto 145}${top cpu 2}${top mem 2}
+${goto 15}|${goto 40}|${goto 60}+-- ${top name 3}${goto 145}${top cpu 3}${top mem 3}
+${goto 15}|${goto 40}|
+${goto 15}|${goto 38}+-- MEM
+${goto 15}|${goto 60}+-- ${top_mem name 1}${goto 145}${top_mem cpu 1}${top_mem mem 1}
+${goto 15}|${goto 60}+-- ${top_mem name 2}${goto 145}${top_mem cpu 2}${top_mem mem 2}
+${goto 15}|${goto 60}+-- ${top_mem name 3}${goto 145}${top_mem cpu 3}${top_mem mem 3}
+${goto 15}|
+${goto 12}${color 00FFFF}+----Net ${color}
+${goto 15}|${goto 40}|
+${goto 15}|${goto 38}+-- Ip${goto 145}${addr enp2s0}
+${goto 15}|${goto 38}+-- Up
+${goto 15}|${goto 40}|${goto 60}+-- Speed${goto 145}${upspeedf enp2s0}KB
+${goto 15}|${goto 40}|${goto 60}+-- Total${goto 145}${totalup enp2s0}
+${goto 15}|${goto 40}|
+${goto 15}|${goto 38}+-- Down
+${goto 15}|${goto 60}+-- Speed${goto 145}${downspeedf enp2s0}KB
+${goto 15}|${goto 60}+-- Total${goto 145}${totaldown enp2s0}
+${goto 12}+--------------------------------------------------------+
