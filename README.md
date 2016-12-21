@@ -209,26 +209,6 @@ More info can be found here : https://github.com/erikdubois/Surfn
 ![Screenshots](http://i.imgur.com/0TVhdKi.gif)
 
 
-##Install the Aureola conky collection
-
-This is an exercise in writing conky configurations in lua syntax.
-
-Easy installation can be done with this script :
-
-	conky-aureola-vx.sh
-
-
-![Screenshots](http://i.imgur.com/f1N9ZbD.jpg)
-
-
-![Screenshots](http://i.imgur.com/f2OZ2wd.jpg)
-
-
-![Screenshots](http://i.imgur.com/pe5FnVl.jpg)
-
-
-More information can be found here : http://erikdubois.be/category/linux/aureola/
-
 
 ##Change the cursor
 
@@ -248,12 +228,7 @@ and put in on top. I choose a transparent theme.
 
 But there are more themes out there if you want.
 
-If you want to autostart this everytime.
-Type in the menu " startup". Start 'startup applications'.
-
-Add application and choose plank or do it the old way and point to /usr/bin/plank.
-
-See the pictures above.
+If you want to autostart this everytime then use gnome-tweak-tool to autostart plank.
 
 Collection of plank themes can be found here
 
@@ -272,7 +247,7 @@ Sardi icons and all plank themes
 ![Screenshots](http://i.imgur.com/dnmq1g0.gif)
 
 
-Read more on plank e.g. how to autostart plank on boot : http://erikdubois.be/category/linux/plank/
+Read more on plank : http://erikdubois.be/category/linux/plank/
 
 
 
