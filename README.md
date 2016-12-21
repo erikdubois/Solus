@@ -209,20 +209,21 @@ More info can be found here : https://github.com/erikdubois/Surfn
 
 
 
-## ZSH and Oh-my-sh
------------------------
-I like bash but I prefer zsh with lots of different theme to spice things up. So let us install that in the script.
+##Change from bash to zsh in your terminal
 
-ZOOM IN to see that the colours and the look change in the terminal.
-Everytime a surprise. Because of the 'random'. Read on.
+I like bash but I prefer zsh with lots of different themes from oh-my-zsh to spice things up. So let us install that via this script.
 
-Pictures are from Linux Mint but this works on any distro.
 
-![Screenshots](http://i.imgur.com/NUc55XO.png)
+	./install-zsh-vx.sh
 
-./install-zsh-vx.sh
 
-At the moment of writing there is no zsh-completion.
+![Screenshots](http://i.imgur.com/kehYX70.jpg)
+
+Remember to type this in the terminal
+
+	sudo chsh yourname -s /bin/zsh
+
+Log off or reboot.
 
 
 
