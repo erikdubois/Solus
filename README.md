@@ -340,7 +340,7 @@ Run this script
 
 	install-i3-on-solus-vx.sh
 
-It will install many necessary program to make it easier to work with i3 and i3 with gaps.
+It will install many necessary programs to make it easier to work with i3.
 
 
 ![Screenshots](http://i.imgur.com/rZN3lpp.jpg)
