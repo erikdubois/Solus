@@ -239,6 +239,9 @@ Easy installation can be done with this script :
 ![Screenshots](http://i.imgur.com/3I7XTIG.jpg)
 
 
+![Screenshots](http://i.imgur.com/42kAZCa.jpg)
+
+
 More information can be found here : http://erikdubois.be/category/linux/aureola/
 
 
