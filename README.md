@@ -1,15 +1,16 @@
-# Ultimate Solus
+# Ultimate Solus 1.2.1 Shannon
 
-##Tested on Solus 1.2.1 Shannon
+Let us first take a screenshot of the initial look.
+
+![Screenshots](http://i.imgur.com/AC6iOqu.png)
+
 
 A complete tutorial with many articles and video's can be found here : 
 
 http://erikdubois.be/solus-budgie-1-2-1/
 
 
-
-
-# Desktop environments
+# Possible Desktop environments
 
 ## Budgie 10.2.8
 
@@ -32,7 +33,27 @@ http://erikdubois.be/solus-budgie-1-2-1/
 ![Screenshots](http://i.imgur.com/cghICEL.jpg)
 
 
+##Download this github
 
+You can run any of these scripts by downloading the zip file from github. Go to the download folder and right-click to **Extract here**.
+Go inside the folder and right-click <b>in a blank space</b> to go to the terminal. Now your terminal is opened in this extracted folder.
+
+Or you can use the terminal and the git command
+
+	sudo eopkg install git	
+	git clone https://github.com/erikdubois/Ultimate-Solus-1.2.1
+
+##Update your system.
+
+Use the software center to download updates 
+
+![Screenshots](http://i.imgur.com/sCkROTW.png)
+
+or
+
+type the following command in the terminal
+
+	sudo eopkg upgrade	
 
 
 # Down memory lane
