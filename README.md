@@ -105,6 +105,11 @@ The best of them
 
 There are other scripts for applications I sometimes need but will not be installed as of yet.
 
+## No icons or themes after installation in raven panel
+
+Until now themes and icons are not revealed in the raven panel after installation unless you logoff or reboot. That is why I use the **gnome-tweak-tool** after installation to change icons and themes.
+
+
 
 ## Download the Arc themes
 
@@ -147,7 +152,7 @@ Sardi is **meant to be changed by the users**. You can use scripts to change the
 Colour codes can be figured out locally with gpick or online via http://www.colorpicker.com/.
 
 
-![Screenshots](http://i.imgur.com/XvoHtzL.jpg)
+![Screenshots](http://i.imgur.com/KJcK1tm.jpg)
 
 
 
@@ -159,7 +164,7 @@ https://github.com/erikdubois/Sardi-Extra
 
 These icons can be downloaded but will not be maintained. Nor are they part of the core icons of Sardi. They are the result of ideas and scripts that are included in Sardi icons.
 
-![Screenshots](http://i.imgur.com/E16dX0C.jpg)
+![Screenshots](http://i.imgur.com/YLjCeoR.jpg)
 
 Easy installation with this script
 
@@ -169,13 +174,27 @@ More documentation on http://erikdubois.be/category/sardi-icons/
 
 
 
+##Download the Surfn icons
+
+For ease of installation I use the script
+
+	- icons-surfn-vx.sh
+
+
+![Screenshots](http://i.imgur.com/Yq1jUDY.jpg)
+
+
+![Screenshots](http://i.imgur.com/JpmraYv.jpg)
+
+
+More info can be found here : https://github.com/erikdubois/Surfn
 
 
 
 
+# All Sardi, Sardi Extra and Surfn icons
 
-
-
+![Screenshots](http://i.imgur.com/0TVhdKi.gifv)
 
 
 
