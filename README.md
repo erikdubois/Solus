@@ -209,6 +209,37 @@ More info can be found here : https://github.com/erikdubois/Surfn
 ![Screenshots](http://i.imgur.com/0TVhdKi.gif)
 
 
+##Install the Aureola conky collection
+
+This is an exercise in writing conky configurations in lua syntax.
+
+At the time of writing Solus is in transition.
+
+Conky version 1.9 in stable repo and conky version 1.10 in unstable. 
+
+I used the script present on this github to get ALL the unstable packages.
+
+	install-software-from-Solus-Unstable.sh
+
+![Screenshots](http://i.imgur.com/TFzdTZM.jpg)
+
+Easy installation can be done with this script :
+
+	conky-aureola-vx.sh
+
+
+![Screenshots](http://i.imgur.com/f1N9ZbD.jpg)
+
+
+![Screenshots](http://i.imgur.com/f2OZ2wd.jpg)
+
+
+![Screenshots](http://i.imgur.com/pe5FnVl.jpg)
+
+
+More information can be found here : http://erikdubois.be/category/linux/aureola/
+
+
 
 ##Change the cursor
 
