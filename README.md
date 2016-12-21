@@ -2,9 +2,12 @@
 
 ##Tested on Solus 1.2.1 Shannon
 
-A complete tutorial with many article and video's can be found here : 
+A complete tutorial with many articles and video's can be found here : 
 
 http://erikdubois.be/solus-budgie-1-2-1/
+
+
+
 
 # Desktop environments
 
