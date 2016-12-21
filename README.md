@@ -353,7 +353,7 @@ https://wiki.solus-project.com/Package_Management#Rollback
 Content Playlist of **40+ short movies** to make your desktop eye-candy.
 Sardi and Surfn icon collection playing its part.
 
-About 40+ short movies to completely change your desktop experience for Solus, Solus Mate and Solus i3.
+About 40+ short movies to completely change your desktop experience for Solus Budgie, Solus Mate and Solus i3.
 
 Check out the movies by clicking here
 
