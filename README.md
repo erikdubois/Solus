@@ -194,7 +194,7 @@ More info can be found here : https://github.com/erikdubois/Surfn
 
 # All Sardi, Sardi Extra and Surfn icons
 
-![Screenshots](http://i.imgur.com/0TVhdKi.gifv)
+![Screenshots](http://i.imgur.com/0TVhdKi.gif)
 
 
 
