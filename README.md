@@ -181,14 +181,10 @@ For ease of installation I use the script
 	- icons-surfn-vx.sh
 
 
-![Screenshots](http://i.imgur.com/Yq1jUDY.jpg)
-
-
-![Screenshots](http://i.imgur.com/JpmraYv.jpg)
+![Screenshots](http://i.imgur.com/MPEWK6b.jpg)
 
 
 More info can be found here : https://github.com/erikdubois/Surfn
-
 
 
 
