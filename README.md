@@ -335,6 +335,8 @@ Original icons from solus - Arc with Arc Darker theme
 
 # Remember
 
+Autologin can be set at system settings/users.
+
 Autostart plank via gnome-tweak-tool
 
 
