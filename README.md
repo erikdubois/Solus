@@ -366,7 +366,7 @@ Run this script
 It will install many necessary programs to make it easier to work with Mate.
 
 
-![Screenshots](http://i.imgur.com/rZN3lpp.jpg)
+![Screenshots](http://i.imgur.com/3kreaj7.jpg)
 
 
 More information can be found here : http://erikdubois.be/category/linux/i3/
