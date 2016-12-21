@@ -13,3 +13,10 @@
 
 sudo eopkg it -y dunst i3 i3blocks i3lock i3status dmenu lxappearance xprop feh terminator
 cp -r i3/ ~/.config/
+echo "################################################################"
+echo "All done"
+echo "################################################################"
+echo "Log off and log on with i3 selected."
+echo "################################################################"
+echo "##############    i3wm has been installed ######################"
+echo "################################################################"
