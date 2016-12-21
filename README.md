@@ -56,6 +56,137 @@ type the following command in the terminal
 	sudo eopkg upgrade	
 
 
+##Kernel
+
+When upgrading you will get the latest (stable) kernel available.
+
+
+![Screenshots](http://i.imgur.com/v5soSul.png)
+
+
+
+##Nvidia
+
+I did not install any nvidia drivers. Never found the need to do so.
+
+But if you want to do so, type this command and press TAB twice.
+
+	sudo eopkg it nvidia-
+
+See on nvidia.com what version you should install for your hardware.
+
+
+
+##Software installation
+
+We start the installation scripts of all the needed software via the terminal. 
+
+	1-install-core-software-vx.sh
+	2-install-extra-software-vx.sh
+	3-install-themes-icons-cursors-plank.sh
+
+Do not forget to type "./" in front of the name.
+
+
+These three scripts will point to some of the other scripts in the folder. So keep them together.
+
+
+The best of them 
+
+	Spotify
+	Sublime Text
+	Variety
+	Inkscape
+	Plank
+	Screenfetch
+	Numix Icons
+	Google Chrome
+	...
+
+There are other scripts for applications I sometimes need but will not be installed as of yet.
+
+
+## Download the Arc themes
+
+Using the scripts at https://github.com/erikdubois/Arc-Theme-Colora we can change the standard blue colour from Arc to any colour we like.
+
+Check first in the folder **Arc Theme Colora** what colours have been created already.
+
+All created Arc themes will be copied to ~/.themes.
+
+
+
+##Download the Sardi icons
+
+
+Sardi icon collection can be downloaded at  sourceforge.
+
+http://sourceforge.net/projects/sardi/
+
+For ease of installation I use the script
+
+
+	- icons-sardi-vx.sh
+
+
+Follow the collection on google+ : https://plus.google.com/u/0/collection/YFP-LB
+
+The most recent pictures can be found there.
+
+
+Sardi is **meant to be changed by the users**. You can use scripts to change the hexadecimal colour code in about 3 seconds.
+
+
+    Sardi Colora has such a colouring script.
+    Sardi Flat Colora has such a colouring script.
+    Sardi Flexible has such a colouring script.
+    Sardi Ghost Flexible has such a colouring script.
+    Sardi Mono Colora has such a colouring script.
+    Sardi Mono Numix Colora has such a colouring script.
+
+Colour codes can be figured out locally with gpick or online via http://www.colorpicker.com/.
+
+
+![Screenshots](http://i.imgur.com/XvoHtzL.jpg)
+
+
+
+##Download the Sardi-extra icons
+
+There is also a collection of **Sardi Extra** icons at 
+
+https://github.com/erikdubois/Sardi-Extra
+
+These icons can be downloaded but will not be maintained. Nor are they part of the core icons of Sardi. They are the result of ideas and scripts that are included in Sardi icons.
+
+![Screenshots](http://i.imgur.com/E16dX0C.jpg)
+
+Easy installation with this script
+
+		icons-sardi-extra-vx.sh
+
+More documentation on http://erikdubois.be/category/sardi-icons/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Down memory lane
 ## Icons Sardi and Surfn
 
@@ -79,6 +210,9 @@ Sardi v 7.3.0 at [Sourceforge](https://sourceforge.net/projects/sardi/files/)
 
 
 
+http://i.imgur.com/v5soSul.png
+
+
 # Icons from Budgie Solus
 
 Original icons from solus - Arc with Arc Darker theme
@@ -88,32 +222,6 @@ Original icons from solus - Arc with Arc Darker theme
 
 
 
-
-## Software installation
-
-
-We start the installation script of all the needed software.
-
-	- ./install-all-needed-software-vx.sh
-
-	OR
-
-	- ./quick-install.sh
-
-Do not forget to type "./" in front of the name.
-
-The best of them
-
-	Spotify
-	Sublime Text
-	Variety
-	Gimp
-	Inkscape
-	Plank
-	Screenfetch
-	Numix Icons
-	Google Chrome
-	...
 
 
 
