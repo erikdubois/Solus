@@ -221,7 +221,12 @@ I used the script present on this github to get ALL the unstable packages.
 
 	install-software-from-Solus-Unstable.sh
 
+If you only want the latest conky and not more, use this script.
+
+	install-conky-1.10-from-Solus-Unstable.sh
+
 ![Screenshots](http://i.imgur.com/TFzdTZM.jpg)
+
 
 Easy installation can be done with this script :
 
@@ -231,10 +236,7 @@ Easy installation can be done with this script :
 ![Screenshots](http://i.imgur.com/vSnfHLG.jpg)
 
 
-![Screenshots](http://i.imgur.com/f2OZ2wd.jpg)
-
-
-![Screenshots](http://i.imgur.com/pe5FnVl.jpg)
+![Screenshots](http://i.imgur.com/3I7XTIG.jpg)
 
 
 More information can be found here : http://erikdubois.be/category/linux/aureola/
