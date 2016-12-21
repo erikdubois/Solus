@@ -334,6 +334,28 @@ Original icons from solus - Arc with Arc Darker theme
 
 
 
+# Install i3 on Solus
+
+Run this script
+
+	install-i3-on-solus-vx.sh
+
+It will install many necessary program to make it easier to work with i3 and i3 with gaps.
+
+
+![Screenshots](http://i.imgur.com/rZN3lpp.jpg)
+
+i3 wm has a steep learning curve but once you get over it, you can install i3 on any system and copy/paste your config files. You will always feel at home.
+
+	Antergos
+	Linux Mint
+	Ubuntu
+	Solus
+	Arch Linux
+
+
+More information can be found here : http://erikdubois.be/category/linux/i3/
+
 
 
 # Remember
