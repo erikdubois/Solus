@@ -178,7 +178,16 @@ or use the script
 
 	plank-themes-vx.sh
 
+Surfn icons and all plank themes
 
+![Screenshots](http://i.imgur.com/CRfb4Qo.gif)
+
+Sardi icons and all plank themes
+
+![Screenshots](http://i.imgur.com/dnmq1g0.gif)
+
+
+Read more on plank e.g. how to autostart plank on boot : http://erikdubois.be/category/linux/plank/
 
 # Remember
 Upgrading
