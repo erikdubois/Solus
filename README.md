@@ -369,7 +369,13 @@ to install the mate desktop.
 ![Screenshots](http://i.imgur.com/3kreaj7.jpg)
 
 
-More information can be found here : http://erikdubois.be/category/linux/i3/
+After some tweaking you can get at a similar result.
+
+
+![Screenshots](http://i.imgur.com/vhPQ6Z2.png)
+
+
+More information can be found here : http://erikdubois.be/tag/mate/
 
 
 
