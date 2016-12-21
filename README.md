@@ -363,7 +363,7 @@ Run this script
 
 	install-mate-on-solus-vx.sh
 
-It will install many necessary programs to make it easier to work with Mate.
+to install the mate desktop.
 
 
 ![Screenshots](http://i.imgur.com/3kreaj7.jpg)
