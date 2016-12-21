@@ -224,7 +224,7 @@ I like the breeze snow cursors.
 ## Plank
 ------------------
 Start plank from the menu. <b>CTRL + Right-click</b> on the plank and choose preferences
-and put in on top. I choose a transparent theme.
+and put in on top. Choose one of the standard themes.
 
 But there are more themes out there if you want.
 
@@ -350,19 +350,17 @@ https://wiki.solus-project.com/Package_Management#Rollback
 
 # Youtube Resources 
 
-Content Playlist of 100+ short movies to make your desktop eye-candy.
+Content Playlist of **40+ short movies** to make your desktop eye-candy.
 Sardi icon collection playing its part.
 
-https://www.youtube.com/playlist?list=PLlloYVGq5pS43s05ltH9xh7paFteoT7UB
+https://www.youtube.com/playlist?list=PLlloYVGq5pS7c-RZ3QJAz7LQuPoT6FufX
 
-About 100+ short movies to completely change your desktop experience for linux.
-They are made on Linux Mint 18 and still apply on 18.1.
-Updating, kernel installation, applications installation, variety settings, firefox and google search, lastpass and xmarks, sardi icon theme, fixing icons that never change, theme installation of vertex and arc, applets, dropbox, zsh, printer, aureola conky, surfn icons, plank, personal settings of cinnamon, gimp scripts added, dropbox fix, keyboard fix for music, ...
+About 40+ short movies to completely change your desktop experience for linux.
 
 Check out the movies by clicking here
 
-<a target="_blank" href="https://www.youtube.com/playlist?list=PLlloYVGq5pS43s05ltH9xh7paFteoT7UB">
-<img style="max-width:100%;" src="http://i.imgur.com/UMpseyy.png">
+<a target="_blank" href="https://www.youtube.com/playlist?list=PLlloYVGq5pS7c-RZ3QJAz7LQuPoT6FufX">
+<img style="max-width:100%;" src="http://i.imgur.com/sWaRAH9.png">
 </a>
 
 
