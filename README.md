@@ -155,6 +155,15 @@ Colour codes can be figured out locally with gpick or online via http://www.colo
 ![Screenshots](http://i.imgur.com/KJcK1tm.jpg)
 
 
+![Screenshots](http://i.imgur.com/zIL9gox.jpg)
+
+
+![Screenshots](http://i.imgur.com/73tSitP.jpg)
+
+
+![Screenshots](http://i.imgur.com/4iqnB53.jpg)
+
+
 
 ##Download the Sardi-extra icons
 
@@ -184,6 +193,12 @@ For ease of installation I use the script
 ![Screenshots](http://i.imgur.com/MPEWK6b.jpg)
 
 
+![Screenshots](http://i.imgur.com/3x9xbxD.png)
+
+
+![Screenshots](http://i.imgur.com/TR95eIc.jpg)
+
+
 More info can be found here : https://github.com/erikdubois/Surfn
 
 
@@ -191,101 +206,6 @@ More info can be found here : https://github.com/erikdubois/Surfn
 # All Sardi, Sardi Extra and Surfn icons
 
 ![Screenshots](http://i.imgur.com/0TVhdKi.gif)
-
-
-
-
-
-
-
-
-
-
-
-# Down memory lane
-## Icons Sardi and Surfn
-
-Surfn Breeze Dark at [Github](https://github.com/erikdubois/Surfn)
-
-![Screenshots](http://i.imgur.com/oeMPhx6.jpg)
-
-
-Sardi v 7.4.6 at [Sourceforge](https://sourceforge.net/projects/sardi/files/)
-
-![Screenshots](http://i.imgur.com/bBrWH39.jpg)
-
-
-Sardi v 7.3.0 at [Sourceforge](https://sourceforge.net/projects/sardi/files/)
-
-![Screenshots](http://i.imgur.com/K4nlWjI.jpg)
-
-
-![Screenshots](http://i.imgur.com/fdAbGtb.jpg)
-
-
-
-
-http://i.imgur.com/v5soSul.png
-
-
-# Icons from Budgie Solus
-
-Original icons from solus - Arc with Arc Darker theme
-
-![Screenshots](http://i.imgur.com/CKcIQnk.jpg)
-
-
-
-
-
-
-
-##Sardi Icon Theme
--------------------
-
-This icon theme can be downloaded at  sourceforge.
-
-http://sourceforge.net/projects/sardi/
-
-For ease of installation I use the script
-
-	- icons-sardi-vx.sh
-	- icons-sardi-extra-vx.sh
-
-Some Examples!
-
-![Screenshots](http://i.imgur.com/zIL9gox.jpg)
-
-
-![Screenshots](http://i.imgur.com/73tSitP.jpg)
-
-
-![Screenshots](http://i.imgur.com/4iqnB53.jpg)
-
-
-More documentation on http://erikdubois.be
-
-Follow the collection on google+.
-
-The most recent pictures can be found there.
-
-https://plus.google.com/u/0/collection/YFP-LB
-
-
-
-
-## Surfn
----------------------------------
-
-For ease of installation I use the script
-
-	- icons-surfn-vx.sh
-
-
-![Screenshots](http://i.imgur.com/3x9xbxD.png)
-
-
-![Screenshots](http://i.imgur.com/TR95eIc.jpg)
 
 
 
@@ -339,7 +259,43 @@ Sardi icons and all plank themes
 
 Read more on plank e.g. how to autostart plank on boot : http://erikdubois.be/category/linux/plank/
 
+
+# Down memory lane
+## Icons Sardi and Surfn
+
+Surfn Breeze Dark at [Github](https://github.com/erikdubois/Surfn)
+
+![Screenshots](http://i.imgur.com/oeMPhx6.jpg)
+
+
+Sardi v 7.4.6 at [Sourceforge](https://sourceforge.net/projects/sardi/files/)
+
+![Screenshots](http://i.imgur.com/bBrWH39.jpg)
+
+
+Sardi v 7.3.0 at [Sourceforge](https://sourceforge.net/projects/sardi/files/)
+
+![Screenshots](http://i.imgur.com/K4nlWjI.jpg)
+
+
+![Screenshots](http://i.imgur.com/fdAbGtb.jpg)
+
+
+# Icons from Budgie Solus
+
+Original icons from solus - Arc with Arc Darker theme
+
+![Screenshots](http://i.imgur.com/CKcIQnk.jpg)
+
+
+
+
+
 # Remember
+
+Autostart plank via gnome-tweak-tool
+
+
 Upgrading
 
 	sudo eopkg upgrade
