@@ -351,9 +351,7 @@ https://wiki.solus-project.com/Package_Management#Rollback
 # Youtube Resources 
 
 Content Playlist of **40+ short movies** to make your desktop eye-candy.
-Sardi icon collection playing its part.
-
-https://www.youtube.com/playlist?list=PLlloYVGq5pS7c-RZ3QJAz7LQuPoT6FufX
+Sardi and Surfn icon collection playing its part.
 
 About 40+ short movies to completely change your desktop experience for linux.
 
@@ -366,6 +364,9 @@ Check out the movies by clicking here
 
 # Resources
 
+**erikdubois.be**
+
+http://erikdubois.be/solus-budgie-1-2-1/
 
 **Sardi icons**
 
@@ -388,12 +389,6 @@ https://github.com/erikdubois/Aureola
 http://erikdubois.be/category/themes/arc-based-themes/	
 
 https://github.com/erikdubois/Arc-Theme-Colora
-
-**Mint-Y Colora**
-
-https://github.com/erikdubois/Mint-Y-Colora-Theme
-
-https://github.com/erikdubois/Mint-Y-Colora-Theme-Collection
 
 **Plank and 100+ Plank Themes**
 
