@@ -357,6 +357,22 @@ i3 wm has a steep learning curve but once you get over it, you can install i3 on
 More information can be found here : http://erikdubois.be/category/linux/i3/
 
 
+# Install Mate on Solus
+
+Run this script
+
+	install-mate-on-solus-vx.sh
+
+It will install many necessary programs to make it easier to work with Mate.
+
+
+![Screenshots](http://i.imgur.com/rZN3lpp.jpg)
+
+
+More information can be found here : http://erikdubois.be/category/linux/i3/
+
+
+
 
 # Remember
 
