@@ -228,7 +228,7 @@ Easy installation can be done with this script :
 	conky-aureola-vx.sh
 
 
-![Screenshots](http://i.imgur.com/f1N9ZbD.jpg)
+![Screenshots](http://i.imgur.com/vSnfHLG.jpg)
 
 
 ![Screenshots](http://i.imgur.com/f2OZ2wd.jpg)
