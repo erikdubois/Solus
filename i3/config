@@ -1,4 +1,4 @@
-#### Configuration file for i3 window manager (4.x)
+#### Configuration file for i3 window manager (4.x) 
 ### http://i3wm.org/
 ## Please see http://i3wm.org/docs/userguide.html for a complete reference!
 #
@@ -20,7 +20,7 @@
 
 
 # All personal preferences are mentioned below the title personal settings
-# Here are all the standard i3 settings
+# Here are all the standard i3 settings 
 
 
 # Mod4 = windows key on keyboard or super key
@@ -87,7 +87,7 @@ bindsym $mod+Shift+Right move right
 
 ################### TILING PARAMETERS ##############################
 
-# orientation for new workspaces
+# orientation for new workspaces 
 default_orientation horizontal
 
 # split in horizontal orientation
@@ -207,8 +207,8 @@ font pango:Noto Mono Regular 13
 
 ################### TERMINAL ######################
 
-# went from thunar from xfce4 to nautilus of Linux mint for svg design reasons
-# open terminal and icon in panel point to terminator rather than terminator
+# went from thunar from xfce4 to nemo of Linux mint for svg design reasons
+# open terminal and icon in panel point to terminator rather than gnome-terminal
 # copy/paste one time in terminal
 # to figure out settins install dconf-editor
 # gsettings set org.cinnamon.desktop.default-applications.terminal exec /usr/bin/terminator
@@ -217,14 +217,17 @@ font pango:Noto Mono Regular 13
 # personal preference for tuning the look
 #bindsym $mod+Return exec i3-sensible-terminal
 #bindsym $mod+Return exec terminator;focus
-bindsym $mod+Return exec terminator;focus
+bindsym $mod+Return exec gnome-terminal;focus
+#bindsym $mod+Return exec mate-terminal;focus
+#bindsym $mod+Return exec xfce4-terminal;focus
+#bindsym $mod+Return exec terminator;focus
 
 
 ################### MENU ######################
 
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec dmenu_run -fn 'NotoMonoRegular:bold:pixelsize=18'
+bindsym $mod+d exec dmenu_run -fn 'NotoMonoRegular:bold:pixelsize=18' 
 
 # start alternative menu j4-dmenu based on desktop files in /usr/share/applications
 bindsym $mod+shift+d exec j4-dmenu-desktop --dmenu="dmenu -fn 'DroidSansMono:bold:pixelsize=16' -nb '#fdf6e3' -nf '#586c75' -sf '#fdf6e3' -sb '#FFAF00'"
@@ -312,19 +315,15 @@ bindsym $mod+Shift+agrave move container to workspace 10
 ################### ASSIGN ######################
 
 
-assign [class="Firefox"]          → 1
-assign [class="sublime-text"]     → 2
-assign [class="sublime_text"]     → 2
-assign [class="Sublime_text"]     → 2
-assign [class="Inkscape"]         → 3
-assign [class="Gimp"]             → 4
-assign [class="Vlc"]              → 7
-assign [class="vlc"]              → 7
-assign [class="Nautilus"]         → 8
-assign [class="nautilus"]         → 8
-assign [class="Geary"]            → 9
-assign [class="Evolution"]        → 9
-assign [class="Spotify"]          → 10
+assign [class="Firefox"]        					→ 1
+assign [class="sublime-text|sublime_text|Sublime_text"]    		→ 2
+assign [class="Xed|xed|Brackets"] 					→ 2
+assign [class="Inkscape"]         					→ 3
+assign [class="Gimp"]             					→ 4
+assign [class="Vlc|vlc"]          					→ 7
+assign [class="Nemo|Thunar|Caja|nautilus|Nautilus"]			→ 8
+assign [class="Geary|Evolution"]      					→ 9
+assign [class="Spotify"]          					→ 10
 #fix for spotify not moving to workspace 10
 for_window [class="Spotify"] move to workspace 10
 
@@ -353,16 +352,21 @@ exec subl
 #exec evolution
 exec spotify
 for_window [class="Spotify"] focus
-exec nautilus --no-desktop
-#exec conky -c ~/.config/i3/conky-budgie
-exec conky -c ~/.config/i3/conky-skeleton
+exec nemo --no-desktop
+#exec nautilus
+#exec caja
+#exec thunar
+#exec ~/.config/i3/start-conkys.sh
 #exec dunst -config ~/.config/i3/dunstrc
 
 
 ################### SHORTCUTS APPLICATIONS ######################
 #mod1 = ALT
 
-bindsym $mod+Shift+Return exec nautilus --no-desktop; workspace 8;focus
+bindsym $mod+Shift+Return exec nemo --no-desktop; workspace 8;focus
+#bindsym $mod+Shift+Return exec caja; workspace 8;focus
+#bindsym $mod+Shift+Return exec thunar; workspace 8;focus
+#bindsym $mod+Shift+Return exec nautilus --no-desktop; workspace 8;focus
 bindsym control+mod1+f exec firefox;workspace 1; focus
 bindsym $mod+F1 exec firefox;workspace 1;focus
 bindsym control+mod1+w exec subl;workspace 2;focus
@@ -371,14 +375,23 @@ bindsym control+mod1+i exec inkscape;workspace 3;focus
 bindsym $mod+F3 exec inkscape;workspace 3;focus
 bindsym control+mod1+g exec gimp;workspace 4;focus
 bindsym $mod+F4 exec gimp;workspace 4;focus
-bindsym control+mod1+b exec nautilus --no-desktop;workspace 8;focus
-bindsym $mod+F8 exec nautilus --no-desktop;workspace 8;focus
+bindsym control+mod1+b exec nemo --no-desktop;workspace 8;focus
+#bindsym control+mod1+b exec nautilus --no-desktop;workspace 8;focus
+#bindsym control+mod1+b exec caja;workspace 8;focus
+#bindsym control+mod1+b exec thunar;workspace 8;focus
+bindsym $mod+F8 exec nemo --no-desktop;workspace 8;focus
+#bindsym $mod+F8 exec nautilus --no-desktop;workspace 8;focus
+#bindsym $mod+F8 exec caja;workspace 8;focus
+#bindsym $mod+F8 exec thunar;workspace 8;focus
 bindsym control+mod1+e exec evolution;workspace 9;focus
 bindsym $mod+F9 exec evolution;workspace 9;focus
 bindsym control+mod1+s exec spotify;workspace 10;focus
 bindsym $mod+F10 exec spotify;workspace 10;focus
 #bindsym control+mod1+t exec terminator; focus
-bindsym control+mod1+t exec terminator; focus
+bindsym control+mod1+t exec gnome-terminal; focus
+#bindsym control+mod1+t exec terminator; focus
+#bindsym control+mod1+t exec mate-terminal; focus
+#bindsym control+mod1+t exec xfce4-terminal; focus
 bindsym control+mod1+n exec cinnamon-settings
 
 
@@ -434,8 +447,8 @@ for_window [title="^Terminator Preferences$"] floating enable
 for_window [class="Font-manager"] floating enable
 for_window [class="System-config-printer.py"] floating enable
 for_window [class="Nitrogen"] floating enable
-for_window [title="Copying"] floating enable
-for_window [title="Deleting"] floating enable
+for_window [title="Copying"] floating enable  
+for_window [title="Deleting"] floating enable  
 for_window [title="Moving"] floating enable
 for_window [class="Unetbootin.elf"] floating enable
 for_window [class="Galculator"] floating enable
@@ -488,8 +501,8 @@ mode "$mode_system" {
 bindsym XF86AudioRaiseVolume exec "amixer -D pulse sset Master '5%+'"
 bindsym XF86AudioLowerVolume exec "amixer -D pulse sset Master '5%-'"
 bindsym XF86AudioMute exec "amixer -D pulse set Master toggle"
-bindsym XF86AudioPlay exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause"
-bindsym XF86AudioNext exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next"
+bindsym XF86AudioPlay exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause" 
+bindsym XF86AudioNext exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next" 
 bindsym XF86AudioPrev exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous"
 bindsym XF86AudioStop exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Stop"
 
@@ -497,7 +510,7 @@ bindsym XF86AudioStop exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer
 ################### BAR ######################
 
 
-# bar toggle, hide or show
+# bar toggle, hide or show 
 bindsym $mod+b bar mode toggle
 
 
@@ -530,7 +543,7 @@ bindsym $mod+u border none
 
 
 # get the mouse out of the way with unclutter
-exec unclutter
+exec unclutter 
 
 
 
@@ -539,10 +552,10 @@ exec unclutter
 
 bar {
 
-	# type status_command i3status without the config file and
+    # type status_command i3status without the config file and 
     # you will get the standard i3status bar
     # this is the standard statusbar with my personal settings
-	  status_command i3status -c ~/.config/i3/i3status.conf
+	 status_command i3status -c ~/.config/i3/i3status.conf
 
     # https://github.com/vivien/i3blocks
     # another way to provide text in the statusbar
@@ -557,12 +570,12 @@ bar {
     # start-conky-i3statusbar.sh is started and conky will follow
     # documentation : https://i3wm.org/docs/user-contributed/conky-i3bar.html
     # conky configuration is in conky-i3statusbar
-	  # status_command ~/.config/i3/start-conky-i3statusbar.sh
+	# status_command ~/.config/i3/start-conky-i3statusbar.sh
 
-
+	
 	height 25
     workspace_buttons yes
-
+    
     colors {
             background #2F2F2F
             statusline #eeeeee
@@ -667,7 +680,7 @@ client.urgent           #4A4A4A #4A4A4A #f7f7f7 #4A4A4A
 # https://github.com/Airblader/i3
 
 for_window [class="^.*"] border pixel 5
-gaps inner 5
+gaps inner 10
 gaps outer 5
 #smart_gaps on
 #smart_borders on
@@ -721,4 +734,6 @@ mode "$mode_gaps_outer" {
 ###################       C O M P T O N      ##############################
 ###########################################################################
 #if you want transparency on non-focused windows
-#exec_always compton --config ~/.config/i3/compton.conf
+exec_always compton --config ~/.config/i3/compton.conf
+
+
