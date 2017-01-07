@@ -13,7 +13,7 @@
 
 #software from 'normal' repositories
 
-sudo eopkg install -y atom brackets bleachbit cantarell-fonts catfish clipit cmatrix evince evolution 
+sudo eopkg install -y atom brackets bleachbit cantarell-fonts catfish clipit cmatrix cool-retro-term evince evolution 
 sudo eopkg install -y flash-player-nonfree font-manager font-awesome-ttf font-ubuntu-ttf
 sudo eopkg install -y focuswriter geary galculator gcolor3 gconf gimp glances gnome-disk-utility gnome-tweak-tool
 sudo eopkg install -y gparted gradio grub-customizer htop inkscape meld nautilus-actions nautilus-dropbox neofetch noto-sans-ttf peek plank redshift screenfetch scrot
