@@ -90,6 +90,12 @@ echo "Hardcoded icon has been changed!"
 # MULTIMEDIA
 ###############################################################################################
 
+# Adobe FLash Player (NPAPI)
+
+sudo eopkg bi -y --ignore-safety https://raw.githubusercontent.com/solus-project/3rd-party/master/multimedia/video/flash-player-npapi/pspec.xml
+sudo eopkg it -y flash-player-npapi*.eopkg;sudo rm flash-player-npapi*.eopkg
+
+
 # Bitwig Studio
 sudo eopkg bi -y --ignore-safety https://raw.githubusercontent.com/solus-project/3rd-party/master/multimedia/music/bitwig-studio/pspec.xml
 sudo eopkg it -y bitwig-studio*.eopkg;sudo rm bitwig-studio*.eopkg
