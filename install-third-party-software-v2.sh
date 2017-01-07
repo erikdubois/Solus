@@ -133,6 +133,13 @@ sudo eopkg it -y spotify*.eopkg;sudo rm spotify*.eopkg
 # NETWORK
 ###############################################################################################
 
+# Anydesk
+sudo eopkg bi -y --ignore-safety https://raw.githubusercontent.com/solus-project/3rd-party/master/network/util/anydesk/pspec.xml
+sudo eopkg it -y anydesk*.eopkg;sudo rm anydesk*.eopkg
+
+# Insync
+sudo eopkg bi -y --ignore-safety https://raw.githubusercontent.com/solus-project/3rd-party/master/network/download/insync/pspec.xml
+sudo eopkg it -y insync*.eopkg;sudo rm insync*.eopkg
 
 # Spideroak
 sudo eopkg bi -y --ignore-safety https://raw.githubusercontent.com/solus-project/3rd-party/master/network/download/spideroak/pspec.xml
