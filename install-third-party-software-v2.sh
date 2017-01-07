@@ -214,7 +214,7 @@ sudo eopkg bi -y --ignore-safety https://raw.githubusercontent.com/solus-project
 sudo eopkg it -y datagrip*.eopkg;sudo rm datagrip*.eopkg
 
 echo "fixing hardcoded icon"
-old="Icon=\/opt\/datagrip\/bin\/product.png"
+old="Icon=\/opt\/datagrip\/bin\/datagrip.png"
 new="Icon=datagrip"
 location="/usr/share/applications/datagrip.desktop"
 sudo sed -i s/$old/$new/g $location
@@ -240,7 +240,7 @@ sudo eopkg bi -y --ignore-safety https://raw.githubusercontent.com/solus-project
 sudo eopkg it -y phpstorm*.eopkg;sudo rm phpstorm*.eopkg
 
 echo "fixing hardcoded icon"
-old="Icon=\/opt\/phpstorm\/bin\/webide.png"
+old="Icon=\/opt\/phpstorm\/bin\/phpstorm.png"
 new="Icon=phpstorm"
 location="/usr/share/applications/phpstorm.desktop"
 sudo sed -i s/$old/$new/g $location
