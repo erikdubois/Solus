@@ -11,11 +11,13 @@
 #
 ##################################################################################################################
 
-set -e
 
-sh install-third-party-software-v2.sh
+sudo find /usr/share/icons/hicolor/ -name simplescreenrecorder.png -type f -delete
+sudo find /usr/share/icons/hicolor/ -name simplescreenrecorder.svg -type f -delete
+sudo find /usr/share/icons/hicolor/ -name simplescreenrecorder-*.png -type f -delete
+sudo find /usr/share/icons/hicolor/ -name simplescreenrecorder-*.svg -type f -delete
+
 
 echo "################################################################"
-echo "###################   extra software installed  ################"
+echo "###################    T H E   E N D      ######################"
 echo "################################################################"
-
