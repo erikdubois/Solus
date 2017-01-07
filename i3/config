@@ -352,8 +352,9 @@ exec subl
 #exec evolution
 exec spotify
 for_window [class="Spotify"] focus
-exec nemo --no-desktop
-#exec nautilus
+#exec nemo --no-desktop
+exec nautilus --no-desktop
+budgie-polkit-dialog
 #exec caja
 #exec thunar
 #exec ~/.config/i3/start-conkys.sh
@@ -424,6 +425,7 @@ bindsym Control+Print exec gnome-screenshot -i
 
 
 #floating enabled from some programs
+for_window [class="Budgie-polkit-dialog"] floating enable
 for_window [class="Gnome-disks"] floating enable
 for_window [class="^Skype$"] floating enable
 for_window [class="^Gnome-font-viewer$"] floating enable
