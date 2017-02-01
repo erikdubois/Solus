@@ -354,7 +354,7 @@ exec spotify
 for_window [class="Spotify"] focus
 #exec nemo --no-desktop
 exec nautilus --no-desktop
-budgie-polkit-dialog
+exec budgie-polkit-dialog
 #exec caja
 #exec thunar
 #exec ~/.config/i3/start-conkys.sh
