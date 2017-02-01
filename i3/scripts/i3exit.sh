@@ -1,7 +1,7 @@
 #!/bin/sh
 lock() {
     #i3lock -c 222222
-    i3lock -i ~/.config/i3/lockscreen.png -t
+    i3lock -i ~/.config/i3/scripts/lockscreen/lockscreen.png -t
 }
 
 case "$1" in
@@ -12,11 +12,9 @@ case "$1" in
         i3-msg exit
         ;;
     suspend)
-        #lock && systemctl supend
-        systemctl supend
+        systemctl suspend
         ;;
     hibernate)
-        #lock && systemctl hibernate
         systemctl hibernate
         ;;
     reboot)

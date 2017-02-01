@@ -53,7 +53,7 @@ draw_shades no
 ###Window###
 own_window yes
 own_window_argb_value 100
-own_window_argb_visual yes
+own_window_argb_visual no
 
 #own_window_class systemConky
 own_window_hints undecorate,sticky,skip_taskbar,skip_pager,below

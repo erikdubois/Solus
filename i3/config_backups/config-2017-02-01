@@ -199,7 +199,7 @@ bindsym $mod+r mode "resize"
 # from ttf-chromeos-fonts
 # font pango:Cousine 13
 # font pango:Arimo 11
-# font pango:Sans 13 
+# font pango:Sans 13
 # font pango:Noto Mono Regular 13
 # font pango:DroidSansMono 13
 font pango:Noto Mono Regular 13
@@ -216,7 +216,11 @@ font pango:Noto Mono Regular 13
 
 # personal preference for tuning the look
 #bindsym $mod+Return exec i3-sensible-terminal
-bindsym $mod+Return exec terminator;focus
+#bindsym $mod+Return exec terminator;focus
+bindsym $mod+Return exec gnome-terminal;focus
+#bindsym $mod+Return exec mate-terminal;focus
+#bindsym $mod+Return exec xfce4-terminal;focus
+#bindsym $mod+Return exec terminator;focus
 
 
 ################### MENU ######################
@@ -311,17 +315,15 @@ bindsym $mod+Shift+agrave move container to workspace 10
 ################### ASSIGN ######################
 
 
-assign [class="Firefox"]          → 1
-assign [class="sublime-text"]     → 2
-assign [class="sublime_text"]     → 2
-assign [class="Sublime_text"]     → 2
-assign [class="Inkscape"]         → 3
-assign [class="Gimp"]             → 4
-assign [class="Vlc"]              → 7
-assign [class="Nemo"]             → 8
-assign [class="Geary"]            → 9
-assign [class="Evolution"]        → 9
-assign [class="Spotify"]          → 10
+assign [class="Firefox"]        					→ 1
+assign [class="sublime-text|sublime_text|Sublime_text"]    		→ 2
+assign [class="Xed|xed|Brackets"] 					→ 2
+assign [class="Inkscape"]         					→ 3
+assign [class="Gimp"]             					→ 4
+assign [class="Vlc|vlc"]          					→ 7
+assign [class="Nemo|Thunar|Caja|nautilus|Nautilus"]			→ 8
+assign [class="Geary|Evolution"]      					→ 9
+assign [class="Spotify"]          					→ 10
 #fix for spotify not moving to workspace 10
 for_window [class="Spotify"] move to workspace 10
 
@@ -350,29 +352,47 @@ exec subl
 #exec evolution
 exec spotify
 for_window [class="Spotify"] focus
-exec nemo --no-desktop
-exec ~/.config/i3/start-conkys.sh
+#exec nemo --no-desktop
+exec nautilus --no-desktop
+exec budgie-polkit-dialog
+#exec caja
+#exec thunar
+#exec ~/.config/i3/start-conkys.sh
+#exec dunst -config ~/.config/i3/dunstrc
 
 
 ################### SHORTCUTS APPLICATIONS ######################
 #mod1 = ALT
 
 bindsym $mod+Shift+Return exec nemo --no-desktop; workspace 8;focus
+#bindsym $mod+Shift+Return exec caja; workspace 8;focus
+#bindsym $mod+Shift+Return exec thunar; workspace 8;focus
+#bindsym $mod+Shift+Return exec nautilus --no-desktop; workspace 8;focus
 bindsym control+mod1+f exec firefox;workspace 1; focus
 bindsym $mod+F1 exec firefox;workspace 1;focus
-bindsym control+mod1+w exec subl3;workspace 2;focus
-bindsym $mod+F2 exec subl3;workspace 2;focus
+bindsym control+mod1+w exec subl;workspace 2;focus
+bindsym $mod+F2 exec subl;workspace 2;focus
 bindsym control+mod1+i exec inkscape;workspace 3;focus
 bindsym $mod+F3 exec inkscape;workspace 3;focus
 bindsym control+mod1+g exec gimp;workspace 4;focus
 bindsym $mod+F4 exec gimp;workspace 4;focus
 bindsym control+mod1+b exec nemo --no-desktop;workspace 8;focus
+#bindsym control+mod1+b exec nautilus --no-desktop;workspace 8;focus
+#bindsym control+mod1+b exec caja;workspace 8;focus
+#bindsym control+mod1+b exec thunar;workspace 8;focus
 bindsym $mod+F8 exec nemo --no-desktop;workspace 8;focus
+#bindsym $mod+F8 exec nautilus --no-desktop;workspace 8;focus
+#bindsym $mod+F8 exec caja;workspace 8;focus
+#bindsym $mod+F8 exec thunar;workspace 8;focus
 bindsym control+mod1+e exec evolution;workspace 9;focus
 bindsym $mod+F9 exec evolution;workspace 9;focus
 bindsym control+mod1+s exec spotify;workspace 10;focus
 bindsym $mod+F10 exec spotify;workspace 10;focus
-bindsym control+mod1+t exec terminator; focus
+#bindsym control+mod1+t exec terminator; focus
+bindsym control+mod1+t exec gnome-terminal; focus
+#bindsym control+mod1+t exec terminator; focus
+#bindsym control+mod1+t exec mate-terminal; focus
+#bindsym control+mod1+t exec xfce4-terminal; focus
 bindsym control+mod1+n exec cinnamon-settings
 
 
@@ -405,6 +425,7 @@ bindsym Control+Print exec gnome-screenshot -i
 
 
 #floating enabled from some programs
+for_window [class="Budgie-polkit-dialog"] floating enable
 for_window [class="Gnome-disks"] floating enable
 for_window [class="^Skype$"] floating enable
 for_window [class="^Gnome-font-viewer$"] floating enable
@@ -533,10 +554,10 @@ exec unclutter
 
 bar {
 
-	# type status_command i3status without the config file and 
+    # type status_command i3status without the config file and 
     # you will get the standard i3status bar
     # this is the standard statusbar with my personal settings
-	# status_command i3status -c ~/.config/i3/i3status.conf
+	 status_command i3status -c ~/.config/i3/i3status.conf
 
     # https://github.com/vivien/i3blocks
     # another way to provide text in the statusbar
@@ -551,7 +572,7 @@ bar {
     # start-conky-i3statusbar.sh is started and conky will follow
     # documentation : https://i3wm.org/docs/user-contributed/conky-i3bar.html
     # conky configuration is in conky-i3statusbar
-	status_command ~/.config/i3/start-conky-i3statusbar.sh
+	# status_command ~/.config/i3/start-conky-i3statusbar.sh
 
 	
 	height 25
@@ -640,7 +661,7 @@ client.urgent           #4A4A4A #4A4A4A #f7f7f7 #4A4A4A
 # class                    border  backgr. text
 # client.focused           #2B6473 #2B6473 #FFA000
 # client.focused_inactive  #004050 #004050 #FFA000
-# client.unfocused         #004050 #004050 #cccccc 
+# client.unfocused         #004050 #004050 #cccccc
 # client.urgent            #900000 #900000 #ffffff
 
 
@@ -661,7 +682,7 @@ client.urgent           #4A4A4A #4A4A4A #f7f7f7 #4A4A4A
 # https://github.com/Airblader/i3
 
 for_window [class="^.*"] border pixel 5
-gaps inner 5
+gaps inner 10
 gaps outer 5
 #smart_gaps on
 #smart_borders on
