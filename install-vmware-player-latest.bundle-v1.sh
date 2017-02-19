@@ -11,7 +11,8 @@
 #
 ##################################################################################################################
 
-
+# to get rid of the errors follow these steps
+# http://erikdubois.be/install-latest-vmware-player-kernel-4-9-linux-mint-18-1-patch-fix-workaround/
 
 rm /tmp/vmware-player.bundle
 
