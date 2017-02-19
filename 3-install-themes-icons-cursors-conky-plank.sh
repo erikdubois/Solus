@@ -1,5 +1,5 @@
 #!/bin/bash
-#
+set -e
 ##################################################################################################################
 # Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
@@ -22,25 +22,25 @@ sudo eopkg install -y evopop-gtk-theme
 
 # Conky Aureola
 
-#sh conky-aureola-v2.sh
+sh conky-aureola-v3.sh
 
 ###############################################################################################
 
 # Sardi-extra icons
 
-sh icons-sardi-extra-v2.sh
+sh icons-sardi-extra-v4.sh
 
 ###############################################################################################
 
 # Sardi icons
 
-sh icons-sardi-v2.sh
+sh icons-sardi-v3.sh
 
 ###############################################################################################
 
 # Surfn icons
 
-sh icons-surfn-v2.sh
+sh icons-surfn-v4.sh
 
 ###############################################################################################
 
