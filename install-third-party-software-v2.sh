@@ -9,7 +9,7 @@
 #
 ##################################################################################################################
 
-
+set -e
 
 ###############################################################################################
 
@@ -34,8 +34,7 @@ sudo eopkg bi -y --ignore-safety https://raw.githubusercontent.com/solus-project
 sudo eopkg it -y google-chrome-*.eopkg;sudo rm google-chrome-*.eopkg
 
 # Opera
-sudo eopkg bi -y --ignore-safety https://raw.githubusercontent.com/solus-project/3rd-party/master/network/web/browser/opera-stable/pspec.xml
-sudo eopkg it -y opera*.eopkg;sudo rm opera*.eopkg
+# now in stable
 
 
 
@@ -167,12 +166,6 @@ sudo eopkg bi -y --ignore-safety https://raw.githubusercontent.com/solus-project
 sudo eopkg it -y teamviewer*.eopkg;sudo rm teamviewer*.eopkg
 sudo systemctl start teamviewerd.service
 
-echo "fixing hardcoded icon"
-old="Icon=\/opt\/teamviewer\/tv_bin\/desktop\/teamviewer.png"
-new="Icon=teamviewer"
-location="/usr/share/applications/teamviewer-teamviewer11.desktop"
-sudo sed -i s/$old/$new/g $location
-echo "Hardcoded icon has been changed!"
 
 ###############################################################################################
 # OFFICE

@@ -11,10 +11,15 @@ set -e
 #
 ##################################################################################################################
 
+[ -d $HOME"/.config/variety" ] || mkdir -p $HOME"/.config/variety"
+[ -d $HOME"/.config/variety/scripts" ] || mkdir -p $HOME"/.config/variety/scripts"
 
-sh install-third-party-software-v2.sh
+echo "Copy/pasting scripts for feh/variety to work"
+
+cp settings/variety/* ~/.config/variety/
+
+
 
 echo "################################################################"
-echo "###################   extra software installed  ################"
+echo "#########       variety installed               ################"
 echo "################################################################"
-

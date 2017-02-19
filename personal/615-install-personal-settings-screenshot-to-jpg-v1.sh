@@ -1,5 +1,5 @@
 #!/bin/bash
-#
+set -e
 ##################################################################################################################
 # Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
@@ -11,12 +11,15 @@
 #
 ##################################################################################################################
 
+echo "################################################################"
+echo "#########       Screenshot settings             ################"
+echo "################################################################"
 
+echo "Making sure gnome-screenshot saves in jpg - smaller in kb"
 
-sudo pisi it sardi-icons sardi-icons-colora sardi-icons-ghost sardi-icons-vertexed sardi-icons-breeze sardi-icons-flat sardi-icons-numix breeze-icons
-
+sh settings/gnome-screenshot/set-gnome-screenshot-to-save-as-jpg.sh
 
 
 echo "################################################################"
-echo "###################    T H E   E N D      ######################"
+echo "#########    screenshot settings  installed     ################"
 echo "################################################################"

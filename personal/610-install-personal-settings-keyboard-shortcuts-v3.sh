@@ -1,5 +1,5 @@
 #!/bin/bash
-#
+set -e
 ##################################################################################################################
 # Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
@@ -7,17 +7,16 @@
 ##################################################################################################################
 ##################################################################################################################
 #
-#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. AT YOUR OWN RISK.
+#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
 
-# install dconf-editor to figure out how I found this
+echo "loading all shortcuts"
 
-gsettings set org.gnome.gnome-screenshot default-file-type jpg 
+cd settings/keyboard-shortcuts
+sh dconf_load.sh
 
-echo
-echo
-echo "###############################"
-echo "All done"
-echo "###############################"
-sleep 5
+echo "################################################################"
+echo "#########       keyboard shortcuts set          ################"
+echo "################################################################"
+
