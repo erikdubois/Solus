@@ -12,19 +12,23 @@
 ##################################################################################################################
 
 
-
-rm -rf /tmp/Surfn
-git clone https://github.com/erikdubois/Surfn /tmp/Surfn
-find /tmp/Surfn -maxdepth 1 -type f -exec rm -rf '{}' \;
+# cleaning tmp
+[ -d /tmp/sardi ] && rm -rf /tmp/sardi
 
 # if there is no hidden folder then make one
 [ -d $HOME"/.icons" ] || mkdir -p $HOME"/.icons"
 
-cp -rf /tmp/Surfn/* ~/.icons/
-rm -rf /tmp/Surfn
+wget -O /tmp/sardi.tar.gz "https://sourceforge.net/projects/sardi/files/latest/download?source=files"
+mkdir /tmp/sardi
+tar -zxf /tmp/sardi.tar.gz -C /tmp/sardi
+rm /tmp/sardi.tar.gz
+cp -rf /tmp/sardi/* ~/.icons/
+
+# cleaning tmp
+[ -d /tmp/sardi ] && rm -rf /tmp/sardi
 
 
 
 echo "################################################################"
-echo "###################    T H E   E N D      ######################"
+echo "###################    icons sardi done   ######################"
 echo "################################################################"
